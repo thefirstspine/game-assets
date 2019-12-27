@@ -25,7 +25,6 @@ const quickGameType: IGameType = {
     maxY: 5,
   },
   matchmakingMode: 'asap',
-  hooks: {},
 };
 
 export default quickGameType;

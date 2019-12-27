@@ -29,7 +29,6 @@ export default function(): IGameType {
       maxX: 6,
       maxY: 6,
     },
-    hooks: {},
   };
 
   const currentCycle = CyclesLibrary.current();
