@@ -94,7 +94,7 @@ export class ShopItemsLibrary {
             en: ``,
           },
           description: {
-            fr: `Débloque la version holographique numérique de Âme d'un Chasseur Sacrifié. Cet article est également une récompense à la participation au tournois pendant le Cycles des Âmes Courronées 2019.`,
+            fr: `Débloque la version holographique numérique de Âme d'un Chasseur Sacrifié. Cet article est également une récompense à la participation au tournois pendant le Cycle du Renouveau 2020.`,
             en: ``,
           },
           categories: index === 0 ? ['holos', 'featured'] : ['holos'],
@@ -132,7 +132,7 @@ export class ShopItemsLibrary {
             en: ``,
           },
           description: {
-            fr: `Débloque le style "Nostalgique" sur toutes vos cartes et leur donne un air de prototype.`,
+            fr: `Débloque le style "Nostalgique" sur toutes vos cartes et leur donne un air de prototype. Il s'agit du style du premier prototype présenté au publiquement lors du Festival des Fous du Jeu 2015.`,
             en: ``,
           },
           categories: index === 0 ? ['styles', 'featured'] : ['styles'],
