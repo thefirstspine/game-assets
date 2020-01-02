@@ -56,6 +56,19 @@ export class RanksLibrary {
       max: 20,
     },
     {
+      id: `prestige`,
+      name: {
+        en: ``,
+        fr: `Prestige`,
+      },
+      description: {
+        en: ``,
+        fr: `Rang Prestige`,
+      },
+      min: 20,
+      max: 50,
+    },
+    {
       id: `legend`,
       name: {
         en: ``,
@@ -65,7 +78,7 @@ export class RanksLibrary {
         en: ``,
         fr: `Rang Légende`,
       },
-      min: 20,
+      min: 50,
       max: Number.MAX_SAFE_INTEGER,
     },
   ];
