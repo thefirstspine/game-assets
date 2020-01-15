@@ -99,7 +99,7 @@ export class ShopItemsLibrary {
           },
           categories: index === 0 ? ['holos', 'featured'] : ['holos'],
           price: {
-            num: 125,
+            num: 100,
             currency: 'shards',
           },
           loots: [
@@ -118,7 +118,7 @@ export class ShopItemsLibrary {
           },
           categories: index === 0 ? ['holos', 'featured'] : ['holos'],
           price: {
-            num: 250,
+            num: 100,
             currency: 'shards',
           },
           loots: [
