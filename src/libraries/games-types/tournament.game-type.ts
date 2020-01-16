@@ -34,7 +34,7 @@ export default function(): IGameType {
   const currentCycle = CyclesLibrary.current();
   if (currentCycle) {
     if (currentCycle.id === 'renewal-2020') {
-      tournamentBaseData.availableShieldsPerCycle = 0;
+      tournamentBaseData.availableShieldsPerCycle = 1;
       tournamentBaseData.maxGamesPerCycle = 20;
       tournamentBaseData.origins = [];
       tournamentBaseData.destinies = ['hunter'];
