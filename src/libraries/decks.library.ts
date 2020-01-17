@@ -33,14 +33,13 @@ export class DecksLibrary {
         CardsLibrary.find('banshee'),
         CardsLibrary.find('barbers'),
         CardsLibrary.find('barbers'),
+        CardsLibrary.find('the-tower'),
+        CardsLibrary.find('the-tower'),
         // Next cards to implement when 'run' is available
           // CardsLibrary.find('fox'),
           // CardsLibrary.find('fox'),
           // CardsLibrary.find('deadly-viper'),
           // CardsLibrary.find('deadly-viper'),
-        // Next cards to implement when 'threat' is available
-          // CardsLibrary.find('the-tower'),
-          // CardsLibrary.find('the-tower'),
           // CardsLibrary.find('gargoyle'),
           // CardsLibrary.find('gargoyle'),
         // Next cards to implement when 'burdenEarth' is available
