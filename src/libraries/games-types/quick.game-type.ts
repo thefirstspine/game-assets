@@ -24,6 +24,15 @@ const quickGameType: IGameType = {
     maxX: 5,
     maxY: 5,
   },
+  loots: {
+    victory: [
+      {name: 'shard', num: 10},
+      {name: 'victory-mark', num: 1},
+    ],
+    defeat: [
+      {name: 'defeat-mark', num: 1},
+    ],
+  },
   matchmakingMode: 'asap',
 };
 
