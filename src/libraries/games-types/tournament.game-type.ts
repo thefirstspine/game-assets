@@ -23,6 +23,16 @@ export default function(): IGameType {
       { x: 3, y: 0 },
       { x: 3, y: 6 },
     ],
+    loots: {
+      victory: [
+        {name: 'shard', num: 30},
+        {name: 'victory-mark', num: 1},
+      ],
+      defeat: [
+        {name: 'shard', num: 10},
+        {name: 'defeat-mark', num: 1},
+      ],
+    },
     space: {
       minX: 0,
       minY: 0,
