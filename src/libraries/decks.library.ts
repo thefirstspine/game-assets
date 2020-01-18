@@ -35,16 +35,12 @@ export class DecksLibrary {
         CardsLibrary.find('barbers'),
         CardsLibrary.find('the-tower'),
         CardsLibrary.find('the-tower'),
-        // Next cards to implement when 'run' is available
-          // CardsLibrary.find('fox'),
-          // CardsLibrary.find('fox'),
-          // CardsLibrary.find('deadly-viper'),
-          // CardsLibrary.find('deadly-viper'),
-          // CardsLibrary.find('gargoyle'),
-          // CardsLibrary.find('gargoyle'),
-        // Next cards to implement when 'burdenEarth' is available
-          // CardsLibrary.find('smoky-totem'),
-          // CardsLibrary.find('smoky-totem'),
+        CardsLibrary.find('the-fox'),
+        CardsLibrary.find('the-fox'),
+        CardsLibrary.find('gargoyle'),
+        CardsLibrary.find('gargoyle'),
+        CardsLibrary.find('smoky-totem'),
+        CardsLibrary.find('smoky-totem'),
         // Card with unique effect
           // CardsLibrary.find('replacement'),
           // CardsLibrary.find('replacement'),
