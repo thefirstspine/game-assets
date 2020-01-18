@@ -85,6 +85,7 @@ export class ShopItemsLibrary {
     ];
 
     const index: number = CyclesLibrary.currentNum();
+
     if (index >= 0) {
       shopItems.push(
         {
@@ -132,7 +133,7 @@ export class ShopItemsLibrary {
             en: ``,
           },
           description: {
-            fr: `Débloque le style "Nostalgique" sur toutes vos cartes et leur donne un air de prototype. Il s'agit du style du premier prototype présenté au publiquement lors du Festival des Fous du Jeu 2015.`,
+            fr: `Débloque le style "Nostalgique" sur toutes vos cartes et leur donne un air de prototype. Il s'agit du style du premier prototype présenté publiquement lors du Festival des Fous du Jeu 2015.`,
             en: ``,
           },
           categories: index === 0 ? ['styles', 'featured'] : ['styles'],
@@ -145,10 +146,6 @@ export class ShopItemsLibrary {
           ],
         },
       );
-    }
-
-    if (index >= 1) {
-      // TODO
     }
 
     return shopItems;
