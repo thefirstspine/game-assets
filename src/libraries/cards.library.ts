@@ -51,7 +51,6 @@ export class CardsLibrary {
     veneniagoraCard,
     soulOfASacrifiedHunterCard,
     etherCard,
-    theTowerCard,
     // Curse
     curseOfMaraCard,
     // Collection
