@@ -17,11 +17,11 @@ export class CyclesLibrary {
       timestampFrom: 0,
       timestampTo: (new Date('2020-03-03 17:00:00')).getTime() / 1000,
       rewardsForPlayers: [
-        {name: 'soul-of-a-sacrified-hunter-holo', num: 1},
+        {name: 'holo-soul-of-a-sacrified-hunter', num: 1},
       ],
       rewardsForWinner: [
-        {name: 'hunter-holo', num: 1},
-        {name: 'hunter-premium', num: 1},
+        {name: 'holo-hunter', num: 1},
+        {name: 'premium-hunter', num: 1},
       ],
     },
   ];
