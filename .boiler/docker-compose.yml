@@ -1,0 +1,21 @@
+version: "3.2"
+
+services:
+  rest:
+    build: 'rest'
+    image: thefirstspine_rest_image
+    container_name: thefirstspine_rest_container
+    networks:
+      default:
+    volumes:
+      - ${DATA}:/data/
+      - /var/log:/var/log
+    ports:
+      - "${PORT}:${PORT}"
+    tty: true
+    env_file:
+      - .env
+
+networks:
+  default:
+    driver: bridge
