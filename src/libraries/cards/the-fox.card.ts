@@ -21,8 +21,8 @@ const theFoxCard: ICard = {
     life: 3,
     capacities: ['run'],
     bottom: {
-      defense: 3,
-      strenght: 0,
+      defense: 0,
+      strenght: 3,
     },
     left: {
       defense: 0,
