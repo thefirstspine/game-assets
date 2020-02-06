@@ -11,7 +11,7 @@ const replacementCard: ICard = {
     en: ``,
     fr: ``,
   },
-  imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
+  imageUrl: `https://static.thefirstspine.fr/replacement.png`,
   name: {
     en: ``,
     fr: `Remplacement`,
