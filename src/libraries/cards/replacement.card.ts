@@ -17,6 +17,7 @@ const replacementCard: ICard = {
     fr: `Remplacement`,
   },
   type: 'spell',
+  art: 'Maylhine & Teddy Gandon',
 };
 
 export default replacementCard;
