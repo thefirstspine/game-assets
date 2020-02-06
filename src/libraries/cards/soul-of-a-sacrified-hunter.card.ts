@@ -5,7 +5,7 @@ const soulOfASacrifiedHunterCard: ICard = {
   id: `soul-of-a-sacrified-hunter`,
   text: {
     en: ``,
-    fr: `Cette carte gagne {life}1{/life} pour chaque {creature}créature{/creature} dans votre défausse et {strength}4{/strength} sur tous ses côtés pour chaque {artifact}artefact{/artifact} dans votre défausse lorsqu’elle est posée sur le plateau de jeu.`,
+    fr: `Cette carte gagne {life}1{/life} pour chaque {creature}créature{/creature} dans votre défausse et {strength}1{/strength} sur tous ses côtés pour chaque {artifact}artefact{/artifact} dans votre défausse lorsqu’elle est posée sur le plateau de jeu.`,
   },
   lore: {
     en: ``,
