@@ -9,11 +9,11 @@ export class DecksLibrary {
       type: 'destiny',
       name: {
         en: ``,
-        fr: `Chasseur simple`,
+        fr: `Chasseur`,
       },
       description: {
         en: ``,
-        fr: `Cette destinée n'a de but que de tester Arena.`,
+        fr: ``,
       },
       cards: [
         CardsLibrary.find('putrefaction'),
@@ -53,6 +53,51 @@ export class DecksLibrary {
         CardsLibrary.find('soul-of-a-sacrified-hunter'),
         CardsLibrary.find('soul-of-a-sacrified-hunter'),
         CardsLibrary.find('hunter'),
+      ],
+    },
+    {
+      id: `conjurer`,
+      type: 'destiny',
+      name: {
+        en: ``,
+        fr: `Illusionniste`,
+      },
+      description: {
+        en: ``,
+        fr: ``,
+      },
+      cards: [
+        CardsLibrary.find('conjurer'),
+      ],
+    },
+    {
+      id: `summoner`,
+      type: 'destiny',
+      name: {
+        en: ``,
+        fr: `Invocateur`,
+      },
+      description: {
+        en: ``,
+        fr: ``,
+      },
+      cards: [
+        CardsLibrary.find('summoner'),
+      ],
+    },
+    {
+      id: `sorcerer`,
+      type: 'destiny',
+      name: {
+        en: ``,
+        fr: `Prestidigitateur`,
+      },
+      description: {
+        en: ``,
+        fr: ``,
+      },
+      cards: [
+        CardsLibrary.find('sorcerer'),
       ],
     },
   ];

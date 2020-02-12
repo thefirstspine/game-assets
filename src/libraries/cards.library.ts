@@ -28,6 +28,8 @@ import ditchCard from './cards/ditch';
 import lavaCard from './cards/lava';
 import waterCard from './cards/water';
 import { ICard } from '../@shared/rest-shared/card';
+import conjurerCard from './cards/conjurer.card';
+import sorcererCard from './cards/sorcerer.card';
 
 export class CardsLibrary {
 
@@ -51,6 +53,8 @@ export class CardsLibrary {
     veneniagoraCard,
     soulOfASacrifiedHunterCard,
     etherCard,
+    conjurerCard,
+    sorcererCard,
     // Curse
     curseOfMaraCard,
     // Collection
