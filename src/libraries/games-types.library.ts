@@ -1,6 +1,7 @@
 import quickGameType from './games-types/quick.game-type';
 import classicGameType from './games-types/classic.game-type';
 import tournamentGameType from './games-types/tournament.game-type';
+import fpeGameType from './games-types/fpe.game-type';
 import { IGameType } from 'src/@shared/rest-shared/entities';
 
 export class GamesTypesLibrary {
@@ -11,6 +12,7 @@ export class GamesTypesLibrary {
     ];
     ret.push(classicGameType());
     ret.push(tournamentGameType());
+    ret.push(fpeGameType());
     return ret;
   }
 
