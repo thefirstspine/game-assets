@@ -31,6 +31,7 @@ import { ICard } from '../@shared/rest-shared/card';
 import conjurerCard from './cards/conjurer.card';
 import sorcererCard from './cards/sorcerer.card';
 import theWallCard from './cards/the-wall.card';
+import shadowsBannerCard from './cards/shadows-banner.card';
 
 export class CardsLibrary {
 
@@ -57,6 +58,7 @@ export class CardsLibrary {
     conjurerCard,
     sorcererCard,
     theWallCard,
+    shadowsBannerCard,
     // Curse
     curseOfMaraCard,
     // Collection

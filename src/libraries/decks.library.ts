@@ -93,6 +93,8 @@ export class DecksLibrary {
         CardsLibrary.find('barbers'),
         CardsLibrary.find('the-wall'),
         CardsLibrary.find('the-wall'),
+        CardsLibrary.find('shadows-banner'),
+        CardsLibrary.find('shadows-banner'),
         CardsLibrary.find('conjurer'),
       ],
     },
