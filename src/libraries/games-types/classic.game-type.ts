@@ -45,7 +45,7 @@ export default function(): IGameType {
       classicGameType.destinies = ['hunter'];
     }
 
-    if (currentCycle.id === 'ancients-2020') {
+    if (currentCycle.id === 'great-old-2020') {
       classicGameType.origins = [];
       classicGameType.destinies = ['hunter', 'conjurer', 'sorcerer', 'summoner'];
     }
