@@ -12,7 +12,7 @@ const shadowsBannerCard: ICard = {
     fr: `« Je suis Mara. Je suis la messagère des Dieux. »\n- Mara, prophétesse d’Exodia.`,
   },
   art: 'Maylhine',
-  imageUrl: `https://static.thefirstspine.fr/barbers.png`,
+  imageUrl: `https://static.thefirstspine.fr/shadows-banner.png`,
   name: {
     en: ``,
     fr: `Bannière des Ombres`,
