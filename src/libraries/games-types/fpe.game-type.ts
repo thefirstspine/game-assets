@@ -1,5 +1,4 @@
 import { IGameType } from '../../@shared/rest-shared/entities';
-import { CyclesLibrary } from '../cycles.library';
 
 // tslint:disable: max-line-length
 export default function(): IGameType {
