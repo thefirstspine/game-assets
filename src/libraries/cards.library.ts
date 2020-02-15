@@ -32,6 +32,9 @@ import conjurerCard from './cards/conjurer.card';
 import sorcererCard from './cards/sorcerer.card';
 import theWallCard from './cards/the-wall.card';
 import shadowsBannerCard from './cards/shadows-banner.card';
+import greatOldEggCard from './cards/great-old-egg.card';
+import juvenileGreatOldCard from './cards/juvenile-great-old.card';
+import greatOldCard from './cards/great-old.card';
 
 export class CardsLibrary {
 
@@ -68,6 +71,9 @@ export class CardsLibrary {
     summonerSouvenirCard,
     sorcererSouvenirCard,
     snowMansPresentCard,
+    greatOldEggCard,
+    juvenileGreatOldCard,
+    greatOldCard,
     // Squares
     burdenEarthCard,
     ditchCard,
