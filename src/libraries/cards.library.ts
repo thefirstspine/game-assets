@@ -35,6 +35,7 @@ import shadowsBannerCard from './cards/shadows-banner.card';
 import greatOldEggCard from './cards/great-old-egg.card';
 import juvenileGreatOldCard from './cards/juvenile-great-old.card';
 import greatOldCard from './cards/great-old.card';
+import insanesRunCard from './cards/insanes-run.card';
 
 export class CardsLibrary {
 
@@ -62,6 +63,7 @@ export class CardsLibrary {
     sorcererCard,
     theWallCard,
     shadowsBannerCard,
+    insanesRunCard,
     // Curse
     curseOfMaraCard,
     // Collection
