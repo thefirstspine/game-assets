@@ -9,7 +9,7 @@ const putrefactionCard: ICard = {
   },
   lore: {
     en: ``,
-    fr: `« La pourriture, c’est la vie. »\n- Démence, le premier prophète`,
+    fr: `« La pourriture, c'est la vie. »\n- Démence, le premier prophète`,
   },
   imageUrl: `https://static.thefirstspine.fr/putrefaction.png`,
   name: {

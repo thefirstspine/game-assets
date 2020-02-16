@@ -9,7 +9,7 @@ const smokyTotemCard: ICard = {
   },
   lore: {
     en: ``,
-    fr: `« Brûlez. BRÛLEZ ! »\n- Volk’ha, fils de Mara lors de la bataille contre le Royaume aux Neuf Déserts.`,
+    fr: `« Brûlez. BRÛLEZ ! »\n- Volk'ha, fils de Mara lors de la bataille contre le Royaume aux Neuf Déserts.`,
   },
   art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/smoky-totem.png`,

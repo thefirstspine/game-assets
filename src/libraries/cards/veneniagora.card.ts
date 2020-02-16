@@ -10,7 +10,7 @@ const veneniagoraCard: ICard = {
   art: 'Maylhine',
   lore: {
     en: ``,
-    fr: `« On l’appelle aussi "Basilic de la Mort". »\n- Enihlyam, illustratrice de la Foi.`,
+    fr: `« On l'appelle aussi "Basilic de la Mort". »\n- Enihlyam, illustratrice de la Foi.`,
   },
   imageUrl: `https://static.thefirstspine.fr/veneniagora.png`,
   name: {
