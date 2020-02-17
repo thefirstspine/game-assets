@@ -99,6 +99,8 @@ export class DecksLibrary {
         CardsLibrary.find('insanes-run'),
         CardsLibrary.find('insanes-run'),
         CardsLibrary.find('insanes-run'),
+        CardsLibrary.find('growing-oak'),
+        CardsLibrary.find('growing-oak'),
         CardsLibrary.find('conjurer'),
       ],
     },

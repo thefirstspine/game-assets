@@ -36,6 +36,7 @@ import greatOldEggCard from './cards/great-old-egg.card';
 import juvenileGreatOldCard from './cards/juvenile-great-old.card';
 import greatOldCard from './cards/great-old.card';
 import insanesRunCard from './cards/insanes-run.card';
+import growingOakCard from './cards/growing-oak.card';
 
 export class CardsLibrary {
 
@@ -64,6 +65,7 @@ export class CardsLibrary {
     theWallCard,
     shadowsBannerCard,
     insanesRunCard,
+    growingOakCard,
     // Curse
     curseOfMaraCard,
     // Collection
