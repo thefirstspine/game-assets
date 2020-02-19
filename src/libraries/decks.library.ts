@@ -95,6 +95,8 @@ export class DecksLibrary {
         CardsLibrary.find('the-wall'),
         CardsLibrary.find('shadows-banner'),
         CardsLibrary.find('shadows-banner'),
+        CardsLibrary.find('monstrous-portal'),
+        CardsLibrary.find('monstrous-portal'),
         CardsLibrary.find('insanes-run'),
         CardsLibrary.find('insanes-run'),
         CardsLibrary.find('insanes-run'),
