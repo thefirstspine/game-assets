@@ -38,6 +38,7 @@ import greatOldCard from './cards/great-old.card';
 import insanesRunCard from './cards/insanes-run.card';
 import growingOakCard from './cards/growing-oak.card';
 import monstrousPortalCard from './cards/monstrous-portal.card';
+import jesterCard from './cards/jester.card';
 
 export class CardsLibrary {
 
@@ -68,6 +69,7 @@ export class CardsLibrary {
     insanesRunCard,
     growingOakCard,
     monstrousPortalCard,
+    jesterCard,
     // Curse
     curseOfMaraCard,
     // Collection
