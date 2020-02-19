@@ -12,7 +12,7 @@ const monstrousPortalCard: ICard = {
     fr: ``,
   },
   art: 'Maylhine',
-  imageUrl: `https://static.thefirstspine.fr/barbers.png`,
+  imageUrl: `https://static.thefirstspine.fr/monstrous-portal.png`,
   name: {
     en: ``,
     fr: `Portail Monstrueux`,
