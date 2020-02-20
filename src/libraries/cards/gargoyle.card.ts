@@ -9,7 +9,7 @@ const gargoyleCard: ICard = {
   },
   lore: {
     en: ``,
-    fr: `« Je vous défie de les franchir. »\n- Olivier-le-fou-droyé.`,
+    fr: `« Cette chose, venue d'Ailleurs. »\n- Merlin, dernier érudit d'Exodia.`,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
