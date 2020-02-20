@@ -30,11 +30,11 @@ const deadlyViperCard: ICard = {
     life: 5,
     right: {
       defense: 1,
-      strenght: 3,
+      strenght: 1,
     },
     top: {
       defense: 1,
-      strenght: 1,
+      strenght: 2,
     },
   },
   type: 'creature',
