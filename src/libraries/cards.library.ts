@@ -40,6 +40,7 @@ import growingOakCard from './cards/growing-oak.card';
 import monstrousPortalCard from './cards/monstrous-portal.card';
 import jesterCard from './cards/jester.card';
 import paladinOfTheNinthDesertCard from './cards/paladin-of-the-ninth-desert.card';
+import volkhaCard from './cards/volkha.card';
 
 export class CardsLibrary {
 
@@ -72,6 +73,7 @@ export class CardsLibrary {
     monstrousPortalCard,
     jesterCard,
     paladinOfTheNinthDesertCard,
+    volkhaCard,
     // Curse
     curseOfMaraCard,
     // Collection

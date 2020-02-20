@@ -146,6 +146,7 @@ export class DecksLibrary {
         CardsLibrary.find('paladin-of-the-ninth-desert'),
         CardsLibrary.find('deadly-viper'),
         CardsLibrary.find('deadly-viper'),
+        CardsLibrary.find('volkha'),
         CardsLibrary.find('jester'),
         CardsLibrary.find('jester'),
         CardsLibrary.find('jester'),
