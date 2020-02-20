@@ -11,7 +11,6 @@ const paladinOfTheNinthDesertCard: ICard = {
     en: ``,
     fr: `« Le Paladin, aussi fidèle qu'une fille de joie. »\n- Le guérisseur Argento.`,
   },
-  art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
     en: ``,

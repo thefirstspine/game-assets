@@ -11,7 +11,6 @@ const insanesRunCard: ICard = {
     en: ``,
     fr: `« Leur première tentative fût la Couronne. La seconde s'appelle Volk'ha. »\n- Merlin, dernier érudit d'Exodia.`,
   },
-  art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
     en: ``,

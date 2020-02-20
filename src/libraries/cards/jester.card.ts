@@ -11,7 +11,6 @@ const jesterCard: ICard = {
     en: ``,
     fr: `« Plus on est de bouffons... »\n- Auteur inconnu`,
   },
-  art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
     en: ``,
