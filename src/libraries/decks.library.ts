@@ -142,6 +142,8 @@ export class DecksLibrary {
         CardsLibrary.find('veneniagora'),
         CardsLibrary.find('veneniagora'),
         CardsLibrary.find('veneniagora'),
+        CardsLibrary.find('paladin-of-the-ninth-desert'),
+        CardsLibrary.find('paladin-of-the-ninth-desert'),
         CardsLibrary.find('deadly-viper'),
         CardsLibrary.find('deadly-viper'),
         CardsLibrary.find('jester'),
