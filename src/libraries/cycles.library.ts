@@ -15,7 +15,7 @@ export class CyclesLibrary {
         en: ``,
       },
       timestampFrom: 0,
-      timestampTo: (new Date('2020-03-04 17:00:00')).getTime() / 1000,
+      timestampTo: (new Date('2020-03-06 16:59:59')).getTime() / 1000,
       rewardsForPlayers: [
         {name: 'holo-soul-of-a-sacrified-hunter', num: 1},
       ],
@@ -34,14 +34,34 @@ export class CyclesLibrary {
         fr: `Les Grands Anciens sont à la fête ! Célébrez ces créatures disparues dans un tournoi sans pitié et remportez la carte prémium de l'invocateur.`,
         en: ``,
       },
-      timestampFrom: (new Date('2020-03-04 17:00:01')).getTime() / 1000,
-      timestampTo: (new Date('2020-04-14 17:00:00')).getTime() / 1000,
+      timestampFrom: (new Date('2020-03-06 17:00:00')).getTime() / 1000,
+      timestampTo: (new Date('2020-04-17 16:59:59')).getTime() / 1000,
       rewardsForPlayers: [
         {name: 'holo-deadly-viper', num: 1},
       ],
       rewardsForWinner: [
         {name: 'holo-deadly-viper', num: 1},
         {name: 'premium-summoner', num: 1},
+      ],
+    },
+    {
+      id: `treasure-2020`,
+      name: {
+        fr: `Cycle du Trésor 2020`,
+        en: ``,
+      },
+      description: {
+        fr: ``,
+        en: ``,
+      },
+      timestampFrom: (new Date('2020-04-17 17:00:00')).getTime() / 1000,
+      timestampTo: (new Date('2020-05-29 16:59:59')).getTime() / 1000,
+      rewardsForPlayers: [
+        {name: 'holo-shadows-banner', num: 1},
+      ],
+      rewardsForWinner: [
+        {name: 'holo-shadows-banner', num: 1},
+        {name: 'premium-conjurer', num: 1},
       ],
     },
   ];
