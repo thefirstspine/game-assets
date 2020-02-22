@@ -74,6 +74,7 @@ export default function(): IGameType {
       ]);
       tournamentBaseData.loots.victory.push(...[
         {name: 'holo-great-old-egg', num: 1},
+        {name: 'premium-great-old-egg', num: 1},
         {name: 'great-old-mark', num: 1},
       ]);
     }
