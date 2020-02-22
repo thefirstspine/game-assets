@@ -20,6 +20,8 @@ export default function(): IGameType {
     ],
     loots: {
       victory: [
+        {name: 'holo-applicant', num: 1},
+        {name: 'ovil-mark', num: 1},
       ],
       defeat: [
       ],
