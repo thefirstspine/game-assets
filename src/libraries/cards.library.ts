@@ -41,6 +41,8 @@ import monstrousPortalCard from './cards/monstrous-portal.card';
 import jesterCard from './cards/jester.card';
 import paladinOfTheNinthDesertCard from './cards/paladin-of-the-ninth-desert.card';
 import volkhaCard from './cards/volkha.card';
+import ovilCard from './cards/ovil.card';
+import applicantCard from './cards/applicant.card';
 
 export class CardsLibrary {
 
@@ -86,6 +88,8 @@ export class CardsLibrary {
     greatOldEggCard,
     juvenileGreatOldCard,
     greatOldCard,
+    ovilCard,
+    applicantCard,
     // Squares
     burdenEarthCard,
     ditchCard,
