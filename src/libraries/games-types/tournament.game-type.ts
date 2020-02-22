@@ -60,7 +60,6 @@ export default function(): IGameType {
     if (currentCycle.id === 'great-old-2020') {
       tournamentBaseData.availableShieldsPerCycle = 3;
       tournamentBaseData.origins = [];
-      tournamentBaseData.destinies = ['conjurer', 'hunter', 'sorcerer', 'summoner'];
       tournamentBaseData.name = {
         fr: `Tournoi du Grand Ancien`,
         en: ``,
@@ -69,6 +68,14 @@ export default function(): IGameType {
         fr: `Des oeufs de Grands Anciens on traversé le temps pour venir jusqu'à nous. Faites-les éclore et emparez-vous de leurs pouvoirs.`,
         en: ``,
       };
+      tournamentBaseData.loots.defeat.push(...[
+        {name: 'holo-great-old-egg', num: 1},
+        {name: 'great-old-mark', num: 1},
+      ]);
+      tournamentBaseData.loots.victory.push(...[
+        {name: 'holo-great-old-egg', num: 1},
+        {name: 'great-old-mark', num: 1},
+      ]);
     }
   }
 
