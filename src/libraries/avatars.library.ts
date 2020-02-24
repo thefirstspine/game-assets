@@ -37,6 +37,17 @@ export class AvatarsLibrary {
         en: ``,
       },
     },
+    {
+      id: `applicant`,
+      name: {
+        fr: `Postulant`,
+        en: ``,
+      },
+      description: {
+        fr: `Un postulant, anonyme parmi les anonymes, à la destinée et à l'origine floues. Revenu d'entre les morts par la main même d'Ovil, le Postulant n'a de cesse de chercher la Couronne pour racheter son humanité.`,
+        en: ``,
+      },
+    },
   ];
 
   static find(id: string): IAvatar|undefined {
