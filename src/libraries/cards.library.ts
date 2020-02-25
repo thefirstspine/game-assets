@@ -80,6 +80,7 @@ export class CardsLibrary {
     volkhaCard,
     insanesEchoCard,
     alterTheFateCard,
+    etherCard,
     // Curse
     curseOfMaraCard,
     // Collection
