@@ -44,6 +44,7 @@ import volkhaCard from './cards/volkha.card';
 import ovilCard from './cards/ovil.card';
 import applicantCard from './cards/applicant.card';
 import insanesEchoCard from './cards/insanes-echo.card';
+import alterTheFateCard from './cards/alter-the-fate.card';
 
 export class CardsLibrary {
 
@@ -78,6 +79,7 @@ export class CardsLibrary {
     paladinOfTheNinthDesertCard,
     volkhaCard,
     insanesEchoCard,
+    alterTheFateCard,
     // Curse
     curseOfMaraCard,
     // Collection
