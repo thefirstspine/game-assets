@@ -20,20 +20,20 @@ const ovilCard: ICard = {
   stats: {
     bottom: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
     },
     left: {
       defense: 2,
-      strenght: 3,
+      strength: 3,
     },
     life: 15,
     right: {
       defense: 2,
-      strenght: 3,
+      strength: 3,
     },
     top: {
       defense: 2,
-      strenght: 3,
+      strength: 3,
     },
   },
   type: 'player',

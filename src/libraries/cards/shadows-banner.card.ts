@@ -22,22 +22,22 @@ const shadowsBannerCard: ICard = {
     capacities: ['death'],
     bottom: {
       defense: 0,
-      strenght: 5,
+      strength: 5,
       capacity: 'aura',
     },
     left: {
       defense: 0,
-      strenght: 3,
+      strength: 3,
       capacity: 'aura',
     },
     right: {
       defense: 0,
-      strenght: 3,
+      strength: 3,
       capacity: 'aura',
     },
     top: {
       defense: 1,
-      strenght: 3,
+      strength: 3,
       capacity: 'aura',
     },
   },

@@ -21,19 +21,19 @@ const growingOakCard: ICard = {
     life: 3,
     bottom: {
       defense: 3,
-      strenght: 0,
+      strength: 0,
     },
     left: {
       defense: 2,
-      strenght: 1,
+      strength: 1,
     },
     right: {
       defense: 2,
-      strenght: 1,
+      strength: 1,
     },
     top: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
       capacity: 'threat',
     },
   },

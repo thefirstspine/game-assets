@@ -21,19 +21,19 @@ const insanesEchoCard: ICard = {
     life: 5,
     bottom: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
     },
     left: {
       defense: 0,
-      strenght: 1,
+      strength: 1,
     },
     right: {
       defense: 0,
-      strenght: 1,
+      strength: 1,
     },
     top: {
       defense: 0,
-      strenght: 2,
+      strength: 2,
     },
   },
   type: 'creature',

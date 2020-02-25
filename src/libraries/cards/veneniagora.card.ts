@@ -21,19 +21,19 @@ const veneniagoraCard: ICard = {
     life: 3,
     bottom: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
     },
     left: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
     },
     right: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
     },
     top: {
       defense: 0,
-      strenght: 3,
+      strength: 3,
     },
   },
   type: 'creature',

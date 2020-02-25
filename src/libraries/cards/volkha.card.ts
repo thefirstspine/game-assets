@@ -21,19 +21,19 @@ const volkhaCard: ICard = {
     capacities: ['burdenEarth'],
     bottom: {
       defense: 1,
-      strenght: 6,
+      strength: 6,
     },
     left: {
       defense: 0,
-      strenght: 2,
+      strength: 2,
     },
     right: {
       defense: 0,
-      strenght: 2,
+      strength: 2,
     },
     top: {
       defense: 1,
-      strenght: 3,
+      strength: 3,
     },
   },
   type: 'creature',

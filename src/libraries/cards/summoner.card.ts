@@ -20,20 +20,20 @@ const summonerCard: ICard = {
   stats: {
     bottom: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
     },
     left: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
     life: 10,
     right: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
     top: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
   },
   type: 'player',

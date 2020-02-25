@@ -21,22 +21,22 @@ const sorcererSouvenirCard: ICard = {
     capacities: ['death'],
     bottom: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
       capacity: 'aura',
     },
     left: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
       capacity: 'aura',
     },
     right: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
       capacity: 'aura',
     },
     top: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
       capacity: 'aura',
     },
   },

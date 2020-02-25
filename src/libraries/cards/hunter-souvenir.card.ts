@@ -21,22 +21,22 @@ const hunterSouvenirCard: ICard = {
     capacities: ['run'],
     bottom: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
       capacity: 'aura',
     },
     left: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
       capacity: 'aura',
     },
     right: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
       capacity: 'aura',
     },
     top: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
       capacity: 'aura',
     },
   },

@@ -21,19 +21,19 @@ const conjurerCard: ICard = {
     life: 10,
     bottom: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
     },
     left: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
     right: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
     top: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
   },
   type: 'player',

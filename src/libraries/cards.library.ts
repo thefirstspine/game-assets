@@ -43,6 +43,7 @@ import paladinOfTheNinthDesertCard from './cards/paladin-of-the-ninth-desert.car
 import volkhaCard from './cards/volkha.card';
 import ovilCard from './cards/ovil.card';
 import applicantCard from './cards/applicant.card';
+import insanesEchoCard from './cards/insanes-echo.card';
 
 export class CardsLibrary {
 
@@ -76,6 +77,7 @@ export class CardsLibrary {
     jesterCard,
     paladinOfTheNinthDesertCard,
     volkhaCard,
+    insanesEchoCard,
     // Curse
     curseOfMaraCard,
     // Collection

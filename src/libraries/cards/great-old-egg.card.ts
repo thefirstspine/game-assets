@@ -21,22 +21,22 @@ Cette carte est une carte de collection ne peut être jouée que pendant le Cycl
     life: 3,
     bottom: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
       capacity: 'aura',
     },
     left: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
       capacity: 'aura',
     },
     right: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
       capacity: 'aura',
     },
     top: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
       capacity: 'aura',
     },
   },

@@ -21,22 +21,22 @@ const conjurerSouvenirCard: ICard = {
     capacities: ['grow'],
     bottom: {
       defense: 2,
-      strenght: 1,
+      strength: 1,
       capacity: 'aura',
     },
     left: {
       defense: 2,
-      strenght: 1,
+      strength: 1,
       capacity: 'aura',
     },
     right: {
       defense: 2,
-      strenght: 1,
+      strength: 1,
       capacity: 'aura',
     },
     top: {
       defense: 2,
-      strenght: 1,
+      strength: 1,
       capacity: 'aura',
     },
   },

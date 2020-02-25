@@ -21,21 +21,21 @@ const paladinOfTheNinthDesertCard: ICard = {
     capacities: ['treason'],
     bottom: {
       defense: 1,
-      strenght: 3,
+      strength: 3,
     },
     left: {
       defense: 0,
-      strenght: 4,
+      strength: 4,
       capacity: 'aura',
     },
     right: {
       defense: 2,
-      strenght: 2,
+      strength: 2,
       capacity: 'aura',
     },
     top: {
       defense: 2,
-      strenght: 3,
+      strength: 3,
     },
   },
   type: 'creature',

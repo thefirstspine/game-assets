@@ -21,19 +21,19 @@ const gargoyleCard: ICard = {
     capacities: ['run'],
     bottom: {
       defense: 2,
-      strenght: 1,
+      strength: 1,
     },
     left: {
       defense: 2,
-      strenght: 3,
+      strength: 3,
     },
     right: {
       defense: 2,
-      strenght: 3,
+      strength: 3,
     },
     top: {
       defense: 2,
-      strenght: 3,
+      strength: 3,
       capacity: 'threat',
     },
   },

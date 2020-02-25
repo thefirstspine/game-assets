@@ -22,19 +22,19 @@ const theFoxCard: ICard = {
     capacities: ['run'],
     bottom: {
       defense: 0,
-      strenght: 3,
+      strength: 3,
     },
     left: {
       defense: 0,
-      strenght: 4,
+      strength: 4,
     },
     right: {
       defense: 0,
-      strenght: 4,
+      strength: 4,
     },
     top: {
       defense: 0,
-      strenght: 2,
+      strength: 2,
     },
   },
   type: 'creature',

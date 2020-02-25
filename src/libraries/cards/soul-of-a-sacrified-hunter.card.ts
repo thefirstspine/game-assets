@@ -21,19 +21,19 @@ const soulOfASacrifiedHunterCard: ICard = {
     life: 0,
     bottom: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
     },
     left: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
     },
     right: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
     },
     top: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
     },
   },
   type: 'creature',

@@ -147,6 +147,7 @@ export class DecksLibrary {
         CardsLibrary.find('deadly-viper'),
         CardsLibrary.find('deadly-viper'),
         CardsLibrary.find('volkha'),
+        CardsLibrary.find('insanes-echo'),
         CardsLibrary.find('jester'),
         CardsLibrary.find('jester'),
         CardsLibrary.find('jester'),

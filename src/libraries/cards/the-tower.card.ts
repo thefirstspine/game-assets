@@ -20,21 +20,21 @@ const theTowerCard: ICard = {
   stats: {
     bottom: {
       defense: 3,
-      strenght: 3,
+      strength: 3,
     },
     left: {
       defense: 1,
-      strenght: 3,
+      strength: 3,
     },
     life: 5,
     right: {
       defense: 1,
-      strenght: 3,
+      strength: 3,
     },
     top: {
       capacity: 'threat',
       defense: 2,
-      strenght: 3,
+      strength: 3,
     },
   },
   type: 'artifact',

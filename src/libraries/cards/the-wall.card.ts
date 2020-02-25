@@ -20,19 +20,19 @@ const theWallCard: ICard = {
     life: 5,
     bottom: {
       defense: 0,
-      strenght: 1,
+      strength: 1,
     },
     left: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
     },
     right: {
       defense: 1,
-      strenght: 0,
+      strength: 0,
     },
     top: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
     },
   },
   type: 'artifact',

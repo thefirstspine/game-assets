@@ -21,21 +21,21 @@ const eternityGiftCard: ICard = {
     capacities: ['death'],
     bottom: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
     left: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
       capacity: 'aura',
     },
     right: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
       capacity: 'aura',
     },
     top: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
       capacity: 'threat',
     },
   },

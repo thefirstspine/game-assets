@@ -21,22 +21,22 @@ const monstrousPortalCard: ICard = {
     life: 5,
     bottom: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
       capacity: 'threat',
     },
     left: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
       capacity: 'threat',
     },
     right: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
       capacity: 'threat',
     },
     top: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
       capacity: 'threat',
     },
   },

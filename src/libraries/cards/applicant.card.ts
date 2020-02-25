@@ -20,20 +20,20 @@ const applicantCard: ICard = {
   stats: {
     bottom: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
     },
     left: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
     },
     life: 1,
     right: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
     },
     top: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
     },
   },
   type: 'player',

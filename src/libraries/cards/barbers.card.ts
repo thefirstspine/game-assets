@@ -21,19 +21,19 @@ const barbersCard: ICard = {
     life: 1,
     bottom: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
     left: {
       defense: 0,
-      strenght: 3,
+      strength: 3,
     },
     right: {
       defense: 0,
-      strenght: 3,
+      strength: 3,
     },
     top: {
       defense: 0,
-      strenght: 4,
+      strength: 4,
     },
   },
   type: 'artifact',

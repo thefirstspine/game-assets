@@ -21,22 +21,22 @@ const summonerSouvenirCard: ICard = {
     capacities: ['run'],
     bottom: {
       defense: 1,
-      strenght: 4,
+      strength: 4,
       capacity: 'aura',
     },
     left: {
       defense: 1,
-      strenght: 4,
+      strength: 4,
       capacity: 'aura',
     },
     right: {
       defense: 1,
-      strenght: 4,
+      strength: 4,
       capacity: 'aura',
     },
     top: {
       defense: 1,
-      strenght: 4,
+      strength: 4,
       capacity: 'aura',
     },
   },

@@ -21,22 +21,22 @@ const insanesRunCard: ICard = {
     capacities: ['death'],
     bottom: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
       capacity: 'threat',
     },
     left: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
       capacity: 'threat',
     },
     right: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
       capacity: 'threat',
     },
     top: {
       defense: 0,
-      strenght: 0,
+      strength: 0,
       capacity: 'threat',
     },
   },

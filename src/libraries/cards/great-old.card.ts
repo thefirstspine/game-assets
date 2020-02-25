@@ -21,19 +21,19 @@ const greatOldCard: ICard = {
     life: 6,
     bottom: {
       defense: 2,
-      strenght: 8,
+      strength: 8,
     },
     left: {
       defense: 1,
-      strenght: 4,
+      strength: 4,
     },
     right: {
       defense: 1,
-      strenght: 4,
+      strength: 4,
     },
     top: {
       defense: 1,
-      strenght: 6,
+      strength: 6,
     },
   },
   type: 'creature',

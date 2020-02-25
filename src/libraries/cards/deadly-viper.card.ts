@@ -20,21 +20,21 @@ const deadlyViperCard: ICard = {
   stats: {
     bottom: {
       defense: 0,
-      strenght: 3,
+      strength: 3,
     },
     capacities: ['run'],
     left: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
     life: 5,
     right: {
       defense: 1,
-      strenght: 1,
+      strength: 1,
     },
     top: {
       defense: 1,
-      strenght: 2,
+      strength: 2,
     },
   },
   type: 'creature',

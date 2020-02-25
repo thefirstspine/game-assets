@@ -21,20 +21,20 @@ const smokyTotemCard: ICard = {
     life: 4,
     capacities: ['burdenEarth'],
     bottom: {
-      strenght: 8,
+      strength: 8,
       defense: 2,
       capacity: 'threat',
     },
     left: {
-      strenght: 1,
+      strength: 1,
       defense: 2,
     },
     right: {
-      strenght: 1,
+      strength: 1,
       defense: 2,
     },
     top: {
-      strenght: 1,
+      strength: 1,
       defense: 2,
     },
   },
