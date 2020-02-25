@@ -24,16 +24,16 @@ const insanesEchoCard: ICard = {
       strength: 0,
     },
     left: {
-      defense: 0,
-      strength: 1,
+      defense: 1,
+      strength: 0,
     },
     right: {
-      defense: 0,
-      strength: 1,
+      defense: 1,
+      strength: 0,
     },
     top: {
-      defense: 0,
-      strength: 2,
+      defense: 2,
+      strength: 0,
     },
   },
   type: 'creature',
