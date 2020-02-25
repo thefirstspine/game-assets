@@ -5,7 +5,7 @@ const alterTheFateCard: ICard = {
   id: `alter-the-fate`,
   text: {
     en: ``,
-    fr: `Ajoutez {capacity}treason{/capacity} à une {creature}créature{/creature} ou à un {artifact}artéfact{/artifact}.`,
+    fr: `Ajoutez {capacity}treason{/capacity} à une {creature}créature{/creature} ou à un {artifact}artefact{/artifact}.`,
   },
   lore: {
     en: ``,
