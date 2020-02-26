@@ -15,7 +15,7 @@ import bansheeCard from './cards/banshee.card';
 import theFoxCard from './cards/the-fox.card';
 import veneniagoraCard from './cards/veneniagora.card';
 import soulOfASacrifiedHunterCard from './cards/soul-of-a-sacrified-hunter.card';
-import etherCard from './cards/ether';
+import etherCard from './cards/ether.card';
 import eternityGiftCard from './cards/eternity-gift.card';
 import hunterSouvenirCard from './cards/hunter-souvenir.card';
 import conjurerSouvenirCard from './cards/conjurer-souvenir.card';
@@ -45,6 +45,7 @@ import ovilCard from './cards/ovil.card';
 import applicantCard from './cards/applicant.card';
 import insanesEchoCard from './cards/insanes-echo.card';
 import alterTheFateCard from './cards/alter-the-fate.card';
+import fireCard from './cards/fire.card';
 
 export class CardsLibrary {
 
@@ -81,6 +82,7 @@ export class CardsLibrary {
     insanesEchoCard,
     alterTheFateCard,
     etherCard,
+    fireCard,
     // Curse
     curseOfMaraCard,
     // Collection

@@ -197,6 +197,8 @@ export class DecksLibrary {
         CardsLibrary.find('alter-the-fate'),
         CardsLibrary.find('alter-the-fate'),
         CardsLibrary.find('alter-the-fate'),
+        CardsLibrary.find('fire'),
+        CardsLibrary.find('fire'),
         CardsLibrary.find('reconstruct'),
         CardsLibrary.find('sorcerer'),
       ],
