@@ -5,7 +5,7 @@ const alterTheFateCard: ICard = {
   id: `ether`,
   text: {
     en: ``,
-    fr: `Vous pouvez jouer un {spell}sortilège{/capacity} supplémentaire.`,
+    fr: `Vous pouvez jouer un {spell}sortilège{/spell} supplémentaire.`,
   },
   lore: {
     en: ``,
