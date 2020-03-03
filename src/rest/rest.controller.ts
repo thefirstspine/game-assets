@@ -130,4 +130,13 @@ export class RestController {
     return CyclesLibrary.current();
   }
 
+  @Get('cycles/:id')
+  /**
+   * Endpoint /rest/game-types/;id
+   * Returns a game type
+   */
+  getCycle(@Param('id') id) {
+    return CyclesLibrary.find(id);
+  }
+
 }
