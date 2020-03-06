@@ -40,7 +40,7 @@ export class CyclesLibrary {
         {name: 'holo-deadly-viper', num: 1},
       ],
       rewardsForWinner: [
-        {name: 'holo-deadly-viper', num: 1},
+        {name: 'holo-summoner', num: 1},
         {name: 'premium-summoner', num: 1},
       ],
     },
