@@ -26,6 +26,7 @@ export class TriumphsLibrary {
         en: ``,
       },
     },
+    /*
     {
       id: 'spirit',
       name: {
@@ -48,6 +49,7 @@ export class TriumphsLibrary {
         en: ``,
       },
     },
+    */
     {
       id: 'conjurer',
       name: {
