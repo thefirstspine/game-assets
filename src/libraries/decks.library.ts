@@ -91,7 +91,8 @@ export class DecksLibrary {
         CardsLibrary.find('barbers'),
         CardsLibrary.find('barbers'),
         CardsLibrary.find('barbers'),
-
+        CardsLibrary.find('the-wall'),
+        CardsLibrary.find('the-wall'),
         CardsLibrary.find('conjurer'),
       ],
     },
@@ -131,6 +132,8 @@ export class DecksLibrary {
         CardsLibrary.find('veneniagora'),
         CardsLibrary.find('veneniagora'),
         CardsLibrary.find('veneniagora'),
+        CardsLibrary.find('deadly-viper'),
+        CardsLibrary.find('deadly-viper'),
         CardsLibrary.find('summoner'),
       ],
     },

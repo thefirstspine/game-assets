@@ -30,6 +30,7 @@ import waterCard from './cards/water';
 import { ICard } from '../@shared/rest-shared/card';
 import conjurerCard from './cards/conjurer.card';
 import sorcererCard from './cards/sorcerer.card';
+import theWallCard from './cards/the-wall.card';
 
 export class CardsLibrary {
 
@@ -55,6 +56,7 @@ export class CardsLibrary {
     etherCard,
     conjurerCard,
     sorcererCard,
+    theWallCard,
     // Curse
     curseOfMaraCard,
     // Collection
