@@ -47,6 +47,7 @@ import insanesEchoCard from './cards/insanes-echo.card';
 import alterTheFateCard from './cards/alter-the-fate.card';
 import fireCard from './cards/fire.card';
 import achieveCard from './cards/achieve.card';
+import theReturn from './cards/the-return.card';
 
 export class CardsLibrary {
 
@@ -99,6 +100,7 @@ export class CardsLibrary {
     greatOldCard,
     ovilCard,
     applicantCard,
+    theReturn,
     // Squares
     burdenEarthCard,
     ditchCard,
