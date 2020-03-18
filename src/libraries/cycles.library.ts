@@ -11,11 +11,11 @@ export class CyclesLibrary {
         en: ``,
       },
       description: {
-        fr: `La nouvelle année rime souvent avec un renouvellement. Prouvez votre valeur dans le premier cycle de l'année 2020 !`,
+        fr: `Arena fait peau neuve et lance son premier cycle, le Cycle du Renouveau 2020 !`,
         en: ``,
       },
       timestampFrom: 0,
-      timestampTo: (new Date('2020-03-06 16:59:59')).getTime() / 1000,
+      timestampTo: (new Date('2020-05-01 16:59:59')).getTime() / 1000,
       rewardsForPlayers: [
         {name: 'holo-soul-of-a-sacrified-hunter', num: 1},
       ],
@@ -34,8 +34,8 @@ export class CyclesLibrary {
         fr: `Les Grands Anciens sont à la fête ! Célébrez ces créatures disparues dans un tournoi sans pitié et remportez la carte prémium de l'invocateur.`,
         en: ``,
       },
-      timestampFrom: (new Date('2020-03-06 17:00:00')).getTime() / 1000,
-      timestampTo: (new Date('2020-04-17 16:59:59')).getTime() / 1000,
+      timestampFrom: (new Date('2020-05-01 17:00:00')).getTime() / 1000,
+      timestampTo: (new Date('2020-06-12 16:59:59')).getTime() / 1000,
       rewardsForPlayers: [
         {name: 'holo-deadly-viper', num: 1},
       ],
@@ -54,8 +54,8 @@ export class CyclesLibrary {
         fr: ``,
         en: ``,
       },
-      timestampFrom: (new Date('2020-04-17 17:00:00')).getTime() / 1000,
-      timestampTo: (new Date('2020-05-29 16:59:59')).getTime() / 1000,
+      timestampFrom: (new Date('2020-06-12 17:00:00')).getTime() / 1000,
+      timestampTo: (new Date('2020-07-24 16:59:59')).getTime() / 1000,
       rewardsForPlayers: [
         {name: 'holo-shadows-banner', num: 1},
       ],
