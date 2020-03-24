@@ -1,7 +1,3 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="platform.png" width="320" alt="Platform Logo" /></a>
-</p>
-
 ## About
 
 Rest API. They are all static assets in the API, such as cards, decks, avatars, game types, etc.
