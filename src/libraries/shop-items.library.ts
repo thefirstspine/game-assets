@@ -236,7 +236,7 @@ export class ShopItemsLibrary {
             fr: `Débloque le protège-cartes à l'effigie de l'Invocateur.`,
             en: ``,
           },
-          categories: index === 0 ? ['covers', 'featured'] : ['covers'],
+          categories: index === 1 ? ['covers', 'featured'] : ['covers'],
           price: {
             num: 150,
             currency: 'shards',
