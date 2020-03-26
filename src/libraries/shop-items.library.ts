@@ -5,7 +5,7 @@ import { IShopItem } from 'src/@shared/rest-shared/entities';
 export class ShopItemsLibrary {
 
   static all(): IShopItem[] {
-    const shopItems: IShopItem[] = [/*
+    const shopItems: IShopItem[] = [
       {
         id: '250-shards',
         name: {
@@ -81,7 +81,7 @@ export class ShopItemsLibrary {
         loots: [
           {name: 'shard', num: 2000},
         ],
-      },*/
+      },
     ];
 
     const index: number = CyclesLibrary.currentNum();
@@ -145,6 +145,25 @@ export class ShopItemsLibrary {
             {name: 'style-nostalgy', num: 1},
           ],
         },
+        {
+          id: 'cover-hunter',
+          name: {
+            fr: `Protège-cartes Chasseur`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie du Chasseur.`,
+            en: ``,
+          },
+          categories: index === 0 ? ['covers', 'featured'] : ['covers'],
+          price: {
+            num: 150,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'cover-hunter', num: 1},
+          ],
+        },
       );
     }
 
@@ -205,6 +224,25 @@ export class ShopItemsLibrary {
           },
           loots: [
             {name: 'style-scales', num: 1},
+          ],
+        },
+        {
+          id: 'cover-summoner',
+          name: {
+            fr: `Protège-cartes Invocateur`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie de l'Invocateur.`,
+            en: ``,
+          },
+          categories: index === 0 ? ['covers', 'featured'] : ['covers'],
+          price: {
+            num: 150,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'cover-summoner', num: 1},
           ],
         },
       );
