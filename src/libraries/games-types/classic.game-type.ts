@@ -15,7 +15,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'asap',
     destinies: ['conjurer', 'summoner', 'sorcerer', 'hunter'],
-    origins: ['healer', 'surgeon', 'ignorant', 'architect'],
+    origins: ['healer'/*, 'architect', 'priest', 'smith'*/],
     players: [
       { x: 3, y: 0 },
       { x: 3, y: 6 },
@@ -45,7 +45,7 @@ export default function(): IGameType {
     }
 
     if (currentCycle.id === 'great-old-2020') {
-      classicGameType.origins = [];
+      classicGameType.origins = ['healer'];
     }
   }
 

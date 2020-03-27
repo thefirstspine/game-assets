@@ -15,8 +15,8 @@ export default function(): IGameType {
       en: ``,
     },
     matchmakingMode: 'ranked',
-    origins: ['architect', 'healer', 'ignorant', 'surgeon'],
     destinies: ['conjurer', 'hunter', 'sorcerer', 'summoner'],
+    origins: ['healer'/*, 'architect', 'priest', 'smith'*/],
     availableShieldsPerCycle: 1,
     maxGamesPerCycle: 3,
     players: [
@@ -59,7 +59,7 @@ export default function(): IGameType {
 
     if (currentCycle.id === 'great-old-2020') {
       tournamentBaseData.availableShieldsPerCycle = 3;
-      tournamentBaseData.origins = [];
+      tournamentBaseData.origins = ['healer'];
       tournamentBaseData.name = {
         fr: `Tournoi du Grand Ancien`,
         en: ``,
