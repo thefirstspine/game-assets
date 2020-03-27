@@ -209,7 +209,7 @@ export class DecksLibrary {
       ],
     },
     {
-      id: `healder`,
+      id: `healer`,
       type: 'origin',
       name: {
         en: ``,
