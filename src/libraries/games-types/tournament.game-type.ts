@@ -1,4 +1,4 @@
-import { IGameType } from '../../@shared/rest-shared/entities';
+import { IGameType, ILoot } from '../../@shared/rest-shared/entities';
 import classicGameType from './classic.game-type';
 import { CyclesLibrary } from '../cycles.library';
 
@@ -78,6 +78,13 @@ export default function(): IGameType {
         {name: 'great-old-mark', num: 1},
       ]);
     }
+  }
+
+  const day = (new Date()).getUTCDate();
+  const hour = (new Date()).getUTCHours();
+  if (day === 3 && (hour > 12 && hour < 20)) {
+    tournamentBaseData.loots.defeat.find((loot: ILoot) => loot.name === 'shard').num *= 3;
+    tournamentBaseData.loots.victory.find((loot: ILoot) => loot.name === 'shard').num *= 3;
   }
 
   const tournamentGameType: IGameType = {

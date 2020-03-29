@@ -1,4 +1,4 @@
-import { IGameType } from '../../@shared/rest-shared/entities';
+import { IGameType, ILoot } from '../../@shared/rest-shared/entities';
 import { CyclesLibrary } from '../cycles.library';
 
 // tslint:disable: max-line-length
@@ -47,6 +47,13 @@ export default function(): IGameType {
     if (currentCycle.id === 'great-old-2020') {
       classicGameType.origins = ['healer'];
     }
+  }
+
+  const day = (new Date()).getUTCDate();
+  const hour = (new Date()).getUTCHours();
+  if (day === 3 && (hour > 12 && hour < 20)) {
+    classicGameType.loots.defeat.find((loot: ILoot) => loot.name === 'shard').num *= 3;
+    classicGameType.loots.victory.find((loot: ILoot) => loot.name === 'shard').num *= 3;
   }
 
   return classicGameType;
