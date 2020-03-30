@@ -222,10 +222,10 @@ export class DecksLibrary {
       cards: [
         CardsLibrary.find('cure'),
         CardsLibrary.find('cure'),
-        // CardsLibrary.find('guardian'),
-        // CardsLibrary.find('guardian'),
-        // CardsLibrary.find('caduceus'),
-        // CardsLibrary.find('caduceus'),
+        CardsLibrary.find('guardian'),
+        CardsLibrary.find('guardian'),
+        CardsLibrary.find('caduceus'),
+        CardsLibrary.find('caduceus'),
       ],
     },
   ];

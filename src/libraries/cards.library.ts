@@ -49,6 +49,8 @@ import fireCard from './cards/fire.card';
 import achieveCard from './cards/achieve.card';
 import theReturn from './cards/the-return.card';
 import cureCard from './cards/cure';
+import guardianCard from './cards/guardian.card';
+import caduceusCard from './cards/caduceus.card';
 
 export class CardsLibrary {
 
@@ -88,6 +90,8 @@ export class CardsLibrary {
     fireCard,
     achieveCard,
     cureCard,
+    guardianCard,
+    caduceusCard,
     // Curse
     curseOfMaraCard,
     // Collection
