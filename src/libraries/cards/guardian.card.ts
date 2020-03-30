@@ -5,11 +5,11 @@ const guardianCard: ICard = {
   id: `guardian`,
   text: {
     en: ``,
-    fr: ``,
+    fr: `Lorsque cette carte est détruite, vous gagnez {life}2{/life} sans dépasser votre total de départ.`,
   },
   lore: {
     en: ``,
-    fr: `Lorsque cette carte est détruite, vous gagnez {life}2{/life} sans dépasser votre total de départ.`,
+    fr: ``,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
