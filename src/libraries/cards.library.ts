@@ -48,6 +48,7 @@ import alterTheFateCard from './cards/alter-the-fate.card';
 import fireCard from './cards/fire.card';
 import achieveCard from './cards/achieve.card';
 import theReturn from './cards/the-return.card';
+import cureCard from './cards/cure';
 
 export class CardsLibrary {
 
@@ -86,6 +87,7 @@ export class CardsLibrary {
     etherCard,
     fireCard,
     achieveCard,
+    cureCard,
     // Curse
     curseOfMaraCard,
     // Collection
