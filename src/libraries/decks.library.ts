@@ -220,8 +220,8 @@ export class DecksLibrary {
         fr: ``,
       },
       cards: [
-        // CardsLibrary.find('cure'),
-        // CardsLibrary.find('cure'),
+        CardsLibrary.find('cure'),
+        CardsLibrary.find('cure'),
         // CardsLibrary.find('guardian'),
         // CardsLibrary.find('guardian'),
         // CardsLibrary.find('caduceus'),
