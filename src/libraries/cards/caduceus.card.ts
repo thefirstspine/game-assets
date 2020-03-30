@@ -25,7 +25,7 @@ const caduceusCard: ICard = {
     },
     left: {
       capacity: 'aura',
-      defense: 0,
+      defense: 2,
       strength: 0,
     },
     right: {
