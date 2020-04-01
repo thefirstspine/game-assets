@@ -49,7 +49,7 @@ export default function(): IGameType {
     }
   }
 
-  const day = (new Date()).getUTCDate();
+  const day = (new Date()).getUTCDay();
   const hour = (new Date()).getUTCHours();
   if (day === 3 && (hour > 12 && hour < 20)) {
     classicGameType.loots.defeat.find((loot: ILoot) => loot.name === 'shard').num *= 3;
