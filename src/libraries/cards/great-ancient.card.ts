@@ -1,8 +1,8 @@
 import { ICard } from '../../@shared/rest-shared/card';
 
 // tslint:disable: max-line-length
-const greatOldCard: ICard = {
-  id: `great-old`,
+const greatAncientCard: ICard = {
+  id: `great-ancient`,
   text: {
     en: ``,
     fr: `Cette carte est une carte de collection ne peut être jouée que pendant le Cycle du Grand Ancien.`,
@@ -39,4 +39,4 @@ const greatOldCard: ICard = {
   type: 'creature',
 };
 
-export default greatOldCard;
+export default greatAncientCard;

@@ -44,7 +44,7 @@ export default function(): IGameType {
       classicGameType.origins = [];
     }
 
-    if (currentCycle.id === 'great-old-2020') {
+    if (currentCycle.id === 'great-ancient-2020') {
       classicGameType.origins = ['healer'];
     }
   }

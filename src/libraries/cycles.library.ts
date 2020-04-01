@@ -25,7 +25,7 @@ export class CyclesLibrary {
       ],
     },
     {
-      id: `great-old-2020`,
+      id: `great-ancient-2020`,
       name: {
         fr: `Cycle du Grand Ancien 2020`,
         en: ``,

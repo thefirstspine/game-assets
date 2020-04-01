@@ -57,7 +57,7 @@ export default function(): IGameType {
       };
     }
 
-    if (currentCycle.id === 'great-old-2020') {
+    if (currentCycle.id === 'great-ancient-2020') {
       tournamentBaseData.availableShieldsPerCycle = 3;
       tournamentBaseData.origins = ['healer'];
       tournamentBaseData.name = {
@@ -69,13 +69,13 @@ export default function(): IGameType {
         en: ``,
       };
       tournamentBaseData.loots.defeat.push(...[
-        {name: 'holo-great-old-egg', num: 1},
-        {name: 'great-old-mark', num: 1},
+        {name: 'holo-great-ancient-egg', num: 1},
+        {name: 'great-ancient-mark', num: 1},
       ]);
       tournamentBaseData.loots.victory.push(...[
-        {name: 'holo-great-old-egg', num: 1},
-        {name: 'premium-great-old-egg', num: 1},
-        {name: 'great-old-mark', num: 1},
+        {name: 'holo-great-ancient-egg', num: 1},
+        {name: 'premium-great-ancient-egg', num: 1},
+        {name: 'great-ancient-mark', num: 1},
       ]);
     }
   }

@@ -32,9 +32,9 @@ import conjurerCard from './cards/conjurer.card';
 import sorcererCard from './cards/sorcerer.card';
 import theWallCard from './cards/the-wall.card';
 import shadowsBannerCard from './cards/shadows-banner.card';
-import greatOldEggCard from './cards/great-old-egg.card';
-import juvenileGreatOldCard from './cards/juvenile-great-old.card';
-import greatOldCard from './cards/great-old.card';
+import greatAncientEggCard from './cards/great-ancient-egg.card';
+import juvenilegreatAncientCard from './cards/juvenile-great-ancient.card';
+import greatAncientCard from './cards/great-ancient.card';
 import insanesRunCard from './cards/insanes-run.card';
 import growingOakCard from './cards/growing-oak.card';
 import monstrousPortalCard from './cards/monstrous-portal.card';
@@ -101,9 +101,9 @@ export class CardsLibrary {
     summonerSouvenirCard,
     sorcererSouvenirCard,
     snowMansPresentCard,
-    greatOldEggCard,
-    juvenileGreatOldCard,
-    greatOldCard,
+    greatAncientEggCard,
+    juvenilegreatAncientCard,
+    greatAncientCard,
     ovilCard,
     applicantCard,
     theReturn,
