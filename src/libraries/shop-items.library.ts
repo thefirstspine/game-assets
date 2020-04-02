@@ -6,6 +6,7 @@ export class ShopItemsLibrary {
 
   static all(): IShopItem[] {
     const shopItems: IShopItem[] = [
+      /*
       {
         id: '250-shards',
         name: {
@@ -82,6 +83,7 @@ export class ShopItemsLibrary {
           {name: 'shard', num: 2000},
         ],
       },
+      */
     ];
 
     const index: number = CyclesLibrary.currentNum();
