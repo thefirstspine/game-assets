@@ -4,6 +4,32 @@ export class RanksLibrary {
 
   static readonly ranks: IRank[] = [
     {
+      id: `unknown`,
+      name: {
+        en: ``,
+        fr: `Inconnu`,
+      },
+      description: {
+        en: ``,
+        fr: `Rang Inconnu`,
+      },
+      min: Number.MIN_SAFE_INTEGER,
+      max: 2,
+    },
+    {
+      id: `apprentice`,
+      name: {
+        en: ``,
+        fr: `Apprenti`,
+      },
+      description: {
+        en: ``,
+        fr: `Rang Apprenti`,
+      },
+      min: 2,
+      max: 4,
+    },
+    {
       id: `wizard`,
       name: {
         en: ``,
@@ -13,8 +39,21 @@ export class RanksLibrary {
         en: ``,
         fr: `Rang Sorcier`,
       },
-      min: Number.MIN_SAFE_INTEGER,
-      max: 2,
+      min: 4,
+      max: 8,
+    },
+    {
+      id: `virtuoso`,
+      name: {
+        en: ``,
+        fr: `Virtuose`,
+      },
+      description: {
+        en: ``,
+        fr: `Rang Virtuose`,
+      },
+      min: 8,
+      max: 16,
     },
     {
       id: `hero`,
@@ -26,8 +65,8 @@ export class RanksLibrary {
         en: ``,
         fr: `Rang Héroique`,
       },
-      min: 2,
-      max: 5,
+      min: 16,
+      max: 32,
     },
     {
       id: `epic`,
@@ -39,8 +78,8 @@ export class RanksLibrary {
         en: ``,
         fr: `Rang Epique`,
       },
-      min: 5,
-      max: 10,
+      min: 32,
+      max: 64,
     },
     {
       id: `mythic`,
@@ -52,8 +91,8 @@ export class RanksLibrary {
         en: ``,
         fr: `Rang Mythique`,
       },
-      min: 10,
-      max: 20,
+      min: 64,
+      max: 128,
     },
     {
       id: `prestige`,
@@ -65,8 +104,8 @@ export class RanksLibrary {
         en: ``,
         fr: `Rang Prestige`,
       },
-      min: 20,
-      max: 50,
+      min: 128,
+      max: 256,
     },
     {
       id: `legend`,
@@ -78,7 +117,7 @@ export class RanksLibrary {
         en: ``,
         fr: `Rang Légende`,
       },
-      min: 50,
+      min: 256,
       max: Number.MAX_SAFE_INTEGER,
     },
   ];
