@@ -51,9 +51,11 @@ export default function(): IGameType {
 
   const day = (new Date()).getUTCDay();
   const hour = (new Date()).getUTCHours();
-  if (day === 3 && (hour >= 12 && hour <= 20)) {
-    classicGameType.loots.defeat.find((loot: ILoot) => loot.name === 'shard').num *= 3;
-    classicGameType.loots.victory.find((loot: ILoot) => loot.name === 'shard').num *= 3;
+  if (currentCycle.id === 'renewal-2020') {
+    if (day === 3 && (hour >= 12 && hour <= 20)) {
+      classicGameType.loots.defeat.find((loot: ILoot) => loot.name === 'shard').num *= 3;
+      classicGameType.loots.victory.find((loot: ILoot) => loot.name === 'shard').num *= 3;
+    }
   }
 
   return classicGameType;
