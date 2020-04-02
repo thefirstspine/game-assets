@@ -94,6 +94,28 @@ export class TriumphsLibrary {
         en: ``,
       },
     },
+    {
+      id: 'silentist',
+      name: {
+        fr: `Taiseur`,
+        en: ``,
+      },
+      description: {
+        fr: `Vous avez battu Rhosior en combat singulier.`,
+        en: ``,
+      },
+    },
+    {
+      id: 'predator',
+      name: {
+        fr: `Prédateur`,
+        en: ``,
+      },
+      description: {
+        fr: `Vous avez battu Adovius en combat singulier.`,
+        en: ``,
+      },
+    },
   ];
 
   static find(id: string): ITriumph|undefined {
