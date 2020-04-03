@@ -32,9 +32,9 @@ import conjurerCard from './cards/conjurer.card';
 import sorcererCard from './cards/sorcerer.card';
 import theWallCard from './cards/the-wall.card';
 import shadowsBannerCard from './cards/shadows-banner.card';
-import greatOldEggCard from './cards/great-old-egg.card';
-import juvenileGreatOldCard from './cards/juvenile-great-old.card';
-import greatOldCard from './cards/great-old.card';
+import greatAncientEggCard from './cards/great-ancient-egg.card';
+import juvenilegreatAncientCard from './cards/juvenile-great-ancient.card';
+import greatAncientCard from './cards/great-ancient.card';
 import insanesRunCard from './cards/insanes-run.card';
 import growingOakCard from './cards/growing-oak.card';
 import monstrousPortalCard from './cards/monstrous-portal.card';
@@ -48,6 +48,9 @@ import alterTheFateCard from './cards/alter-the-fate.card';
 import fireCard from './cards/fire.card';
 import achieveCard from './cards/achieve.card';
 import theReturn from './cards/the-return.card';
+import cureCard from './cards/cure';
+import guardianCard from './cards/guardian.card';
+import caduceusCard from './cards/caduceus.card';
 
 export class CardsLibrary {
 
@@ -86,6 +89,9 @@ export class CardsLibrary {
     etherCard,
     fireCard,
     achieveCard,
+    cureCard,
+    guardianCard,
+    caduceusCard,
     // Curse
     curseOfMaraCard,
     // Collection
@@ -95,9 +101,9 @@ export class CardsLibrary {
     summonerSouvenirCard,
     sorcererSouvenirCard,
     snowMansPresentCard,
-    greatOldEggCard,
-    juvenileGreatOldCard,
-    greatOldCard,
+    greatAncientEggCard,
+    juvenilegreatAncientCard,
+    greatAncientCard,
     ovilCard,
     applicantCard,
     theReturn,

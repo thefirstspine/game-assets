@@ -15,7 +15,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'asap',
     destinies: ['conjurer', 'summoner', 'sorcerer', 'hunter'],
-    origins: ['healer', 'surgeon', 'ignorant', 'architect'],
+    origins: ['healer'/*, 'architect', 'priest', 'smith'*/],
     players: [
       { x: 3, y: 0 },
       { x: 3, y: 6 },
@@ -44,16 +44,18 @@ export default function(): IGameType {
       classicGameType.origins = [];
     }
 
-    if (currentCycle.id === 'great-old-2020') {
-      classicGameType.origins = [];
+    if (currentCycle.id === 'great-ancient-2020') {
+      classicGameType.origins = ['healer'];
     }
   }
 
   const day = (new Date()).getUTCDay();
   const hour = (new Date()).getUTCHours();
-  if (day === 3 && (hour >= 12 && hour <= 20)) {
-    classicGameType.loots.defeat.find((loot: ILoot) => loot.name === 'shard').num *= 3;
-    classicGameType.loots.victory.find((loot: ILoot) => loot.name === 'shard').num *= 3;
+  if (currentCycle.id === 'renewal-2020') {
+    if (day === 3 && (hour >= 12 && hour <= 20)) {
+      classicGameType.loots.defeat.find((loot: ILoot) => loot.name === 'shard').num *= 3;
+      classicGameType.loots.victory.find((loot: ILoot) => loot.name === 'shard').num *= 3;
+    }
   }
 
   return classicGameType;

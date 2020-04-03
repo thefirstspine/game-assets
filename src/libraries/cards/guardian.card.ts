@@ -1,28 +1,27 @@
 import { ICard } from '../../@shared/rest-shared/card';
 
 // tslint:disable: max-line-length
-const juvenileGreatOldCard: ICard = {
-  id: `juvenile-great-old`,
+const guardianCard: ICard = {
+  id: `guardian`,
   text: {
     en: ``,
-    fr: `Au début de votre prochain tour, remplacez cette carte par "Grand Ancien".
-Cette carte est une carte de collection ne peut être jouée que pendant le Cycle du Grand Ancien.`,
+    fr: `Lorsque cette carte est détruite, vous gagnez {life}2{/life} sans dépasser votre total de départ.`,
   },
   lore: {
     en: ``,
-    fr: `« Il ne devrait pas être ici. »\n- Merlin, dernier érudit d'Exodia`,
+    fr: ``,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
     en: ``,
-    fr: `Grand Ancien juvénile`,
+    fr: `Gardien`,
   },
   stats: {
-    capacities: ['burdenEarth'],
-    life: 3,
+    life: 1,
+    capacities: ['grow'],
     bottom: {
       defense: 1,
-      strength: 6,
+      strength: 3,
     },
     left: {
       defense: 0,
@@ -40,4 +39,4 @@ Cette carte est une carte de collection ne peut être jouée que pendant le Cycl
   type: 'creature',
 };
 
-export default juvenileGreatOldCard;
+export default guardianCard;

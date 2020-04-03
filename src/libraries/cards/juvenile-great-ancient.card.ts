@@ -1,11 +1,11 @@
 import { ICard } from '../../@shared/rest-shared/card';
 
 // tslint:disable: max-line-length
-const greatOldEggCard: ICard = {
-  id: `great-old-egg`,
+const juvenilegreatAncientCard: ICard = {
+  id: `juvenile-great-ancient`,
   text: {
     en: ``,
-    fr: `Au début de votre prochain tour, remplacez cette carte par "Grand Ancien juvénile".
+    fr: `Au début de votre prochain tour, remplacez cette carte par "Grand Ancien".
 Cette carte est une carte de collection ne peut être jouée que pendant le Cycle du Grand Ancien.`,
   },
   lore: {
@@ -15,32 +15,29 @@ Cette carte est une carte de collection ne peut être jouée que pendant le Cycl
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
     en: ``,
-    fr: `Œuf de Grand Ancien`,
+    fr: `Grand Ancien juvénile`,
   },
   stats: {
+    capacities: ['burdenEarth'],
     life: 3,
     bottom: {
       defense: 1,
-      strength: 0,
-      capacity: 'aura',
+      strength: 6,
     },
     left: {
-      defense: 1,
-      strength: 0,
-      capacity: 'aura',
+      defense: 0,
+      strength: 2,
     },
     right: {
-      defense: 1,
-      strength: 0,
-      capacity: 'aura',
+      defense: 0,
+      strength: 2,
     },
     top: {
       defense: 1,
-      strength: 0,
-      capacity: 'aura',
+      strength: 3,
     },
   },
-  type: 'artifact',
+  type: 'creature',
 };
 
-export default greatOldEggCard;
+export default juvenilegreatAncientCard;

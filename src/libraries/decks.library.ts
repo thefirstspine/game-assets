@@ -208,6 +208,26 @@ export class DecksLibrary {
         CardsLibrary.find('sorcerer'),
       ],
     },
+    {
+      id: `healer`,
+      type: 'origin',
+      name: {
+        en: ``,
+        fr: `Guérisseur`,
+      },
+      description: {
+        en: ``,
+        fr: ``,
+      },
+      cards: [
+        CardsLibrary.find('cure'),
+        CardsLibrary.find('cure'),
+        CardsLibrary.find('guardian'),
+        CardsLibrary.find('guardian'),
+        CardsLibrary.find('caduceus'),
+        CardsLibrary.find('caduceus'),
+      ],
+    },
   ];
 
   static find(id: string): IDeck|undefined {
