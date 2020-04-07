@@ -5,16 +5,16 @@ export default function(): IGameType {
   const fpeGameType: IGameType = {
     id: 'fpe',
     name: {
-      fr: ``,
+      fr: `Première expérience de jeu`,
       en: ``,
     },
     description: {
-      fr: ``,
+      fr: `La Première Expérience de jeu est une partie scriptée idéale pour découvrir les règles du jeu. Vous pouvez choisir une destinée et une origine, mais celles-ci seront remplacées par un deck précalculé.`,
       en: ``,
     },
     matchmakingMode: 'asap',
-    destinies: ['hunter'],
-    origins: [],
+    destinies: ['hunter', 'conjurer', 'sorcerer', 'summoner'],
+    origins: ['healer'],
     players: [
       { x: 3, y: 0 },
     ],
