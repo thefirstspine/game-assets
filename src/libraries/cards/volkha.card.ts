@@ -11,7 +11,7 @@ const volkhaCard: ICard = {
     en: ``,
     fr: `« Fils, du feu tu vivras. Et du feu, tu renaîtras. »\n- Mara, prophétesse d'Exodia.`,
   },
-  imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
+  imageUrl: `https://static.thefirstspine.fr/volkha.png`,
   name: {
     en: ``,
     fr: `Volk'ha`,
