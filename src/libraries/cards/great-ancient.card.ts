@@ -11,7 +11,7 @@ const greatAncientCard: ICard = {
     en: ``,
     fr: `« Il ne devrait pas être ici. »\n- Merlin, dernier érudit d'Exodia`,
   },
-  imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
+  imageUrl: `https://static.thefirstspine.fr/great-ancient.png`,
   name: {
     en: ``,
     fr: `Grand Ancien`,

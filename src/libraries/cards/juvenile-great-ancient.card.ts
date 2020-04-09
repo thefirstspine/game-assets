@@ -12,7 +12,7 @@ Cette carte est une carte de collection ne peut être jouée que pendant le Cycl
     en: ``,
     fr: `« Il ne devrait pas être ici. »\n- Merlin, dernier érudit d'Exodia`,
   },
-  imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
+  imageUrl: `https://static.thefirstspine.fr/juvenile-great-ancient.png`,
   name: {
     en: ``,
     fr: `Grand Ancien juvénile`,
