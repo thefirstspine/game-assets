@@ -11,13 +11,12 @@ const cureCard: ICard = {
     en: ``,
     fr: ``,
   },
-  imageUrl: `https://static.thefirstspine.fr/cure.png`,
+  imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
     en: ``,
     fr: `Remède`,
   },
   type: 'spell',
-  art: 'Maylhine, Teddy Gandon',
 };
 
 export default cureCard;
