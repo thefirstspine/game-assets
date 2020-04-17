@@ -38,6 +38,17 @@ export class AvatarsLibrary {
       },
     },
     {
+      id: `argento`,
+      name: {
+        fr: `Argento, le guérisseur-empoisonneur`,
+        en: ``,
+      },
+      description: {
+        fr: `Argento est un guérisseur qui a fait ses preuves sur le champ de bataille lors de la guerre contre le Royaume aux Neuf Déserts. D'aucun n'a remarqué que ses remèdes pouvaient aussi se révéler être de véritables poisons.`,
+        en: ``,
+      },
+    },
+    {
       id: `applicant`,
       name: {
         fr: `Postulant`,
