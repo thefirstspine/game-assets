@@ -15,7 +15,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'asap',
     destinies: ['conjurer', 'summoner', 'sorcerer', 'hunter'],
-    origins: ['healer'/*, 'architect', 'priest', 'smith'*/],
+    origins: ['healer', 'architect'/*, 'priest', 'smith'*/],
     players: [
       { x: 3, y: 0 },
       { x: 3, y: 6 },
@@ -46,6 +46,14 @@ export default function(): IGameType {
 
     if (currentCycle.id === 'great-ancient-2020') {
       classicGameType.origins = ['healer'];
+    }
+
+    if (currentCycle.id === 'treasure-2020') {
+      classicGameType.description = {
+        fr: `Durant le cycle du Trésor, vous trouverez des galions d'or. Chaque carte "Galion d'or" dans votre main à la fin de la partie vous apportera de la monnaie à échanger dans la boutique !`,
+        en: ``,
+      };
+      classicGameType.origins = ['healer', 'architect'];
     }
   }
 
