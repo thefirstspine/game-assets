@@ -16,7 +16,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'ranked',
     destinies: ['conjurer', 'hunter', 'sorcerer', 'summoner'],
-    origins: ['healer'/*, 'architect', 'priest', 'smith'*/],
+    origins: ['healer', 'architect'/*, 'priest', 'smith'*/],
     availableShieldsPerCycle: 1,
     maxGamesPerCycle: 3,
     players: [
@@ -76,6 +76,28 @@ export default function(): IGameType {
         {name: 'holo-great-ancient-egg', num: 1},
         {name: 'premium-great-ancient-egg', num: 1},
         {name: 'great-ancient-mark', num: 1},
+      ]);
+    }
+
+    if (currentCycle.id === 'treasure-2020') {
+      tournamentBaseData.availableShieldsPerCycle = 3;
+      tournamentBaseData.origins = ['healer'];
+      tournamentBaseData.name = {
+        fr: `Tournoi du Trésor`,
+        en: ``,
+      };
+      tournamentBaseData.description = {
+        fr: `Le tournoi du Trésor est ouvert ! Chaque victoire vous rapportera des galions à échanger dans la boutique. Les corsaires vous laisseront 3 chances avant de vous interdir l'accès au tournoi.`,
+        en: ``,
+      };
+      tournamentBaseData.loots.defeat.push(...[
+        {name: 'holo-golden-galleon', num: 1},
+        {name: 'treasure-mark', num: 1},
+      ]);
+      tournamentBaseData.loots.victory.push(...[
+        {name: 'holo-golden-galleon', num: 1},
+        {name: 'premium-golden-galleon', num: 1},
+        {name: 'treasure-mark', num: 1},
       ]);
     }
   }

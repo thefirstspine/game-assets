@@ -51,6 +51,9 @@ import theReturn from './cards/the-return.card';
 import cureCard from './cards/cure';
 import guardianCard from './cards/guardian.card';
 import caduceusCard from './cards/caduceus.card';
+import theVoidCard from './cards/the-void.card';
+import jellyfishCard from './cards/jellyfish.card';
+import pocketVolcanoCard from './cards/pocketVolcano.card';
 
 export class CardsLibrary {
 
@@ -92,6 +95,9 @@ export class CardsLibrary {
     cureCard,
     guardianCard,
     caduceusCard,
+    theVoidCard,
+    jellyfishCard,
+    pocketVolcanoCard,
     // Curse
     curseOfMaraCard,
     // Collection

@@ -51,7 +51,7 @@ export class CyclesLibrary {
         en: ``,
       },
       description: {
-        fr: ``,
+        fr: `Des mers du sud nous sont parvenus les corsaires sanguinaires et sans scrupule. Ils recherchent de mystérieux galions d'or disséminés dans tout le Royaume. Vous pouvez en récolter en tournoi ou en partie classique, et les échanger dans la boutique !`,
         en: ``,
       },
       timestampFrom: (new Date('2020-06-12 17:00:00')).getTime() / 1000,

@@ -228,6 +228,26 @@ export class DecksLibrary {
         CardsLibrary.find('caduceus'),
       ],
     },
+    {
+      id: `architect`,
+      type: 'origin',
+      name: {
+        en: ``,
+        fr: `Architecte`,
+      },
+      description: {
+        en: ``,
+        fr: ``,
+      },
+      cards: [
+        CardsLibrary.find('the-void'),
+        CardsLibrary.find('the-void'),
+        CardsLibrary.find('jellyfish'),
+        CardsLibrary.find('jellyfish'),
+        CardsLibrary.find('pocket-volcano'),
+        CardsLibrary.find('pocket-volcano'),
+      ],
+    },
   ];
 
   static find(id: string): IDeck|undefined {

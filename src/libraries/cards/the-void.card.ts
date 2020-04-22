@@ -1,11 +1,11 @@
 import { ICard } from '../../@shared/rest-shared/card';
 
 // tslint:disable: max-line-length
-const cureCard: ICard = {
-  id: `cure`,
+const theVoidCard: ICard = {
+  id: `the-void`,
   text: {
     en: ``,
-    fr: `Le {wizard}sorcier{/wizard} gagne {life}2{/life} sans excéder la valeur initiale.`,
+    fr: `Détruisez une {creature}créature{/creature} ou un {artifact}artefact{/artifact} et placez une case Fosse à la place.`,
   },
   lore: {
     en: ``,
@@ -14,9 +14,9 @@ const cureCard: ICard = {
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
     en: ``,
-    fr: `Remède`,
+    fr: `Le Vide`,
   },
   type: 'spell',
 };
 
-export default cureCard;
+export default theVoidCard;

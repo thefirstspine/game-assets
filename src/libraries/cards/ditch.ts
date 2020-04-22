@@ -15,7 +15,7 @@ const ditchCard: ICard = {
   imageUrl: `https://static.thefirstspine.fr/ditch.png`,
   name: {
     en: ``,
-    fr: `Terre brûlée`,
+    fr: `Fosse`,
   },
   type: 'square',
 };

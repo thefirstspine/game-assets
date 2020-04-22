@@ -15,7 +15,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'asap',
     destinies: ['conjurer', 'summoner', 'sorcerer', 'hunter'],
-    origins: ['healer'/*, 'architect', 'priest', 'smith'*/],
+    origins: ['healer', 'architect'/*, 'priest', 'smith'*/],
     players: [
       { x: 3, y: 0 },
       { x: 3, y: 6 },
@@ -47,14 +47,32 @@ export default function(): IGameType {
     if (currentCycle.id === 'great-ancient-2020') {
       classicGameType.origins = ['healer'];
     }
+
+    if (currentCycle.id === 'treasure-2020') {
+      classicGameType.description = {
+        fr: `Durant le cycle du Trésor, vous trouverez des galions d'or. Chaque carte "Galion d'or" dans votre main à la fin de la partie vous apportera de la monnaie à échanger dans la boutique !`,
+        en: ``,
+      };
+      classicGameType.origins = ['healer', 'architect'];
+    }
   }
 
-  const day = (new Date()).getUTCDay();
+  const dayOfWeek = (new Date()).getUTCDay();
   const hour = (new Date()).getUTCHours();
+  const dayOfMonth = (new Date()).getUTCDate();
+  const month = (new Date()).getUTCMonth();
   if (currentCycle.id === 'renewal-2020') {
-    if (day === 3 && (hour >= 12 && hour <= 20)) {
+    if (dayOfWeek === 3 && (hour >= 12 && hour <= 20)) {
       classicGameType.loots.defeat.find((loot: ILoot) => loot.name === 'shard').num *= 3;
       classicGameType.loots.victory.find((loot: ILoot) => loot.name === 'shard').num *= 3;
+    }
+  }
+  if (currentCycle.id === 'great-ancient-2020') {
+    if (dayOfMonth === 17 && month === 4 && (hour >= 10 && hour <= 20)) {
+      classicGameType.origins.push('architect');
+    }
+    if (dayOfMonth === 27 && month === 4 && (hour >= 10 && hour <= 20)) {
+      classicGameType.origins.push('architect');
     }
   }
 
