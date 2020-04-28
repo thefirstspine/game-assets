@@ -106,6 +106,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'holo-soul-of-a-sacrified-hunter', num: 1},
           ],
+          oneTimePurchase: true,
         },
         {
           id: 'holo-hunter',
@@ -125,6 +126,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'holo-hunter', num: 1},
           ],
+          oneTimePurchase: true,
         },
         {
           id: 'style-nostalgy',
@@ -144,6 +146,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'style-nostalgy', num: 1},
           ],
+          oneTimePurchase: true,
         },
       );
     }
@@ -168,6 +171,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'holo-deadly-viper', num: 1},
           ],
+          oneTimePurchase: true,
         },
         {
           id: 'holo-summoner',
@@ -187,6 +191,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'holo-summoner', num: 1},
           ],
+          oneTimePurchase: true,
         },
         {
           id: 'style-scales',
@@ -206,6 +211,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'style-scales', num: 1},
           ],
+          oneTimePurchase: true,
         },
         {
           id: 'cover-hunter',
@@ -225,6 +231,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'cover-hunter', num: 1},
           ],
+          oneTimePurchase: true,
         },
         {
           id: 'cover-summoner',
@@ -244,6 +251,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'cover-summoner', num: 1},
           ],
+          oneTimePurchase: true,
         },
       );
     }
