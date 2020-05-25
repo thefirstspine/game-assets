@@ -54,6 +54,7 @@ import caduceusCard from './cards/caduceus.card';
 import theVoidCard from './cards/the-void.card';
 import jellyfishCard from './cards/jellyfish.card';
 import pocketVolcanoCard from './cards/pocketVolcano.card';
+import goldenGalleonCard from './cards/golden-galleon.card';
 
 export class CardsLibrary {
 
@@ -113,6 +114,7 @@ export class CardsLibrary {
     ovilCard,
     applicantCard,
     theReturn,
+    goldenGalleonCard,
     // Squares
     burdenEarthCard,
     ditchCard,
