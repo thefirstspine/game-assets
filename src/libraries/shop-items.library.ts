@@ -85,6 +85,72 @@ export class ShopItemsLibrary {
     ];
 
     const index: number = CyclesLibrary.currentNum();
+    const cycle: ICycle = CyclesLibrary.current();
+    if (cycle.id === 'treasure-2020') {
+      // Add exchanges in featured & seasonial
+      shopItems.push(
+        {
+          id: 'exchange-galleons',
+          name: {
+            fr: `Echange aux Corsaires`,
+            en: ``,
+          },
+          description: {
+            fr: `Echange 5 gallions d'or contre 10 éclats de mana.`,
+            en: ``,
+          },
+          categories: ['seasonial', 'featured'],
+          price: {
+            num: 5,
+            currency: 'golden-galleon',
+          },
+          loots: [
+            {name: 'shard', num: 10},
+          ],
+          oneTimePurchase: false,
+        },
+        {
+          id: 'cover-corsair',
+          name: {
+            fr: `Protège-cartes Corsaire`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie des Corsaires.`,
+            en: ``,
+          },
+          categories: ['seasonial', 'featured'],
+          price: {
+            num: 50,
+            currency: 'golden-galleon',
+          },
+          loots: [
+            {name: 'cover-corsair', num: 1},
+          ],
+          oneTimePurchase: false,
+        },
+        {
+          id: 'style-corsair',
+          name: {
+            fr: `Style Corsaire`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque le style "Corsaire" sur toutes vos cartes pour leur donner un aspect sauvage.`,
+            en: ``,
+          },
+          categories: ['seasonial', 'featured'],
+          price: {
+            num: 100,
+            currency: 'golden-galleon',
+          },
+          loots: [
+            {name: 'style-corsair', num: 1},
+          ],
+          oneTimePurchase: false,
+        },
+      );
+    }
 
     if (index >= 0) {
       shopItems.push(
