@@ -127,7 +127,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'cover-corsair', num: 1},
           ],
-          oneTimePurchase: false,
+          oneTimePurchase: true,
         },
         {
           id: 'style-corsair',
@@ -147,7 +147,7 @@ export class ShopItemsLibrary {
           loots: [
             {name: 'style-corsair', num: 1},
           ],
-          oneTimePurchase: false,
+          oneTimePurchase: true,
         },
       );
     }
