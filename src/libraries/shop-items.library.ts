@@ -99,7 +99,7 @@ export class ShopItemsLibrary {
             fr: `Echange 5 gallions d'or contre 10 éclats de mana.`,
             en: ``,
           },
-          categories: ['seasonial', 'featured'],
+          categories: ['seasonial', 'shards'],
           price: {
             num: 5,
             currency: 'golden-galleon',
@@ -119,7 +119,7 @@ export class ShopItemsLibrary {
             fr: `Débloque le protège-cartes à l'effigie des Corsaires.`,
             en: ``,
           },
-          categories: ['seasonial', 'featured'],
+          categories: ['seasonial', 'covers'],
           price: {
             num: 50,
             currency: 'golden-galleon',
@@ -139,7 +139,7 @@ export class ShopItemsLibrary {
             fr: `Débloque le style "Corsaire" sur toutes vos cartes pour leur donner un aspect sauvage.`,
             en: ``,
           },
-          categories: ['seasonial', 'featured'],
+          categories: ['seasonial', 'styles'],
           price: {
             num: 100,
             currency: 'golden-galleon',

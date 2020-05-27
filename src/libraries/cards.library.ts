@@ -55,6 +55,9 @@ import theVoidCard from './cards/the-void.card';
 import jellyfishCard from './cards/jellyfish.card';
 import pocketVolcanoCard from './cards/pocketVolcano.card';
 import goldenGalleonCard from './cards/golden-galleon.card';
+import torturerCard from './cards/torturer.card';
+import chimeraCard from './cards/chimera.card';
+import painCard from './cards/pain';
 
 export class CardsLibrary {
 
@@ -99,6 +102,9 @@ export class CardsLibrary {
     theVoidCard,
     jellyfishCard,
     pocketVolcanoCard,
+    torturerCard,
+    chimeraCard,
+    painCard,
     // Curse
     curseOfMaraCard,
     // Collection
