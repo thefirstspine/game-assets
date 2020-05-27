@@ -4,8 +4,8 @@ import { ICard } from '../../@shared/rest-shared/card';
 const goldenGalleonCard: ICard = {
   id: `golden-galleon`,
   text: {
-    en: `Vous remportez 1 Gallion d’Or si vous avez cette carte dans votre main à la fin de la partie. Cette carte est une carte de collection et ne peut être utilisée que pendant le Cycle du Trésor 2020.`,
-    fr: ``,
+    en: ``,
+    fr: `Vous remportez 1 Gallion d’Or si vous avez cette carte dans votre main à la fin de la partie. Cette carte est une carte de collection et ne peut être utilisée que pendant le Cycle du Trésor 2020.`,
   },
   lore: {
     en: ``,
