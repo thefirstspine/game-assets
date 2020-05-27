@@ -98,6 +98,7 @@ export default function(): IGameType {
         {name: 'holo-golden-galleon', num: 1},
         {name: 'premium-golden-galleon', num: 1},
         {name: 'treasure-mark', num: 1},
+        {name: 'golden-galleon', num: 3},
       ]);
     }
   }
