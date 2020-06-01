@@ -15,7 +15,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'asap',
     destinies: ['conjurer', 'summoner', 'sorcerer', 'hunter'],
-    origins: ['healer', 'architect'/*, 'priest', 'smith'*/],
+    origins: ['healer', 'architect', 'priest'],
     players: [
       { x: 3, y: 0 },
       { x: 3, y: 6 },
@@ -68,11 +68,19 @@ export default function(): IGameType {
     }
   }
   if (currentCycle.id === 'great-ancient-2020') {
-    if (dayOfMonth === 17 && month === 4 && (hour >= 10 && hour <= 20)) {
+    if (dayOfMonth === 13 && month === 4 && (hour >= 8 && hour <= 20)) {
       classicGameType.origins.push('architect');
     }
-    if (dayOfMonth === 27 && month === 4 && (hour >= 10 && hour <= 20)) {
+    if (dayOfMonth === 27 && month === 4 && (hour >= 8 && hour <= 20)) {
       classicGameType.origins.push('architect');
+    }
+  }
+  if (currentCycle.id === 'treasure-2020') {
+    if (dayOfMonth === 24 && month === 5 && (hour >= 8 && hour <= 20)) {
+      classicGameType.origins.push('priest');
+    }
+    if (dayOfMonth === 8 && month === 6 && (hour >= 8 && hour <= 20)) {
+      classicGameType.origins.push('priest');
     }
   }
 

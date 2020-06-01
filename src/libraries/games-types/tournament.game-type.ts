@@ -16,7 +16,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'ranked',
     destinies: ['conjurer', 'hunter', 'sorcerer', 'summoner'],
-    origins: ['healer', 'architect'/*, 'priest', 'smith'*/],
+    origins: ['healer', 'architect', 'priest'],
     availableShieldsPerCycle: 1,
     maxGamesPerCycle: 3,
     players: [
@@ -81,7 +81,7 @@ export default function(): IGameType {
 
     if (currentCycle.id === 'treasure-2020') {
       tournamentBaseData.availableShieldsPerCycle = 3;
-      tournamentBaseData.origins = ['healer'];
+      tournamentBaseData.origins = ['healer', 'architect'];
       tournamentBaseData.name = {
         fr: `Tournoi du Trésor`,
         en: ``,
