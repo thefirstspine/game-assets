@@ -1,10 +1,12 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import env from './@shared/env-shared/env';
 
 async function bootstrap() {
+  // Load dotenv config
+  require('dotenv').config();
+
   const app = await NestFactory.create(AppModule);
   app.enableCors();
-  await app.listen(env.dist ? env.config.PORT : 2405);
+  await app.listen(process.env.PORT);
 }
 bootstrap();
