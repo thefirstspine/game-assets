@@ -248,6 +248,26 @@ export class DecksLibrary {
         CardsLibrary.find('pocket-volcano'),
       ],
     },
+    {
+      id: `priest`,
+      type: 'origin',
+      name: {
+        en: ``,
+        fr: `Prêtre`,
+      },
+      description: {
+        en: ``,
+        fr: ``,
+      },
+      cards: [
+        CardsLibrary.find('torturer'),
+        CardsLibrary.find('torturer'),
+        CardsLibrary.find('chimera'),
+        CardsLibrary.find('chimera'),
+        CardsLibrary.find('pain'),
+        CardsLibrary.find('pain'),
+      ],
+    },
   ];
 
   static find(id: string): IDeck|undefined {

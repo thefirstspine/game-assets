@@ -1,5 +1,5 @@
 import { CyclesLibrary } from './cycles.library';
-import { IShopItem } from 'src/@shared/rest-shared/entities';
+import { IShopItem, ICycle } from 'src/@shared/rest-shared/entities';
 
 // tslint:disable: max-line-length
 export class ShopItemsLibrary {
@@ -85,6 +85,72 @@ export class ShopItemsLibrary {
     ];
 
     const index: number = CyclesLibrary.currentNum();
+    const cycle: ICycle = CyclesLibrary.current();
+    if (cycle.id === 'treasure-2020') {
+      // Add exchanges in featured & seasonial
+      shopItems.push(
+        {
+          id: 'exchange-galleons',
+          name: {
+            fr: `Echange aux Corsaires`,
+            en: ``,
+          },
+          description: {
+            fr: `Echange 5 gallions d'or contre 10 éclats de mana.`,
+            en: ``,
+          },
+          categories: ['seasonial', 'shards'],
+          price: {
+            num: 5,
+            currency: 'golden-galleon',
+          },
+          loots: [
+            {name: 'shard', num: 10},
+          ],
+          oneTimePurchase: false,
+        },
+        {
+          id: 'cover-corsair',
+          name: {
+            fr: `Protège-cartes Corsaire`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie des Corsaires.`,
+            en: ``,
+          },
+          categories: ['seasonial', 'covers'],
+          price: {
+            num: 50,
+            currency: 'golden-galleon',
+          },
+          loots: [
+            {name: 'cover-corsair', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'style-corsair',
+          name: {
+            fr: `Style Corsaire`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque le style "Corsaire" sur toutes vos cartes pour leur donner un aspect sauvage.`,
+            en: ``,
+          },
+          categories: ['seasonial', 'styles'],
+          price: {
+            num: 100,
+            currency: 'golden-galleon',
+          },
+          loots: [
+            {name: 'style-corsair', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+      );
+    }
 
     if (index >= 0) {
       shopItems.push(
@@ -250,6 +316,91 @@ export class ShopItemsLibrary {
           },
           loots: [
             {name: 'cover-summoner', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+      );
+    }
+
+    if (index >= 2) {
+      shopItems.push(
+        {
+          id: 'holo-shadows-banner',
+          name: {
+            fr: `Bannière des Ombres holo`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque la version holographique numérique de Bannière des Ombres. Cet article est également une récompense à la participation au tournois pendant le Cycle du Trésor 2020.`,
+            en: ``,
+          },
+          categories: index === 2 ? ['holos', 'featured'] : ['holos'],
+          price: {
+            num: 100,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'holo-shadows-banner', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'holo-conjurer',
+          name: {
+            fr: `Illusionniste holo`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque la version holographique numérique de Illusionniste`,
+            en: ``,
+          },
+          categories: index === 2 ? ['holos', 'featured'] : ['holos'],
+          price: {
+            num: 100,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'holo-conjurer', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'style-cartographer',
+          name: {
+            fr: `Style cartographe`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque le style "Cartographe" sur toutes vos cartes pour vous aider à vous repérer dans le ciel d'Exodia.`,
+            en: ``,
+          },
+          categories: index === 2 ? ['styles', 'featured'] : ['styles'],
+          price: {
+            num: 250,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'style-cartographer', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'cover-conjurer',
+          name: {
+            fr: `Protège-cartes Invocateur`,
+            en: ``,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie de l'Illusionniste.`,
+            en: ``,
+          },
+          categories: index === 2 ? ['covers', 'featured'] : ['covers'],
+          price: {
+            num: 150,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'cover-conjurer', num: 1},
           ],
           oneTimePurchase: true,
         },

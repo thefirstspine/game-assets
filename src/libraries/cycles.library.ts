@@ -60,7 +60,7 @@ export class CyclesLibrary {
         {name: 'holo-shadows-banner', num: 1},
       ],
       rewardsForWinner: [
-        {name: 'holo-shadows-banner', num: 1},
+        {name: 'holo-conjurer', num: 1},
         {name: 'premium-conjurer', num: 1},
       ],
     },
