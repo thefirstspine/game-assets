@@ -1,4 +1,4 @@
-import { IGameType } from '../../@shared/rest-shared/entities';
+import { IGameType } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 export default function(): IGameType {

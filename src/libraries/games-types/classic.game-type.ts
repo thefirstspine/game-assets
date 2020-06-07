@@ -1,4 +1,4 @@
-import { IGameType, ILoot } from '../../@shared/rest-shared/entities';
+import { IGameType, ILoot } from '@thefirstspine/types-rest';
 import { CyclesLibrary } from '../cycles.library';
 
 // tslint:disable: max-line-length

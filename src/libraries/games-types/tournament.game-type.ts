@@ -1,4 +1,4 @@
-import { IGameType, ILoot } from '../../@shared/rest-shared/entities';
+import { IGameType, ILoot } from '@thefirstspine/types-rest';
 import classicGameType from './classic.game-type';
 import { CyclesLibrary } from '../cycles.library';
 

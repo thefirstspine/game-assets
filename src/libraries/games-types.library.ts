@@ -2,7 +2,7 @@ import quickGameType from './games-types/quick.game-type';
 import classicGameType from './games-types/classic.game-type';
 import tournamentGameType from './games-types/tournament.game-type';
 import fpeGameType from './games-types/fpe.game-type';
-import { IGameType } from 'src/@shared/rest-shared/entities';
+import { IGameType } from '@thefirstspine/types-rest';
 
 export class GamesTypesLibrary {
 

@@ -27,7 +27,7 @@ import burdenEarthCard from './cards/burden-earth';
 import ditchCard from './cards/ditch';
 import lavaCard from './cards/lava';
 import waterCard from './cards/water';
-import { ICard } from '../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 import conjurerCard from './cards/conjurer.card';
 import sorcererCard from './cards/sorcerer.card';
 import theWallCard from './cards/the-wall.card';

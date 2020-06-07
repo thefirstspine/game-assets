@@ -1,4 +1,4 @@
-import { IRank } from '../@shared/rest-shared/entities';
+import { IRank } from '@thefirstspine/types-rest';
 
 export class RanksLibrary {
 

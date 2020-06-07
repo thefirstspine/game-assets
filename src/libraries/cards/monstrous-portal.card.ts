@@ -1,4 +1,4 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const monstrousPortalCard: ICard = {

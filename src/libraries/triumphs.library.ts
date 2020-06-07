@@ -1,4 +1,4 @@
-import { ITriumph } from '../@shared/rest-shared/entities';
+import { ITriumph } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 export class TriumphsLibrary {

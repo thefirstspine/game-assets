@@ -1,4 +1,4 @@
-import { ICycle } from '../@shared/rest-shared/entities';
+import { ICycle } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 export class CyclesLibrary {
@@ -15,7 +15,7 @@ export class CyclesLibrary {
         en: ``,
       },
       timestampFrom: 0,
-      timestampTo: (new Date('2020-05-01 14:59:59')).getTime() / 1000,
+      timestampTo: 0,
       rewardsForPlayers: [
         {name: 'holo-soul-of-a-sacrified-hunter', num: 1},
       ],
@@ -34,8 +34,8 @@ export class CyclesLibrary {
         fr: `Les Grands Anciens sont à la fête ! Célébrez ces créatures disparues dans un tournoi sans pitié et remportez la carte prémium de l'invocateur.`,
         en: ``,
       },
-      timestampFrom: (new Date('2020-05-01 15:00:00')).getTime() / 1000,
-      timestampTo: (new Date('2020-06-12 14:59:59')).getTime() / 1000,
+      timestampFrom: 0,
+      timestampTo: 0,
       rewardsForPlayers: [
         {name: 'holo-deadly-viper', num: 1},
       ],
@@ -54,7 +54,7 @@ export class CyclesLibrary {
         fr: `Des mers du sud nous sont parvenus les corsaires sanguinaires et sans scrupule. Ils recherchent de mystérieux galions d'or disséminés dans tout le Royaume. Vous pouvez en récolter en tournoi ou en partie classique, et les échanger dans la boutique !`,
         en: ``,
       },
-      timestampFrom: (new Date('2020-06-12 15:00:00')).getTime() / 1000,
+      timestampFrom: 0,
       timestampTo: (new Date('2020-07-24 14:59:59')).getTime() / 1000,
       rewardsForPlayers: [
         {name: 'holo-shadows-banner', num: 1},

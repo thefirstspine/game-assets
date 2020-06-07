@@ -1,4 +1,4 @@
-import { IGameType } from '../../@shared/rest-shared/entities';
+import { IGameType } from '@thefirstspine/types-rest';
 import classicGameType from './classic.game-type';
 
 const quickGameType: IGameType = {

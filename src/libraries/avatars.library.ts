@@ -1,4 +1,4 @@
-import { IAvatar } from '../@shared/rest-shared/entities';
+import { IAvatar } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 export class AvatarsLibrary {

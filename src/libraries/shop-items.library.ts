@@ -1,5 +1,5 @@
 import { CyclesLibrary } from './cycles.library';
-import { IShopItem, ICycle } from 'src/@shared/rest-shared/entities';
+import { IShopItem, ICycle } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 export class ShopItemsLibrary {
