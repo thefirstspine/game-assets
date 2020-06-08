@@ -8,12 +8,12 @@ export class DecksLibrary {
       id: `hunter`,
       type: 'destiny',
       name: {
-        en: ``,
+        en: `Hunter`,
         fr: `Chasseur`,
       },
       description: {
-        en: ``,
-        fr: ``,
+        en: `The Hunter has all the assets to track down the wizards of Exodia and is not specialized in any field. Using the weapons of his opponents is his specialty.`,
+        fr: `Le Chasseur dispose de tous les atouts pour traquer les sorciers d'Exodia et n'est spécialisé dans aucun domaine. Utiliser les armes de ses adversaires est sa spécialité.`,
       },
       cards: [
         CardsLibrary.find('putrefaction'),
@@ -59,12 +59,12 @@ export class DecksLibrary {
       id: `conjurer`,
       type: 'destiny',
       name: {
-        en: ``,
+        en: `Conjurer`,
         fr: `Illusionniste`,
       },
       description: {
-        en: ``,
-        fr: ``,
+        en: `The Conjurer can bring up great artifacts just by thought to generate steadfast defenses. He's specialized in artifacts.`,
+        fr: `L'Illusionniste peut faire apparaître de grands artefacts rien que par la pensée pour engendrer des défenses inébranlables. Il est spécialisé dans les artéfacts.`,
       },
       cards: [
         CardsLibrary.find('putrefaction'),
@@ -110,12 +110,12 @@ export class DecksLibrary {
       id: `summoner`,
       type: 'destiny',
       name: {
-        en: ``,
+        en: `Summoner`,
         fr: `Invocateur`,
       },
       description: {
-        en: ``,
-        fr: ``,
+        en: `The summoner can materialize creatures straight out of the adversaries' nightmares. He's specialized in creatures.`,
+        fr: `L'invocateur peut matérialiser des créatures sorties tout droit des cauchemars de ses adversaires. Il est spécialisé dans les créatures.`,
       },
       cards: [
         CardsLibrary.find('ruin'),
@@ -161,12 +161,12 @@ export class DecksLibrary {
       id: `sorcerer`,
       type: 'destiny',
       name: {
-        en: ``,
+        en: `Sorcerer`,
         fr: `Prestidigitateur`,
       },
       description: {
-        en: ``,
-        fr: ``,
+        en: `Neither summoner nor illusionist, the Sorcerer has powerful spells to thwart the strategies of his opponents. He's specialized in spells.`,
+        fr: `Ni invocateur, ni illusionniste, le Prestidigitateur dispose de puissants sortilèges pour déjouer les stratégies de ses adversaires. Il est spécialisé dans les sortilèges.`,
       },
       cards: [
         CardsLibrary.find('banshee'),
@@ -212,12 +212,12 @@ export class DecksLibrary {
       id: `healer`,
       type: 'origin',
       name: {
-        en: ``,
+        en: `Healer`,
         fr: `Guérisseur`,
       },
       description: {
-        en: ``,
-        fr: ``,
+        en: `The healer has a healing spell and a whole range of defenses.`,
+        fr: `Le guérisseur dispose de sort de soins et de toute une panoplie défensive.`,
       },
       cards: [
         CardsLibrary.find('cure'),
@@ -232,12 +232,12 @@ export class DecksLibrary {
       id: `architect`,
       type: 'origin',
       name: {
-        en: ``,
+        en: `Architect`,
         fr: `Architecte`,
       },
       description: {
-        en: ``,
-        fr: ``,
+        en: `The architect can modify the playing field at will.`,
+        fr: `L'architecte peut modifier le terrain de jeu à sa guise.`,
       },
       cards: [
         CardsLibrary.find('the-void'),
@@ -252,12 +252,12 @@ export class DecksLibrary {
       id: `priest`,
       type: 'origin',
       name: {
-        en: ``,
+        en: `Priest`,
         fr: `Prêtre`,
       },
       description: {
-        en: ``,
-        fr: ``,
+        en: `The Priest knows the pangs of pain and uses it for his own ends.`,
+        fr: `Le Prêtre connaît les affres de la douleur et s'en sert à ses propres fins.`,
       },
       cards: [
         CardsLibrary.find('torturer'),
