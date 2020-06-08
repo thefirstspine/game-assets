@@ -8,22 +8,22 @@ export class TriumphsLibrary {
       id: 'wizzard',
       name: {
         fr: `Sorcier`,
-        en: ``,
+        en: `Wizard`,
       },
       description: {
         fr: `Vous avez obtenu vos pouvoirs de sorcier.`,
-        en: ``,
+        en: `You had your wizard powers`,
       },
     },
     {
       id: 'loyal',
       name: {
         fr: `Loyal`,
-        en: ``,
+        en: `Loyal`,
       },
       description: {
         fr: `Vous avez connu Arena avant le 30 octobre 2019.`,
-        en: ``,
+        en: `You knew Arena before October 30, 2019`,
       },
     },
     /*
@@ -31,22 +31,22 @@ export class TriumphsLibrary {
       id: 'spirit',
       name: {
         fr: `Revenant`,
-        en: ``,
+        en: `Spirit`,
       },
       description: {
         fr: `Vous avez bravé la mort.`,
-        en: ``,
+        en: `You faced the death.`,
       },
     },
     {
       id: 'determined',
       name: {
         fr: `Acharné`,
-        en: ``,
+        en: `Determined`,
       },
       description: {
         fr: `Vous avez combattu pendant 7 jours d'affilé.`,
-        en: ``,
+        en: `You fought for 7 days straight.`,
       },
     },
     */
@@ -54,66 +54,66 @@ export class TriumphsLibrary {
       id: 'conjurer',
       name: {
         fr: `Illusionniste`,
-        en: ``,
+        en: `Conjurer`,
       },
       description: {
         fr: `Vous avez gagné un match en tant qu'Illusionniste.`,
-        en: ``,
+        en: `You won a match as a Conjurer.`,
       },
     },
     {
       id: 'summoner',
       name: {
         fr: `Invocateur`,
-        en: ``,
+        en: `Summoner`,
       },
       description: {
         fr: `Vous avez gagné un match en tant qu'Invocateur.`,
-        en: ``,
+        en: `You won a match as a Summoner.`,
       },
     },
     {
       id: 'sorcerer',
       name: {
         fr: `Prestidigitateur`,
-        en: ``,
+        en: `Sorcerer`,
       },
       description: {
         fr: `Vous avez gagné un match en tant que Prestidigitateur.`,
-        en: ``,
+        en: `You won a match as a Sorcerer.`,
       },
     },
     {
       id: 'hunter',
       name: {
         fr: `Chasseur`,
-        en: ``,
+        en: `Hunter`,
       },
       description: {
         fr: `Vous avez gagné un match en tant que Chasseur.`,
-        en: ``,
+        en: `You won a match as a Hunter.`,
       },
     },
     {
       id: 'silentist',
       name: {
         fr: `Taiseur`,
-        en: ``,
+        en: `Silentist`,
       },
       description: {
         fr: `Vous avez battu Rhosior en combat singulier.`,
-        en: ``,
+        en: `You beat Rhosior in combat.`,
       },
     },
     {
       id: 'predator',
       name: {
         fr: `Prédateur`,
-        en: ``,
+        en: `Predator`,
       },
       description: {
         fr: `Vous avez battu Adovius en combat singulier.`,
-        en: ``,
+        en: `You beat Adovius in combat.`,
       },
     },
   ];
