@@ -8,13 +8,13 @@ const barbersCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« I challenge you to cross them. »\n- Blase-the-blasted.`,
     fr: `« Je vous défie de les franchir. »\n- Olivier-le-fou-droyé.`,
   },
   art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/barbers.png`,
   name: {
-    en: ``,
+    en: `Barbers`,
     fr: `Barbelés`,
   },
   stats: {

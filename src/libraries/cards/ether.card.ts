@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const alterTheFateCard: ICard = {
   id: `ether`,
   text: {
-    en: ``,
-    fr: `Vous pouvez jouer un {spell}sortilège{/spell} supplémentaire.`,
+    en: `You can play two additional {spell}spells{/spell}`,
+    fr: `Vous pouvez jouer deux {spell}sortilèges{/spell} supplémentaires.`,
   },
   lore: {
     en: ``,
@@ -13,7 +13,7 @@ const alterTheFateCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/ether.png`,
   name: {
-    en: ``,
+    en: `Ether`,
     fr: `Ether`,
   },
   type: 'spell',

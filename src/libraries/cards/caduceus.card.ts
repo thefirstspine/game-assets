@@ -4,7 +4,7 @@ import { ICard } from '@thefirstspine/types-rest';
 const caduceusCard: ICard = {
   id: `caduceus`,
   text: {
-    en: ``,
+    en: `As long as the Caduceus is on the game board you win {defense}1{/defense}`,
     fr: `Tant que le Caducée est sur le plateau de jeu vous gagnez {defense}1{/defense}`,
   },
   lore: {
@@ -13,7 +13,7 @@ const caduceusCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Caduceus`,
     fr: `Caducée`,
   },
   stats: {

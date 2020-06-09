@@ -8,12 +8,12 @@ const gargoyleCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« This thing from Elsewhere. »\n- Merlin, Exodia's latest scholar.`,
     fr: `« Cette chose, venue d'Ailleurs. »\n- Merlin, dernier érudit d'Exodia.`,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Gargoyle`,
     fr: `Gargouille`,
   },
   stats: {

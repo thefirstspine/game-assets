@@ -4,7 +4,7 @@ import { ICard } from '@thefirstspine/types-rest';
 const chimeraCard: ICard = {
   id: `chimera`,
   text: {
-    en: ``,
+    en: `When it arrives on the game board, this card gains {strength}1{/strength} for each hit point you miss.`,
     fr: `Lorsqu'elle arrive sur le plateau de jeu cette carte gagne {strength}1{/strength} pour chaque point de vie dont vous manquez.`,
   },
   lore: {
@@ -14,7 +14,7 @@ const chimeraCard: ICard = {
   art: '',
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Chimera`,
     fr: `Chimère`,
   },
   stats: {

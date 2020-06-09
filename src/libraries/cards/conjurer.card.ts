@@ -8,7 +8,7 @@ const conjurerCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« Only machicolations are missing on this Tower to be perfect. »\n- A Conjurer`,
     fr: `« Il ne manque plus que des machicoulis et cette Tour sera parfaite. »\n- Un Illusionniste`,
   },
   art: 'Maylhine',

@@ -4,16 +4,16 @@ import { ICard } from '@thefirstspine/types-rest';
 const conjurerSouvenirCard: ICard = {
   id: `conjurer-souvenir`,
   text: {
-    en: ``,
+    en: `This card is a collection card can only be played during the Cycle of Souvenirs.`,
     fr: `Cette carte est une carte de collection ne peut être jouée que pendant le Cycle des Souvenirs.`,
   },
   lore: {
-    en: ``,
+    en: `« N/A »\n- A Conjurer`,
     fr: `« N/A »\n- Un Illusionniste`,
   },
   imageUrl: `https://static.thefirstspine.fr/conjurer-souvenir.png`,
   name: {
-    en: ``,
+    en: `Souvenir of a Conjurer`,
     fr: `Souvenir d'un Illusionniste`,
   },
   stats: {

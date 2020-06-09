@@ -8,7 +8,7 @@ const growingOakCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« It grows and grows. And one day he will be strong enough for their purposes. »\n- Merlin, the last scholar from Exodia.`,
     fr: `« Il croît et grandit. Et un jour, il sera assez fort pour leurs desseins. »\n- Merlin, dernier érudit d'Exodia.`,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,

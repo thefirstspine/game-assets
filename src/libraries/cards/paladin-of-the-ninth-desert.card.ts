@@ -8,12 +8,12 @@ const paladinOfTheNinthDesertCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« The Paladin, as loyal as a loose woman. »\n- Argento the healer.`,
     fr: `« Le Paladin, aussi fidèle qu'une fille de joie. »\n- Le guérisseur Argento.`,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Paladin of the Ninth Desert`,
     fr: `Paladin du Neuvième Désert`,
   },
   stats: {

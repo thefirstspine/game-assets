@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const ditchCard: ICard = {
   id: `ditch`,
   text: {
-    en: ``,
-    fr: `Aucune carte ne peut être posée sur cette case`,
+    en: `No card can be placed here.`,
+    fr: `Aucune carte ne peut être posée sur cette case.`,
   },
   lore: {
     en: ``,
@@ -14,7 +14,7 @@ const ditchCard: ICard = {
   art: 'Teddy Gandon',
   imageUrl: `https://static.thefirstspine.fr/ditch.png`,
   name: {
-    en: ``,
+    en: `Pit`,
     fr: `Fosse`,
   },
   type: 'square',

@@ -4,16 +4,16 @@ import { ICard } from '@thefirstspine/types-rest';
 const hunterSouvenirCard: ICard = {
   id: `hunter-souvenir`,
   text: {
-    en: ``,
+    en: `This card is a collection card can only be played during the Cycle of Souvenirs.`,
     fr: `Cette carte est une carte de collection ne peut être jouée que pendant le Cycle des Souvenirs.`,
   },
   lore: {
-    en: ``,
+    en: `« N/A »\n- A Hunter`,
     fr: `« N/A »\n- Un Chasseur`,
   },
   imageUrl: `https://static.thefirstspine.fr/hunter-souvenir.png`,
   name: {
-    en: ``,
+    en: `Souvenir of a Hunter`,
     fr: `Souvenir d'un Chasseur`,
   },
   stats: {

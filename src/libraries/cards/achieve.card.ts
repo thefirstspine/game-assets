@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const achieveCard: ICard = {
   id: `achieve`,
   text: {
-    en: ``,
-    fr: `Détruisez une {creature}créature{/creature} ou un {artifact}artefact{/artifact} qui n'a pas son total de points de vie.`,
+    en: `Destroy a {creature}creature{/creature} or an {artifact}artifact{/artifact} that has not its all hit points.`,
+    fr: `Détruisez une {creature}créature{/creature} ou un {artifact}artéfact{/artifact} qui n'a pas son total de points de vie.`,
   },
   lore: {
     en: ``,
@@ -13,7 +13,7 @@ const achieveCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Achieve`,
     fr: `Achèvement`,
   },
   type: 'spell',

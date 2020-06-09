@@ -4,7 +4,7 @@ import { ICard } from '@thefirstspine/types-rest';
 const applicantCard: ICard = {
   id: `applicant`,
   text: {
-    en: ``,
+    en: `This card is a collection card can only be played during the First Game Experience`,
     fr: `Cette carte est une carte de collection ne peut être jouée que pendant la Première Expérience de Jeu.`,
   },
   lore: {

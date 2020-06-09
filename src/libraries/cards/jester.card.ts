@@ -4,11 +4,11 @@ import { ICard } from '@thefirstspine/types-rest';
 const jesterCard: ICard = {
   id: `jester`,
   text: {
-    en: ``,
+    en: `Each Jester wins {strength}2{/strength} on all sides for each Jester on the game board.`,
     fr: `Chaque Bouffon gagne {strength}2{/strength} sur tous leurs côtés pour chaque Bouffon sur le plateau de jeu`,
   },
   lore: {
-    en: ``,
+    en: `« More the jester, the jester. »\n- Unknown author`,
     fr: `« Plus on est de bouffons... »\n- Auteur inconnu`,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,

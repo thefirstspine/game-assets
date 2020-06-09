@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const monstrousPortalCard: ICard = {
   id: `monstrous-portal`,
   text: {
-    en: ``,
-    fr: `A chaque fois que cette carte perd {life}1{/life} vous pouvez placer une carte autour de n'importe quel Portail Monstrueux que vous contrôlez`,
+    en: `Whenever this card is damaged you can place a card around any Monster Portal you control.`,
+    fr: `A chaque fois que cette carte est blessée vous pouvez placer une carte autour de n'importe quel Portail Monstrueux que vous contrôlez.`,
   },
   lore: {
     en: ``,
@@ -14,7 +14,7 @@ const monstrousPortalCard: ICard = {
   art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/monstrous-portal.png`,
   name: {
-    en: ``,
+    en: `Monstrous Portal`,
     fr: `Portail Monstrueux`,
   },
   stats: {
