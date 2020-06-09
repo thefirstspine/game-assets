@@ -116,6 +116,28 @@ export class TriumphsLibrary {
         en: `You beat Adovius in combat.`,
       },
     },
+    {
+      id: 'constructor',
+      name: {
+        fr: `Constructeur`,
+        en: `Constructor`,
+      },
+      description: {
+        fr: `Vous avez battu Drebus en combat singulier.`,
+        en: `You beat Drebus in combat.`,
+      },
+    },
+    {
+      id: 'poacher',
+      name: {
+        fr: `Braconnier`,
+        en: `Poacher`,
+      },
+      description: {
+        fr: `Vous avez battu Crevior en combat singulier.`,
+        en: `You beat Crevior in combat.`,
+      },
+    },
   ];
 
   static find(id: string): ITriumph|undefined {
