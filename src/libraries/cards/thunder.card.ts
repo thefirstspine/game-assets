@@ -9,7 +9,7 @@ const thunderCard: ICard = {
   },
   art: 'Maylhine',
   lore: {
-    en: ``,
+    en: `« It never falls on the same person twi... »\n- Blase-the-blasted`,
     fr: `« Elle ne tombe jamais deux fois sur la même pers... »\n- Olivier-le-fou-droyé`,
   },
   imageUrl: `https://static.thefirstspine.fr/thunder.png`,

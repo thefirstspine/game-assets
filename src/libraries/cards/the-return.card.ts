@@ -4,7 +4,7 @@ import { ICard } from '@thefirstspine/types-rest';
 const theReturnCard: ICard = {
   id: `the-return`,
   text: {
-    en: ``,
+    en: `April, the 4th`,
     fr: `Le 4 avril.`,
   },
   lore: {
@@ -13,7 +13,7 @@ const theReturnCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `The Return`,
     fr: `Le Retour`,
   },
   type: 'spell',

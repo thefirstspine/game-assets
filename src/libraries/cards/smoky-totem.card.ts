@@ -8,13 +8,13 @@ const smokyTotemCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« Burn. BURN ! »\n- Volk'ha, son of Mara during the battle against the Kingdom of the Nine Deserts.`,
     fr: `« Brûlez. BRÛLEZ ! »\n- Volk'ha, fils de Mara lors de la bataille contre le Royaume aux Neuf Déserts.`,
   },
   art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/smoky-totem.png`,
   name: {
-    en: ``,
+    en: `Smoky Totem`,
     fr: `Totem fûmant`,
   },
   stats: {

@@ -4,7 +4,7 @@ import { ICard } from '@thefirstspine/types-rest';
 const torturerCard: ICard = {
   id: `torturer`,
   text: {
-    en: ``,
+    en: `When this card arrives on the game board, you lose {life}1{/life} and win {strength}1{/strength}.`,
     fr: `Lorsque cette carte arrive sur le plateau de jeu, vous perdez {life}1{/life} et gagnez {strength}1{/strength}.`,
   },
   lore: {
@@ -14,7 +14,7 @@ const torturerCard: ICard = {
   art: '',
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Torturer`,
     fr: `Tortureur`,
   },
   stats: {

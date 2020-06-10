@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const pocketVolcanoCard: ICard = {
   id: `pocket-volcano`,
   text: {
-    en: ``,
-    fr: `Lorsque cette carte est détruite, placez une case Lave à la place`,
+    en: `When this card is destroyed, add a Lava square here.`,
+    fr: `Lorsque cette carte est détruite, placez une case Lave à la place.`,
   },
   lore: {
     en: ``,
@@ -13,7 +13,7 @@ const pocketVolcanoCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Tiny Volcano`,
     fr: `Volcan de Poche`,
   },
   stats: {

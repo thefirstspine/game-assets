@@ -9,12 +9,12 @@ const theTowerCard: ICard = {
   },
   art: 'Maylhine',
   lore: {
-    en: ``,
+    en: `« A stone lady who protects and punishes. »\n- Mara, prophetess of Exodia`,
     fr: `« Une dame de pierre qui protège et punit. »\n- Mara, prophétesse d'Exodia`,
   },
   imageUrl: `https://static.thefirstspine.fr/the-tower.png`,
   name: {
-    en: ``,
+    en: `The Tower`,
     fr: `La Tour`,
   },
   stats: {

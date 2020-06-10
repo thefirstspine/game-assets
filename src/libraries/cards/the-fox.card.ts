@@ -14,7 +14,7 @@ const theFoxCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/the-fox.png`,
   name: {
-    en: ``,
+    en: `The Fox`,
     fr: `Le Renard`,
   },
   stats: {

@@ -4,16 +4,16 @@ import { ICard } from '@thefirstspine/types-rest';
 const volkhaCard: ICard = {
   id: `volkha`,
   text: {
-    en: ``,
+    en: `If this card is destroyed, put it back on the game board around you.`,
     fr: `Si cette carte est détruite, remettez-la sur le plateau de jeu autour de vous.`,
   },
   lore: {
-    en: ``,
+    en: `« Son, from the fire you will live. And from the fire, you will be reborn. »\n- Mara, prophetess of Exodia.`,
     fr: `« Fils, du feu tu vivras. Et du feu, tu renaîtras. »\n- Mara, prophétesse d'Exodia.`,
   },
   imageUrl: `https://static.thefirstspine.fr/volkha.png`,
   name: {
-    en: ``,
+    en: `Volk'ha`,
     fr: `Volk'ha`,
   },
   stats: {
