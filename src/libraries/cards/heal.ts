@@ -13,7 +13,7 @@ const healCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/heal.png`,
   name: {
-    en: ``,
+    en: `Heal`,
     fr: `Soin`,
   },
   type: 'spell',
