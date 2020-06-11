@@ -1,4 +1,4 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const theWallCard: ICard = {
@@ -8,12 +8,12 @@ const theWallCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« A little something to protect you. »\n- Merlin, Exodia's latest scholar.`,
     fr: `« Un petit quelque chose pour vous protéger. »\n- Merlin, dernier érudit d'Exodia.`,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `The Wall`,
     fr: `La Muraille`,
   },
   stats: {

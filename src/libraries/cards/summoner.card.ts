@@ -1,4 +1,4 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const summonerCard: ICard = {
@@ -8,7 +8,7 @@ const summonerCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« It's obvious that a summoner knows the mysteries of life. What about death? »\n- A Hunter`,
     fr: `« Il va de soi qu'un invocateur connaît les arcanes de la vie. Qu'en est-il de la mort ? »\n- Un Chasseur`,
   },
   art: 'Maylhine',

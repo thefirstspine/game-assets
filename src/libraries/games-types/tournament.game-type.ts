@@ -1,4 +1,4 @@
-import { IGameType, ILoot } from '../../@shared/rest-shared/entities';
+import { IGameType, ILoot } from '@thefirstspine/types-rest';
 import classicGameType from './classic.game-type';
 import { CyclesLibrary } from '../cycles.library';
 
@@ -8,11 +8,11 @@ export default function(): IGameType {
     id: 'tournament',
     name: {
       fr: `Tournoi de Mara`,
-      en: ``,
+      en: `Mara's Tournament`,
     },
     description: {
-      fr: `Cédez à l'appel de Mara.`,
-      en: ``,
+      fr: `Mara vous appelle dans ce tournoi sans pitié. Cédez à l'appel de Mara.`,
+      en: `Mara is calling you into this ruthless tournament. Give in to Mara's call.`,
     },
     matchmakingMode: 'ranked',
     destinies: ['conjurer', 'hunter', 'sorcerer', 'summoner'],
@@ -49,11 +49,11 @@ export default function(): IGameType {
       tournamentBaseData.destinies = ['hunter'];
       tournamentBaseData.name = {
         fr: `Tournoi du Renouveau`,
-        en: ``,
+        en: `Renewal Tournament`,
       };
       tournamentBaseData.description = {
         fr: `Un tournoi où tout le monde est à la même enseigne. Mais attention : à la première défaite, vous serez éliminé. Quel sorcier sera le plus valeureux du Cycle du Renouveau 2020 ?`,
-        en: ``,
+        en: `A tournament where everyone has the same asset. But beware: at the first defeat, you will be eliminated. Which wizard will be the most valiant of the Cycle of Renewal 2020?`,
       };
     }
 
@@ -62,11 +62,11 @@ export default function(): IGameType {
       tournamentBaseData.origins = ['healer'];
       tournamentBaseData.name = {
         fr: `Tournoi du Grand Ancien`,
-        en: ``,
+        en: `Great Ancient Tournament`,
       };
       tournamentBaseData.description = {
-        fr: `Des oeufs de Grands Anciens on traversé le temps pour venir jusqu'à nous. Faites-les éclore et emparez-vous de leurs pouvoirs.`,
-        en: ``,
+        fr: `Des oeufs de Grands Anciens ont traversé le temps pour venir jusqu'à nous. Faites-les éclore et emparez-vous de leurs pouvoirs.`,
+        en: `Eggs of the Great Elders have crossed time to come to us. Hatch them and seize their powers.`,
       };
       tournamentBaseData.loots.defeat.push(...[
         {name: 'holo-great-ancient-egg', num: 1},
@@ -84,11 +84,11 @@ export default function(): IGameType {
       tournamentBaseData.origins = ['healer', 'architect'];
       tournamentBaseData.name = {
         fr: `Tournoi du Trésor`,
-        en: ``,
+        en: `Tournament of the Treasure`,
       };
       tournamentBaseData.description = {
         fr: `Le tournoi du Trésor est ouvert ! Chaque victoire vous rapportera des galions à échanger dans la boutique. Les corsaires vous laisseront 3 chances avant de vous interdir l'accès au tournoi.`,
-        en: ``,
+        en: `The Tournament of the Treasure is open! Each victory will bring you galleons to trade in the shop. Corsairs will give you 3 chances before denying you access to the tournament.`,
       };
       tournamentBaseData.loots.defeat.push(...[
         {name: 'holo-golden-galleon', num: 1},

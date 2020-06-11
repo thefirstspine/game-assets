@@ -1,4 +1,4 @@
-import { IGameType } from '../../@shared/rest-shared/entities';
+import { IGameType } from '@thefirstspine/types-rest';
 import classicGameType from './classic.game-type';
 
 const quickGameType: IGameType = {
@@ -6,11 +6,11 @@ const quickGameType: IGameType = {
   id: 'quick',
   name: {
     fr: `Partie rapide`,
-    en: ``,
+    en: `Quick game`,
   },
   description: {
     fr: `Jouez une partie rapide non classée. Parfait pour découvrir le jeu !`,
-    en: ``,
+    en: `Play an unclassified fast game. Perfect for discovering the game!`,
   },
   origins: [],
   destinies: ['conjurer', 'hunter', 'sorcerer', 'summoner'],
@@ -26,11 +26,8 @@ const quickGameType: IGameType = {
   },
   loots: {
     victory: [
-      {name: 'shard', num: 10},
-      {name: 'victory-mark', num: 1},
     ],
     defeat: [
-      {name: 'defeat-mark', num: 1},
     ],
   },
   matchmakingMode: 'asap',

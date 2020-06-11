@@ -1,19 +1,19 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const sorcererSouvenirCard: ICard = {
   id: `sorcerer-souvenir`,
   text: {
-    en: ``,
+    en: `This card is a collection card can only be played during the Cycle of Souvenirs.`,
     fr: `Cette carte est une carte de collection ne peut être jouée que pendant le Cycle des Souvenirs.`,
   },
   lore: {
-    en: ``,
+    en: `« N/A »\n- A Sorcerer`,
     fr: `« N/A »\n- Un Prestidigitateur`,
   },
   imageUrl: `https://static.thefirstspine.fr/sorcerer-souvenir.png`,
   name: {
-    en: ``,
+    en: `Souvenir of a Sorcerer`,
     fr: `Souvenir d'un Prestidigitateur`,
   },
   stats: {

@@ -1,10 +1,10 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const applicantCard: ICard = {
   id: `applicant`,
   text: {
-    en: ``,
+    en: `This card is a collection card can only be played during the First Game Experience`,
     fr: `Cette carte est une carte de collection ne peut être jouée que pendant la Première Expérience de Jeu.`,
   },
   lore: {

@@ -1,11 +1,11 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const replacementCard: ICard = {
   id: `replacement`,
   text: {
-    en: ``,
-    fr: `Détruisez une carte {creature}créature{/creature} ou {artifact}artefact{/artifact} sur le plateau de jeu. Son propriétaire doit poser une carte à la place.`,
+    en: `Destroye a {creature}creature{/creature} or an {artifact}artifact{/artifact} on the game board. Its owner must put a card instead.`,
+    fr: `Détruisez une carte {creature}créature{/creature} ou {artifact}artéfact{/artifact} sur le plateau de jeu. Son propriétaire doit poser une carte à la place.`,
   },
   lore: {
     en: ``,
@@ -13,7 +13,7 @@ const replacementCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/replacement.png`,
   name: {
-    en: ``,
+    en: `Replacement`,
     fr: `Remplacement`,
   },
   type: 'spell',

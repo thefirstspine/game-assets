@@ -1,10 +1,10 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const burdenEarthCard: ICard = {
   id: `burden-earth`,
   text: {
-    en: ``,
+    en: `No card can be placed here during this turn.`,
     fr: `Aucune carte ne peut être posée sur cette case pendant ce tour.`,
   },
   lore: {
@@ -14,7 +14,7 @@ const burdenEarthCard: ICard = {
   art: 'Teddy Gandon',
   imageUrl: `https://static.thefirstspine.fr/burden-earth.png`,
   name: {
-    en: ``,
+    en: `Burder Earth`,
     fr: `Terre brûlée`,
   },
   type: 'square',

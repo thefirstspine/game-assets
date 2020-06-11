@@ -1,4 +1,4 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const sorcererCard: ICard = {
@@ -8,7 +8,7 @@ const sorcererCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« Your fate is mine. »\n- Un Prestidigitateur`,
     fr: `« Ton destin m'appartient. »\n- Un Prestidigitateur`,
   },
   art: 'Maylhine',

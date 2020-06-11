@@ -1,4 +1,4 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const theFoxCard: ICard = {
@@ -14,7 +14,7 @@ const theFoxCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/the-fox.png`,
   name: {
-    en: ``,
+    en: `The Fox`,
     fr: `Le Renard`,
   },
   stats: {

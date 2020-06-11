@@ -1,4 +1,4 @@
-import { IRank } from '../@shared/rest-shared/entities';
+import { IRank } from '@thefirstspine/types-rest';
 
 export class RanksLibrary {
 
@@ -6,12 +6,12 @@ export class RanksLibrary {
     {
       id: `unknown`,
       name: {
-        en: ``,
+        en: `Unknown`,
         fr: `Inconnu`,
       },
       description: {
-        en: ``,
-        fr: `Rang Inconnu`,
+        en: `Unknown`,
+        fr: `Inconnu`,
       },
       min: Number.MIN_SAFE_INTEGER,
       max: 2,
@@ -19,12 +19,12 @@ export class RanksLibrary {
     {
       id: `apprentice`,
       name: {
-        en: ``,
+        en: `Apprentice`,
         fr: `Apprenti`,
       },
       description: {
-        en: ``,
-        fr: `Rang Apprenti`,
+        en: `Apprentice`,
+        fr: `Apprenti`,
       },
       min: 2,
       max: 4,
@@ -32,12 +32,12 @@ export class RanksLibrary {
     {
       id: `wizard`,
       name: {
-        en: ``,
+        en: `Wizard`,
         fr: `Sorcier`,
       },
       description: {
-        en: ``,
-        fr: `Rang Sorcier`,
+        en: `Wizard`,
+        fr: `Sorcier`,
       },
       min: 4,
       max: 8,
@@ -45,12 +45,12 @@ export class RanksLibrary {
     {
       id: `virtuoso`,
       name: {
-        en: ``,
+        en: `Virtuoso`,
         fr: `Virtuose`,
       },
       description: {
-        en: ``,
-        fr: `Rang Virtuose`,
+        en: `Virtuoso`,
+        fr: `Virtuose`,
       },
       min: 8,
       max: 16,
@@ -58,12 +58,12 @@ export class RanksLibrary {
     {
       id: `hero`,
       name: {
-        en: ``,
+        en: `Heroic`,
         fr: `Héroique`,
       },
       description: {
-        en: ``,
-        fr: `Rang Héroique`,
+        en: `Heroic`,
+        fr: `Héroique`,
       },
       min: 16,
       max: 32,
@@ -71,12 +71,12 @@ export class RanksLibrary {
     {
       id: `epic`,
       name: {
-        en: ``,
+        en: `Epic`,
         fr: `Epique`,
       },
       description: {
-        en: ``,
-        fr: `Rang Epique`,
+        en: `Epic`,
+        fr: `Epique`,
       },
       min: 32,
       max: 64,
@@ -84,12 +84,12 @@ export class RanksLibrary {
     {
       id: `mythic`,
       name: {
-        en: ``,
+        en: `Mythic`,
         fr: `Mythique`,
       },
       description: {
-        en: ``,
-        fr: `Rang Mythique`,
+        en: `Mythic`,
+        fr: `Mythique`,
       },
       min: 64,
       max: 128,
@@ -97,12 +97,12 @@ export class RanksLibrary {
     {
       id: `prestige`,
       name: {
-        en: ``,
+        en: `Prestige`,
         fr: `Prestige`,
       },
       description: {
-        en: ``,
-        fr: `Rang Prestige`,
+        en: `Prestige`,
+        fr: `Prestige`,
       },
       min: 128,
       max: 256,
@@ -110,12 +110,12 @@ export class RanksLibrary {
     {
       id: `legend`,
       name: {
-        en: ``,
+        en: `Legend`,
         fr: `Légende`,
       },
       description: {
-        en: ``,
-        fr: `Rang Légende`,
+        en: `Legend`,
+        fr: `Légende`,
       },
       min: 256,
       max: Number.MAX_SAFE_INTEGER,

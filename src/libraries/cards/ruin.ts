@@ -1,19 +1,19 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const ruinCard: ICard = {
   id: `ruin`,
   text: {
-    en: ``,
-    fr: `L'{artifact}artefact{/artifact} perd {life}2{/life}.`,
+    en: `The {artifact}artifact{/artifact} lose {life}2{/life}.`,
+    fr: `L'{artifact}artéfact{/artifact} perd {life}2{/life}.`,
   },
   lore: {
-    en: ``,
+    en: `« They led us to our ruin. »\n- Démence, the first prophet`,
     fr: `« Ils nous ont conduit à notre ruine. »\n- Démence, le premier prophète`,
   },
   imageUrl: `https://static.thefirstspine.fr/ruin.png`,
   name: {
-    en: ``,
+    en: `Ruin`,
     fr: `Ruine`,
   },
   type: 'spell',

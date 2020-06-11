@@ -1,4 +1,4 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const deadlyViperCard: ICard = {
@@ -8,13 +8,13 @@ const deadlyViperCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« There is no God. »\n- Merlin, Exodia's latest scholar.`,
     fr: `« Il n'y a pas de Dieu. »\n- Merlin, dernier érudit d'Exodia.`,
   },
   art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/deadly-viper.png`,
   name: {
-    en: ``,
+    en: `Deadly Viper`,
     fr: `Vipère mortelle`,
   },
   stats: {

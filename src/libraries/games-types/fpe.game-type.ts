@@ -1,16 +1,16 @@
-import { IGameType } from '../../@shared/rest-shared/entities';
+import { IGameType } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 export default function(): IGameType {
   const fpeGameType: IGameType = {
     id: 'fpe',
     name: {
-      fr: `Première expérience de jeu`,
-      en: ``,
+      fr: `Première Expérience de Jeu`,
+      en: `First Game Experience`,
     },
     description: {
       fr: `La Première Expérience de jeu est une partie scriptée idéale pour découvrir les règles du jeu. Vous pouvez choisir une destinée et une origine, mais celles-ci seront remplacées par un deck précalculé.`,
-      en: ``,
+      en: `The First Game Experience is a scripted game ideal for discovering the rules of the game. You can choose a destiny and an origin, but these will be replaced by a precalculated deck.`,
     },
     matchmakingMode: 'asap',
     destinies: ['hunter', 'conjurer', 'sorcerer', 'summoner'],

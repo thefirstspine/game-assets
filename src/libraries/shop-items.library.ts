@@ -1,5 +1,5 @@
 import { CyclesLibrary } from './cycles.library';
-import { IShopItem, ICycle } from 'src/@shared/rest-shared/entities';
+import { IShopItem, ICycle } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 export class ShopItemsLibrary {
@@ -10,11 +10,11 @@ export class ShopItemsLibrary {
         id: '250-shards',
         name: {
           fr: `250 éclats de mana`,
-          en: ``,
+          en: `250 mana shards`,
         },
         description: {
           fr: `250 éclats de mana à ajouter à votre bourse. Vous aurez également droit à un niveau de pledge spécial lors de la campagne de financement participatif. Equivalent en temps de jeu : à peu près 4h.`,
-          en: ``,
+          en: `250 mana shards to add to your purse. You will also be entitled to a special pledge level during the crowdfunding campaign. Equivalent in playing time: approximately 4 hours.`,
         },
         categories: ['shards'],
         price: {
@@ -29,11 +29,11 @@ export class ShopItemsLibrary {
         id: '500-shards',
         name: {
           fr: `500 éclats de mana`,
-          en: ``,
+          en: `500 mana shards`,
         },
         description: {
           fr: `500 éclats de mana à ajouter à votre bourse. Vous aurez également droit à un niveau de pledge spécial lors de la campagne de financement participatif. Equivalent en temps de jeu : à peu près 8h.`,
-          en: ``,
+          en: `500 mana shards to add to your purse. You will also be entitled to a special pledge level during the crowdfunding campaign. Equivalent in playing time: approximately 8 hours.`,
         },
         categories: ['shards', 'featured'],
         price: {
@@ -48,11 +48,11 @@ export class ShopItemsLibrary {
         id: '1000-shards',
         name: {
           fr: `1000 éclats de mana`,
-          en: ``,
+          en: `1000 mana shards`,
         },
         description: {
           fr: `1000 éclats de mana à ajouter à votre bourse. Vous aurez également droit à un niveau de pledge spécial lors de la campagne de financement participatif. Equivalent en temps de jeu : à peu près 16h.`,
-          en: ``,
+          en: `1000 mana shards to add to your purse. You will also be entitled to a special pledge level during the crowdfunding campaign. Equivalent in playing time: approximately 16h.`,
         },
         categories: ['shards'],
         price: {
@@ -67,11 +67,11 @@ export class ShopItemsLibrary {
         id: '2000-shards',
         name: {
           fr: `2000 éclats de mana`,
-          en: ``,
+          en: `2000 mana shards`,
         },
         description: {
           fr: `2000 éclats de mana à ajouter à votre bourse. Vous aurez également droit à un niveau de pledge spécial lors de la campagne de financement participatif. Equivalent en temps de jeu : à peu près 32h.`,
-          en: ``,
+          en: `2000 mana shards to add to your purse. You will also be entitled to a special pledge level during the crowdfunding campaign. Equivalent in playing time: approximately 32 hours.`,
         },
         categories: ['shards'],
         price: {
@@ -93,11 +93,11 @@ export class ShopItemsLibrary {
           id: 'exchange-galleons',
           name: {
             fr: `Echange aux Corsaires`,
-            en: ``,
+            en: `Exchange to Corsairs`,
           },
           description: {
             fr: `Echange 5 gallions d'or contre 10 éclats de mana.`,
-            en: ``,
+            en: `Exchange 5 golden galleons for 10 shards of mana.`,
           },
           categories: ['seasonial', 'shards'],
           price: {
@@ -113,11 +113,11 @@ export class ShopItemsLibrary {
           id: 'cover-corsair',
           name: {
             fr: `Protège-cartes Corsaire`,
-            en: ``,
+            en: `Corsaire sleeve`,
           },
           description: {
             fr: `Débloque le protège-cartes à l'effigie des Corsaires.`,
-            en: ``,
+            en: `Unlocks the Corsair sleeve.`,
           },
           categories: ['seasonial', 'covers'],
           price: {
@@ -133,11 +133,11 @@ export class ShopItemsLibrary {
           id: 'style-corsair',
           name: {
             fr: `Style Corsaire`,
-            en: ``,
+            en: `Corsair Style`,
           },
           description: {
             fr: `Débloque le style "Corsaire" sur toutes vos cartes pour leur donner un aspect sauvage.`,
-            en: ``,
+            en: `Unlock the "Corsair" style on all your cards to give them a wild look.`,
           },
           categories: ['seasonial', 'styles'],
           price: {
@@ -158,11 +158,11 @@ export class ShopItemsLibrary {
           id: 'holo-soul-of-a-sacrified-hunter',
           name: {
             fr: `Âme d'un Chasseur Sacrifié holo`,
-            en: ``,
+            en: `Soul of a Sacrified Hunter holo`,
           },
           description: {
             fr: `Débloque la version holographique numérique de Âme d'un Chasseur Sacrifié. Cet article est également une récompense à la participation au tournois pendant le Cycle du Renouveau 2020.`,
-            en: ``,
+            en: `Unlock the digital holographic version of Soul of a Sacrificed Hunter. This article is also a reward for participating in tournaments during the Cycle of the Renewal 2020.`,
           },
           categories: index === 0 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -178,11 +178,11 @@ export class ShopItemsLibrary {
           id: 'holo-hunter',
           name: {
             fr: `Chasseur holo`,
-            en: ``,
+            en: `Hunter holo`,
           },
           description: {
             fr: `Débloque la version holographique numérique de Chasseur`,
-            en: ``,
+            en: `Unlock the digital holographic version of Hunter.`,
           },
           categories: index === 0 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -198,11 +198,11 @@ export class ShopItemsLibrary {
           id: 'style-nostalgy',
           name: {
             fr: `Style nostaglique`,
-            en: ``,
+            en: `Nostalgic style`,
           },
           description: {
             fr: `Débloque le style "Nostalgique" sur toutes vos cartes et leur donne un air de prototype. Il s'agit du style du premier prototype présenté publiquement lors du Festival des Fous du Jeu 2015.`,
-            en: ``,
+            en: `Unlock the "Nostalgic" style on all your cards and make them look like a prototype. This is the style of the first prototype presented publicly at the Festival des Fous du Jeu 2015.`,
           },
           categories: index === 0 ? ['styles', 'featured'] : ['styles'],
           price: {
@@ -223,11 +223,11 @@ export class ShopItemsLibrary {
           id: 'holo-deadly-viper',
           name: {
             fr: `Vipère Mortelle holo`,
-            en: ``,
+            en: `Deadly Viper holo`,
           },
           description: {
             fr: `Débloque la version holographique numérique de Vipère Mortelle. Cet article est également une récompense à la participation au tournois pendant le Cycle du Grand Ancien 2020.`,
-            en: ``,
+            en: `Unlock the digital holographic version of Deadly Viper. This article is also a reward for participating in tournaments during the Cycle of the Great Ancient 2020.`,
           },
           categories: index === 1 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -243,11 +243,11 @@ export class ShopItemsLibrary {
           id: 'holo-summoner',
           name: {
             fr: `Invocateur holo`,
-            en: ``,
+            en: `Summoner holo`,
           },
           description: {
             fr: `Débloque la version holographique numérique de Invocateur`,
-            en: ``,
+            en: `Unlocks the digital holographic version of Summoner`,
           },
           categories: index === 1 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -263,11 +263,11 @@ export class ShopItemsLibrary {
           id: 'style-scales',
           name: {
             fr: `Style écailles`,
-            en: ``,
+            en: `Scale style`,
           },
           description: {
-            fr: `Débloque le style "Ecailles" sur toutes vos cartes et leur donne un aspect de grand ancien.`,
-            en: ``,
+            fr: `Débloque le style "Ecailles" sur toutes vos cartes et leur donne un aspect de Grand Ancien.`,
+            en: `Unlocks the "Scales" style on all your cards and gives them a Great Ancient fashioned look`,
           },
           categories: index === 1 ? ['styles', 'featured'] : ['styles'],
           price: {
@@ -283,11 +283,11 @@ export class ShopItemsLibrary {
           id: 'cover-hunter',
           name: {
             fr: `Protège-cartes Chasseur`,
-            en: ``,
+            en: `Hunter sleeve`,
           },
           description: {
             fr: `Débloque le protège-cartes à l'effigie du Chasseur.`,
-            en: ``,
+            en: `Unlocks the Hunter's sleeve.`,
           },
           categories: index === 0 ? ['covers', 'featured'] : ['covers'],
           price: {
@@ -303,11 +303,11 @@ export class ShopItemsLibrary {
           id: 'cover-summoner',
           name: {
             fr: `Protège-cartes Invocateur`,
-            en: ``,
+            en: `Summoner sleeve`,
           },
           description: {
             fr: `Débloque le protège-cartes à l'effigie de l'Invocateur.`,
-            en: ``,
+            en: `Unlocks the Summoner's card cover`,
           },
           categories: index === 1 ? ['covers', 'featured'] : ['covers'],
           price: {
@@ -328,11 +328,11 @@ export class ShopItemsLibrary {
           id: 'holo-shadows-banner',
           name: {
             fr: `Bannière des Ombres holo`,
-            en: ``,
+            en: `Shadows Banner holo`,
           },
           description: {
             fr: `Débloque la version holographique numérique de Bannière des Ombres. Cet article est également une récompense à la participation au tournois pendant le Cycle du Trésor 2020.`,
-            en: ``,
+            en: `Unlocks the digital holographic version of Shadows Banner. This article is also a reward for participating in the tournaments during the Cycle of the Treasure 2020.`,
           },
           categories: index === 2 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -348,11 +348,11 @@ export class ShopItemsLibrary {
           id: 'holo-conjurer',
           name: {
             fr: `Illusionniste holo`,
-            en: ``,
+            en: `Conjurer holo`,
           },
           description: {
             fr: `Débloque la version holographique numérique de Illusionniste`,
-            en: ``,
+            en: `Unlock the digital holographic version of Conjurer`,
           },
           categories: index === 2 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -368,11 +368,11 @@ export class ShopItemsLibrary {
           id: 'style-cartographer',
           name: {
             fr: `Style cartographe`,
-            en: ``,
+            en: `Cartographer styme`,
           },
           description: {
             fr: `Débloque le style "Cartographe" sur toutes vos cartes pour vous aider à vous repérer dans le ciel d'Exodia.`,
-            en: ``,
+            en: `Unlock the "Cartographer" style on all your cards to help you find your way in the sky of Exodia.`,
           },
           categories: index === 2 ? ['styles', 'featured'] : ['styles'],
           price: {
@@ -388,11 +388,11 @@ export class ShopItemsLibrary {
           id: 'cover-conjurer',
           name: {
             fr: `Protège-cartes Invocateur`,
-            en: ``,
+            en: `Summoner sleeve`,
           },
           description: {
-            fr: `Débloque le protège-cartes à l'effigie de l'Illusionniste.`,
-            en: ``,
+            fr: `Débloque le protège-cartes à l'effigie de l'Invocateur.`,
+            en: `Unlocks the Summoner sleeve`,
           },
           categories: index === 2 ? ['covers', 'featured'] : ['covers'],
           price: {

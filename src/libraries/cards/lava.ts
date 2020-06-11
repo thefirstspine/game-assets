@@ -1,11 +1,11 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const lavaCard: ICard = {
   id: `lava`,
   text: {
-    en: ``,
-    fr: `Les cartes sur cette case perdent {life}1{/life} au début du tour de leur propriétaire`,
+    en: `The card on this space loses {life}1{/ life} at the start of its owner's turn.`,
+    fr: `The card sur cette case perd {life}1{/life} au début du tour de son propriétaire.`,
   },
   lore: {
     en: ``,
@@ -14,7 +14,7 @@ const lavaCard: ICard = {
   art: 'Teddy Gandon',
   imageUrl: `https://static.thefirstspine.fr/lava.png`,
   name: {
-    en: ``,
+    en: `Lava`,
     fr: `Lave`,
   },
   type: 'square',

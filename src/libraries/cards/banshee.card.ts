@@ -1,4 +1,4 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const bansheeCard: ICard = {
@@ -8,13 +8,13 @@ const bansheeCard: ICard = {
     fr: ``,
   },
   lore: {
-    en: ``,
+    en: `« I'm just the messenger. »\n- A banshee.`,
     fr: `« Je ne suis que la messagère. »\n- Une banshee.`,
   },
   art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/banshee.png`,
   name: {
-    en: ``,
+    en: `Banshee`,
     fr: `Banshee`,
   },
   stats: {

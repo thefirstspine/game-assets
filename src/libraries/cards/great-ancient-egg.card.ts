@@ -1,12 +1,11 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const greatAncientEggCard: ICard = {
   id: `great-ancient-egg`,
   text: {
-    en: ``,
-    fr: `Au début de votre prochain tour, remplacez cette carte par "Grand Ancien juvénile".
-Cette carte est une carte de collection ne peut être jouée que pendant le Cycle du Grand Ancien.`,
+    en: `At the start of your next turn, replace this card with "Juvenile Great Ancient". This card is a collection card can only be played during the Cycle of the Grand Ancient.`,
+    fr: `Au début de votre prochain tour, remplacez cette carte par "Grand Ancien juvénile". Cette carte est une carte de collection ne peut être jouée que pendant le Cycle du Grand Ancien.`,
   },
   lore: {
     en: ``,
@@ -14,7 +13,7 @@ Cette carte est une carte de collection ne peut être jouée que pendant le Cycl
   },
   imageUrl: `https://static.thefirstspine.fr/great-ancient-egg.png`,
   name: {
-    en: ``,
+    en: `Great Ancient egg`,
     fr: `Œuf de Grand Ancien`,
   },
   stats: {

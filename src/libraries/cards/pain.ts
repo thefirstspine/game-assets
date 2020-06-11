@@ -1,10 +1,10 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const painCard: ICard = {
   id: `pain`,
   text: {
-    en: ``,
+    en: `All the wizards lose {life}1{/life}.`,
     fr: `Tous les sorciers perdent {life}1{/life}.`,
   },
   lore: {
@@ -13,7 +13,7 @@ const painCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Pain`,
     fr: `Douleur`,
   },
   type: 'spell',

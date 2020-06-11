@@ -1,11 +1,11 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const goldenGalleonCard: ICard = {
   id: `golden-galleon`,
   text: {
-    en: ``,
-    fr: `Vous remportez 1 Gallion d’Or si vous avez cette carte dans votre main à la fin de la partie. Cette carte est une carte de collection et ne peut être utilisée que pendant le Cycle du Trésor 2020.`,
+    en: `You win 1 Golden Galleon if you have this card in your hand at the end of the game. This card is a collection card and can only be used during the Cycle of the Treasure 2020.`,
+    fr: `Vous remportez 1 Gallion d'Or si vous avez cette carte dans votre main à la fin de la partie. Cette carte est une carte de collection et ne peut être utilisée que pendant le Cycle du Trésor 2020.`,
   },
   lore: {
     en: ``,
@@ -14,7 +14,7 @@ const goldenGalleonCard: ICard = {
   art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/golden-galleon.png`,
   name: {
-    en: ``,
+    en: `Golden Galleon`,
     fr: `Gallion d'Or`,
   },
   stats: {

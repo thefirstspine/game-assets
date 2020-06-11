@@ -1,10 +1,10 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const cureCard: ICard = {
   id: `cure`,
   text: {
-    en: ``,
+    en: `The {wizard}wizard{/wizard} wins {life}2{/life} without exceeding the initial value.`,
     fr: `Le {wizard}sorcier{/wizard} gagne {life}2{/life} sans excéder la valeur initiale.`,
   },
   lore: {
@@ -13,7 +13,7 @@ const cureCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Cure`,
     fr: `Remède`,
   },
   type: 'spell',

@@ -1,11 +1,11 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const jellyfishCard: ICard = {
   id: `jellyfish`,
   text: {
-    en: ``,
-    fr: `Lorsque cette carte est détruite, placez une case Eau à la place`,
+    en: `When this card is destroyed, add a Water square here.`,
+    fr: `Lorsque cette carte est détruite, placez une case Eau à la place.`,
   },
   lore: {
     en: ``,
@@ -13,7 +13,7 @@ const jellyfishCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Jellyfish`,
     fr: `Méduse`,
   },
   stats: {

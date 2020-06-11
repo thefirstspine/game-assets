@@ -1,10 +1,10 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const putrefactionCard: ICard = {
   id: `putrefaction`,
   text: {
-    en: ``,
+    en: `The {creature}creature{/creature} lose {life}2{/life}.`,
     fr: `La {creature}créature{/creature} perd {life}2{/life}.`,
   },
   lore: {
@@ -13,7 +13,7 @@ const putrefactionCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/putrefaction.png`,
   name: {
-    en: ``,
+    en: `Putrefaction`,
     fr: `Putréfaction`,
   },
   type: 'spell',

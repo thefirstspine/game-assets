@@ -1,4 +1,4 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const eternityGiftCard: ICard = {
@@ -8,7 +8,7 @@ const eternityGiftCard: ICard = {
     fr: `Cette carte est une carte de collection ne peut pas être jouée.`,
   },
   lore: {
-    en: ``,
+    en: `« I will offer your son eternity. »\n- Ovil, l'oublié`,
     fr: `« J'offrirai à votre fils l'éternité. »\n- Ovil, l'oublié`,
   },
   imageUrl: `https://static.thefirstspine.fr/eternity-gift.png`,

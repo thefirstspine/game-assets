@@ -1,10 +1,10 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const guardianCard: ICard = {
   id: `guardian`,
   text: {
-    en: ``,
+    en: `When this card is destroyed, you win {life}2{/life} without exceeding your starting total.`,
     fr: `Lorsque cette carte est détruite, vous gagnez {life}2{/life} sans dépasser votre total de départ.`,
   },
   lore: {
@@ -13,7 +13,7 @@ const guardianCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Guardian`,
     fr: `Gardien`,
   },
   stats: {

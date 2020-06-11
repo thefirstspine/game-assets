@@ -1,11 +1,11 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const waterCard: ICard = {
   id: `water`,
   text: {
-    en: ``,
-    fr: `Une créature sur cette carte ne peut pas se déplacer`,
+    en: `A {creature}creature{/creature} on this card cannot move`,
+    fr: `Une {creature}créature{/creature} sur cette carte ne peut pas se déplacer`,
   },
   lore: {
     en: ``,

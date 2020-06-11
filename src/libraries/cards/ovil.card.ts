@@ -1,20 +1,20 @@
-import { ICard } from '../../@shared/rest-shared/card';
+import { ICard } from '@thefirstspine/types-rest';
 
 // tslint:disable: max-line-length
 const ovilCard: ICard = {
   id: `ovil`,
   text: {
-    en: ``,
+    en: `This card is a collection card can only be played during the First Game Experience.`,
     fr: `Cette carte est une carte de collection ne peut être jouée que pendant la Première Expérience de Jeu.`,
   },
   lore: {
-    en: ``,
+    en: `« Fox, I give you life. Banshee, I give you life. Dragon, I give you life. Because I am your father to all. »\n- Ovil`,
     fr: `« Renard, je te donne la vie. Banshee, je te donne la vie. Dragon, je te donne la vie. Car je suis votre père à tous. »\n- Ovil`,
   },
   art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/ovil.png`,
   name: {
-    en: `Ovil the Forgottent`,
+    en: `Ovil the Forgotten`,
     fr: `Ovil l'Oublié`,
   },
   stats: {
