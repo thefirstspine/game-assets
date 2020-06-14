@@ -13,7 +13,7 @@ const growingOakCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Growing Oak`,
     fr: `Chêne Gandissant`,
   },
   stats: {
