@@ -368,7 +368,7 @@ export class ShopItemsLibrary {
           id: 'style-cartographer',
           name: {
             fr: `Style cartographe`,
-            en: `Cartographer styme`,
+            en: `Cartographer style`,
           },
           description: {
             fr: `Débloque le style "Cartographe" sur toutes vos cartes pour vous aider à vous repérer dans le ciel d'Exodia.`,
