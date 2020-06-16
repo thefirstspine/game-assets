@@ -63,8 +63,8 @@ export class DecksLibrary {
         fr: `Illusionniste`,
       },
       description: {
-        en: `The Conjurer can bring up great artifacts just by thought to generate steadfast defenses. He's specialized in artifacts.`,
-        fr: `L'Illusionniste peut faire apparaître de grands artefacts rien que par la pensée pour engendrer des défenses inébranlables. Il est spécialisé dans les artéfacts.`,
+        en: `The Conjurer can bring up great artifacts just by thought to generate steadfast defenses. He's specialized in artifacts and defense.`,
+        fr: `L'Illusionniste peut faire apparaître de grands artefacts rien que par la pensée pour engendrer des défenses inébranlables. Il est spécialisé dans les artéfacts et la défense.`,
       },
       cards: [
         CardsLibrary.find('putrefaction'),
@@ -114,8 +114,8 @@ export class DecksLibrary {
         fr: `Invocateur`,
       },
       description: {
-        en: `The summoner can materialize creatures straight out of the adversaries' nightmares. He's specialized in creatures.`,
-        fr: `L'invocateur peut matérialiser des créatures sorties tout droit des cauchemars de ses adversaires. Il est spécialisé dans les créatures.`,
+        en: `The summoner can materialize creatures straight out of the adversaries' nightmares. He's specialized in creatures and attack.`,
+        fr: `L'invocateur peut matérialiser des créatures sorties tout droit des cauchemars de ses adversaires. Il est spécialisé dans les créatures et l'attaque.`,
       },
       cards: [
         CardsLibrary.find('ruin'),
