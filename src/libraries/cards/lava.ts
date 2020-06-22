@@ -5,7 +5,7 @@ const lavaCard: ICard = {
   id: `lava`,
   text: {
     en: `The card on this space loses {life}1{/ life} at the start of its owner's turn.`,
-    fr: `The card sur cette case perd {life}1{/life} au début du tour de son propriétaire.`,
+    fr: `La carte sur cette case perd {life}1{/life} au début du tour de son propriétaire.`,
   },
   lore: {
     en: ``,
