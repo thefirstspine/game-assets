@@ -1,7 +1,10 @@
 import { IGameType } from '@thefirstspine/types-rest';
+import classicGameType from './classic.game-type';
 
 // tslint:disable: max-line-length
 export default function(): IGameType {
+  const classicBaseData = classicGameType();
+
   const fpeGameType: IGameType = {
     id: 'fpe',
     name: {
@@ -13,8 +16,8 @@ export default function(): IGameType {
       en: `The First Game Experience is a scripted game ideal for discovering the rules of the game. You can choose a destiny and an origin, but these will be replaced by a precalculated deck.`,
     },
     matchmakingMode: 'asap',
-    destinies: ['hunter', 'conjurer', 'sorcerer', 'summoner'],
-    origins: ['healer'],
+    destinies: classicBaseData.destinies,
+    origins: classicBaseData.origins,
     players: [
       { x: 3, y: 0 },
     ],
