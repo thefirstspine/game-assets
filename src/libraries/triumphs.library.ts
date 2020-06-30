@@ -95,6 +95,50 @@ export class TriumphsLibrary {
       },
     },
     {
+      id: 'sacrificer',
+      name: {
+        fr: `Sacrifieur`,
+        en: `Sacrificer`,
+      },
+      description: {
+        fr: `Vous avez invoqué une Âme d'un Chasseur Sacrifié avec au moins 10 artefacts dans votre défausse.`,
+        en: `You have summoned a Soul of a Sacrificed Hunter with at least 10 artifacts in your discard pile.`,
+      },
+    },
+    {
+      id: 'transporter',
+      name: {
+        fr: `Transporteur`,
+        en: `Transporter`,
+      },
+      description: {
+        fr: `Vous avez blessé un Portail Monstrueux vous appartenant pour invoquer une créature ou un artefact.`,
+        en: `You have wounded a Monstrous Portal belonging to you to summon a creature or artifact.`,
+      },
+    },
+    {
+      id: 'comic',
+      name: {
+        fr: `Comique`,
+        en: `Comic`,
+      },
+      description: {
+        fr: `Vous avez totalisé 5 bouffons sur le plateau de jeu.`,
+        en: `You have totaled 5 jesters on the game board.`,
+      },
+    },
+    {
+      id: 'repeater',
+      name: {
+        fr: `Répéteur`,
+        en: `Repeater`,
+      },
+      description: {
+        fr: `Vous avez joué 4 sorts dans le même tour.`,
+        en: `You played 4 spells in the same turn.`,
+      },
+    },
+    {
       id: 'silentist',
       name: {
         fr: `Taiseur`,
