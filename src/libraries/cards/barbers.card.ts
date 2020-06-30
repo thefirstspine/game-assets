@@ -14,7 +14,7 @@ const barbersCard: ICard = {
   art: 'Maylhine',
   imageUrl: `https://static.thefirstspine.fr/barbers.png`,
   name: {
-    en: `Barbers`,
+    en: `Barbed wire`,
     fr: `Barbelés`,
   },
   stats: {
