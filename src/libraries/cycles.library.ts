@@ -64,6 +64,26 @@ export class CyclesLibrary {
         {name: 'premium-conjurer', num: 1},
       ],
     },
+    {
+      id: `souvenirs-2020`,
+      name: {
+        fr: `Cycle des Souvenirs 2020`,
+        en: `Cycle of the Souvenirs 2020`,
+      },
+      description: {
+        fr: `Pendant ce cycle pourfendez vos opposants et volez leurs armes. Dans tous les types de jeu, vous aurez des cartes "souvenirs" en fonction de la destinée de votre ennemi.`,
+        en: `During this cycle slay your opponents and steal their weapons. In all types of game, you will have "souvenir" cards depending on the destiny of your enemy.`,
+      },
+      timestampFrom: (new Date('2020-07-24 15:00:00')).getTime() / 1000,
+      timestampTo: (new Date('2020-09-04 14:59:59')).getTime() / 1000,
+      rewardsForPlayers: [
+        {name: 'holo-ether', num: 1},
+      ],
+      rewardsForWinner: [
+        {name: 'holo-sorcerer', num: 1},
+        {name: 'premium-sorcerer', num: 1},
+      ],
+    },
   ];
 
   static current(): ICycle|undefined {

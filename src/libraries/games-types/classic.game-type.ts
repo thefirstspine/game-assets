@@ -15,7 +15,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'asap',
     destinies: ['conjurer', 'summoner', 'sorcerer', 'hunter'],
-    origins: ['healer', 'architect', 'priest'],
+    origins: ['healer', 'architect', 'priest', 'blacksmith'],
     players: [
       { x: 3, y: 0 },
       { x: 3, y: 6 },
@@ -54,6 +54,14 @@ export default function(): IGameType {
         en: `Practice in a classic game. During the Cycle of the Treasure, you will find golden galleons. Each "Golden Galleon" card in your hand at the end of the game will bring you money to exchange in the shop!`,
       };
       classicGameType.origins = ['healer', 'architect'];
+    }
+
+    if (currentCycle.id === 'souvenirs-2020') {
+      classicGameType.description = {
+        fr: `Entraînez-vous dans une partie classique. Durant le Cycle des Souvenirs, des cartes seront ajoutées dans votre deck en fonction de la destinée choisie par votre adversaire.`,
+        en: `Practice in a classic game. During the Cycle of Memories, cards will be added to your deck depending on the destiny chosen by your opponent.`,
+      };
+      classicGameType.origins = ['healer', 'architect', 'priest'];
     }
   }
 
