@@ -13,7 +13,7 @@ const jesterCard: ICard = {
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
   name: {
-    en: ``,
+    en: `Jester`,
     fr: `Bouffon`,
   },
   stats: {
