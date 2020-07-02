@@ -8,8 +8,8 @@ const hunterSouvenirCard: ICard = {
     fr: `Cette carte est une carte de collection ne peut être jouée que pendant le Cycle des Souvenirs.`,
   },
   lore: {
-    en: `« N/A »\n- A Hunter`,
-    fr: `« N/A »\n- Un Chasseur`,
+    en: ``,
+    fr: ``,
   },
   imageUrl: `https://static.thefirstspine.fr/hunter-souvenir.png`,
   name: {

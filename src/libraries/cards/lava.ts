@@ -4,7 +4,7 @@ import { ICard } from '@thefirstspine/types-rest';
 const lavaCard: ICard = {
   id: `lava`,
   text: {
-    en: `The card on this space loses {life}1{/ life} at the start of its owner's turn.`,
+    en: `The card on this space loses {life}1{/life} at the start of its owner's turn.`,
     fr: `La carte sur cette case perd {life}1{/life} au début du tour de son propriétaire.`,
   },
   lore: {

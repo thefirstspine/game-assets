@@ -407,6 +407,91 @@ export class ShopItemsLibrary {
       );
     }
 
+    if (index >= 3) {
+      shopItems.push(
+        {
+          id: 'holo-ether',
+          name: {
+            fr: `Ether holo`,
+            en: `Ether holo`,
+          },
+          description: {
+            fr: `Débloque la version holographique numérique de Ether. Cet article est également une récompense à la participation au tournois pendant le Cycle des Souvenirs 2020.`,
+            en: `Unlocks the digital holographic version of Ether. This article is also a reward for participating in the tournaments during the Cycle of the Souvenirs 2020.`,
+          },
+          categories: index === 3 ? ['holos', 'featured'] : ['holos'],
+          price: {
+            num: 100,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'holo-ether', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'holo-sorcerer',
+          name: {
+            fr: `Prestidigitateur holo`,
+            en: `Sorcerer holo`,
+          },
+          description: {
+            fr: `Débloque la version holographique numérique de Prestidigitateur`,
+            en: `Unlock the digital holographic version of Sorcerer`,
+          },
+          categories: index === 3 ? ['holos', 'featured'] : ['holos'],
+          price: {
+            num: 100,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'holo-sorcerer', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'style-ghostly',
+          name: {
+            fr: `Style Fantomatique`,
+            en: `Ghostly style`,
+          },
+          description: {
+            fr: `Débloque le style "Fantomatique" sur toutes vos cartes.`,
+            en: `Unlock the "Ghostly" style on all your cards.`,
+          },
+          categories: index === 3 ? ['styles', 'featured'] : ['styles'],
+          price: {
+            num: 250,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'style-ghostly', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'cover-sorcerer',
+          name: {
+            fr: `Protège-cartes Prestidigitateur`,
+            en: `Sorcerer sleeve`,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie du Prestidigitateur.`,
+            en: `Unlocks the Sorcerer sleeve`,
+          },
+          categories: index === 3 ? ['covers', 'featured'] : ['covers'],
+          price: {
+            num: 150,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'cover-sorcerer', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+      );
+    }
+
     return shopItems;
   }
 

@@ -58,6 +58,9 @@ import goldenGalleonCard from './cards/golden-galleon.card';
 import torturerCard from './cards/torturer.card';
 import chimeraCard from './cards/chimera.card';
 import painCard from './cards/pain';
+import anvilOfXiarmhaCard from './cards/anvil-of-xiarmha';
+import fleshHammerCard from './cards/flesh-hammer.card';
+import reinforcementCard from './cards/reinforcement';
 
 export class CardsLibrary {
 
@@ -105,6 +108,9 @@ export class CardsLibrary {
     torturerCard,
     chimeraCard,
     painCard,
+    reinforcementCard,
+    anvilOfXiarmhaCard,
+    fleshHammerCard,
     // Curse
     curseOfMaraCard,
     // Collection

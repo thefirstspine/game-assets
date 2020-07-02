@@ -8,8 +8,8 @@ const summonerSouvenirCard: ICard = {
     fr: `Cette carte est une carte de collection ne peut être jouée que pendant le Cycle des Souvenirs.`,
   },
   lore: {
-    en: `« N/A »\n- A Summoner`,
-    fr: `« N/A »\n- Un Invocateur`,
+    en: ``,
+    fr: ``,
   },
   imageUrl: `https://static.thefirstspine.fr/summoner-souvenir.png`,
   name: {

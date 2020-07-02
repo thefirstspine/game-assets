@@ -16,7 +16,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'ranked',
     destinies: ['conjurer', 'hunter', 'sorcerer', 'summoner'],
-    origins: ['healer', 'architect', 'priest'],
+    origins: ['healer', 'architect', 'priest', 'blacksmith'],
     availableShieldsPerCycle: 1,
     maxGamesPerCycle: 3,
     players: [
@@ -99,6 +99,37 @@ export default function(): IGameType {
         {name: 'premium-golden-galleon', num: 1},
         {name: 'treasure-mark', num: 1},
         {name: 'golden-galleon', num: 3},
+      ]);
+    }
+
+    if (currentCycle.id === 'souvenirs-2020') {
+      tournamentBaseData.availableShieldsPerCycle = 1;
+      tournamentBaseData.origins = ['healer', 'architect', 'priest'];
+      tournamentBaseData.name = {
+        fr: `Tournoi des Souvenirs`,
+        en: `Tournament of the Souvenirs`,
+      };
+      tournamentBaseData.description = {
+        fr: `Prouvez votre valeur dans le Tournoi des Souvenirs ! Des cartes seront ajoutées dans votre deck en fonction de la destinée choisie par votre adversaire. Ce paramètre imprévisible récompensera les stratèges qui sauront improviser !`,
+        en: `Prove your worth in the Souvenir Tournament! Cards will be added to your deck depending on the destiny chosen by your opponent. This unpredictable setting will reward strategists who can improvise!`,
+      };
+      tournamentBaseData.loots.defeat.push(...[
+        {name: 'holo-conjurer-souvenir', num: 1},
+        {name: 'holo-summoner-souvenir', num: 1},
+        {name: 'holo-sorcerer-souvenir', num: 1},
+        {name: 'holo-hunter-souvenir', num: 1},
+        {name: 'souvenirs-mark', num: 1},
+      ]);
+      tournamentBaseData.loots.victory.push(...[
+        {name: 'holo-conjurer-souvenir', num: 1},
+        {name: 'premium-conjurer-souvenir', num: 1},
+        {name: 'holo-summoner-souvenir', num: 1},
+        {name: 'premium-summoner-souvenir', num: 1},
+        {name: 'holo-sorcerer-souvenir', num: 1},
+        {name: 'premium-sorcerer-souvenir', num: 1},
+        {name: 'holo-hunter-souvenir', num: 1},
+        {name: 'premium-hunter-souvenir', num: 1},
+        {name: 'souvenirs-mark', num: 1},
       ]);
     }
   }

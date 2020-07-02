@@ -15,7 +15,7 @@ export default function(): IGameType {
     },
     matchmakingMode: 'asap',
     destinies: ['conjurer', 'summoner', 'sorcerer', 'hunter'],
-    origins: ['healer', 'architect', 'priest'],
+    origins: ['healer', 'architect', 'priest', 'blacksmith'],
     players: [
       { x: 3, y: 0 },
       { x: 3, y: 6 },
@@ -55,6 +55,14 @@ export default function(): IGameType {
       };
       classicGameType.origins = ['healer', 'architect'];
     }
+
+    if (currentCycle.id === 'souvenirs-2020') {
+      classicGameType.description = {
+        fr: `Entraînez-vous dans une partie classique. Durant le Cycle des Souvenirs, des cartes seront ajoutées dans votre deck en fonction de la destinée choisie par votre adversaire.`,
+        en: `Practice in a classic game. During the Cycle of Memories, cards will be added to your deck depending on the destiny chosen by your opponent.`,
+      };
+      classicGameType.origins = ['healer', 'architect', 'priest'];
+    }
   }
 
   const dayOfWeek = (new Date()).getUTCDay();
@@ -81,6 +89,14 @@ export default function(): IGameType {
     }
     if (dayOfMonth === 8 && month === 6 && (hour >= 8 && hour <= 20)) {
       classicGameType.origins.push('priest');
+    }
+  }
+  if (currentCycle.id === 'souvenirs-2020') {
+    if (dayOfMonth === 5 && month === 7 && (hour >= 8 && hour <= 20)) {
+      classicGameType.origins.push('blacksmith');
+    }
+    if (dayOfMonth === 19 && month === 7 && (hour >= 8 && hour <= 20)) {
+      classicGameType.origins.push('blacksmith');
     }
   }
 

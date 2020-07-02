@@ -268,6 +268,26 @@ export class DecksLibrary {
         CardsLibrary.find('pain'),
       ],
     },
+    {
+      id: `blacksmith`,
+      type: 'origin',
+      name: {
+        en: `Blacksmith`,
+        fr: `Forgeron`,
+      },
+      description: {
+        en: `The blacksmith can make his cards almost invincible by forging a defense of steel.`,
+        fr: `Le forgeron peut rendre ses cartes quasiment invincibles en lui forgeant une défense d’acier.`,
+      },
+      cards: [
+        CardsLibrary.find('anvil-of-xiarmha'),
+        CardsLibrary.find('anvil-of-xiarmha'),
+        CardsLibrary.find('flesh-hammer'),
+        CardsLibrary.find('flesh-hammer'),
+        CardsLibrary.find('reinforcement'),
+        CardsLibrary.find('reinforcement'),
+      ],
+    },
   ];
 
   static find(id: string): IDeck|undefined {
