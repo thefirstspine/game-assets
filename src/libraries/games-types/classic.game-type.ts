@@ -91,6 +91,14 @@ export default function(): IGameType {
       classicGameType.origins.push('priest');
     }
   }
+  if (currentCycle.id === 'souvenirs-2020') {
+    if (dayOfMonth === 5 && month === 7 && (hour >= 8 && hour <= 20)) {
+      classicGameType.origins.push('blacksmith');
+    }
+    if (dayOfMonth === 19 && month === 7 && (hour >= 8 && hour <= 20)) {
+      classicGameType.origins.push('blacksmith');
+    }
+  }
 
   return classicGameType;
 }
