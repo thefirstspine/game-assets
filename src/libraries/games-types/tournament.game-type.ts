@@ -14,15 +14,17 @@ export default function(): IGameType {
       fr: `Mara vous appelle dans ce tournoi sans pitié. Cédez à l'appel de Mara.`,
       en: `Mara is calling you into this ruthless tournament. Give in to Mara's call.`,
     },
-    matchmakingMode: 'ranked',
     destinies: ['conjurer', 'hunter', 'sorcerer', 'summoner'],
     origins: ['healer', 'architect', 'priest', 'blacksmith'],
-    availableShieldsPerCycle: 1,
-    maxGamesPerCycle: 3,
     players: [
       { x: 3, y: 0 },
       { x: 3, y: 6 },
     ],
+    setup: {},
+    // Fields below are deprecated
+    availableShieldsPerCycle: 1,
+    maxGamesPerCycle: 3,
+    matchmakingMode: 'ranked',
     loots: {
       victory: [
         {name: 'shard', num: 30},
