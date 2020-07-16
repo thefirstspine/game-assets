@@ -13,13 +13,15 @@ export default function(): IGameType {
       fr: `Entraînez-vous dans une partie classique. Les parties ne sont pas classées et votre adversaire sera choisi dans l'ordre des demandes. Les premiers arrivés seront les premiers à massacrer !`,
       en: `Practice in a classic game. The games are not ranked and your opponent will be chosen in the order of requests. The first to arrive will be the first to massacre!`,
     },
-    matchmakingMode: 'asap',
     destinies: ['conjurer', 'summoner', 'sorcerer', 'hunter'],
     origins: ['healer', 'architect', 'priest', 'blacksmith'],
+    matchmakingMode: 'asap',
     players: [
       { x: 3, y: 0 },
       { x: 3, y: 6 },
     ],
+    setup: {},
+    // Fields below are deprecated
     loots: {
       victory: [
         {name: 'shard', num: 30},
