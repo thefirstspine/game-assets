@@ -16,13 +16,6 @@ export class CyclesLibrary {
       },
       timestampFrom: 0,
       timestampTo: (new Date('2020-05-01 14:59:59')).getTime() / 1000,
-      rewardsForPlayers: [
-        {name: 'holo-soul-of-a-sacrified-hunter', num: 1},
-      ],
-      rewardsForWinner: [
-        {name: 'holo-hunter', num: 1},
-        {name: 'premium-hunter', num: 1},
-      ],
     },
     {
       id: `great-ancient-2020`,
@@ -36,13 +29,6 @@ export class CyclesLibrary {
       },
       timestampFrom: (new Date('2020-05-01 15:00:00')).getTime() / 1000,
       timestampTo: (new Date('2020-06-12 14:59:59')).getTime() / 1000,
-      rewardsForPlayers: [
-        {name: 'holo-deadly-viper', num: 1},
-      ],
-      rewardsForWinner: [
-        {name: 'holo-summoner', num: 1},
-        {name: 'premium-summoner', num: 1},
-      ],
     },
     {
       id: `treasure-2020`,
@@ -56,13 +42,6 @@ export class CyclesLibrary {
       },
       timestampFrom: (new Date('2020-06-12 15:00:00')).getTime() / 1000,
       timestampTo: (new Date('2020-07-24 14:59:59')).getTime() / 1000,
-      rewardsForPlayers: [
-        {name: 'holo-shadows-banner', num: 1},
-      ],
-      rewardsForWinner: [
-        {name: 'holo-conjurer', num: 1},
-        {name: 'premium-conjurer', num: 1},
-      ],
     },
     {
       id: `souvenirs-2020`,
@@ -76,13 +55,6 @@ export class CyclesLibrary {
       },
       timestampFrom: (new Date('2020-07-24 15:00:00')).getTime() / 1000,
       timestampTo: (new Date('2020-09-04 14:59:59')).getTime() / 1000,
-      rewardsForPlayers: [
-        {name: 'holo-ether', num: 1},
-      ],
-      rewardsForWinner: [
-        {name: 'holo-sorcerer', num: 1},
-        {name: 'premium-sorcerer', num: 1},
-      ],
     },
   ];
 
