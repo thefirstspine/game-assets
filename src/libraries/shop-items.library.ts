@@ -161,8 +161,8 @@ export class ShopItemsLibrary {
             en: `Soul of a Sacrified Hunter holo`,
           },
           description: {
-            fr: `Débloque la version holographique numérique de Âme d'un Chasseur Sacrifié. Cet article est également une récompense à la participation au tournois pendant le Cycle du Renouveau 2020.`,
-            en: `Unlock the digital holographic version of Soul of a Sacrificed Hunter. This article is also a reward for participating in tournaments during the Cycle of the Renewal 2020.`,
+            fr: `Débloque la version holographique numérique de Âme d'un Chasseur Sacrifié.`,
+            en: `Unlock the digital holographic version of Soul of a Sacrificed Hunter.`,
           },
           categories: index === 0 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -226,8 +226,8 @@ export class ShopItemsLibrary {
             en: `Deadly Viper holo`,
           },
           description: {
-            fr: `Débloque la version holographique numérique de Vipère Mortelle. Cet article est également une récompense à la participation au tournois pendant le Cycle du Grand Ancien 2020.`,
-            en: `Unlock the digital holographic version of Deadly Viper. This article is also a reward for participating in tournaments during the Cycle of the Great Ancient 2020.`,
+            fr: `Débloque la version holographique numérique de Vipère Mortelle.`,
+            en: `Unlock the digital holographic version of Deadly Viper.`,
           },
           categories: index === 1 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -331,8 +331,8 @@ export class ShopItemsLibrary {
             en: `Shadows Banner holo`,
           },
           description: {
-            fr: `Débloque la version holographique numérique de Bannière des Ombres. Cet article est également une récompense à la participation au tournois pendant le Cycle du Trésor 2020.`,
-            en: `Unlocks the digital holographic version of Shadows Banner. This article is also a reward for participating in the tournaments during the Cycle of the Treasure 2020.`,
+            fr: `Débloque la version holographique numérique de Bannière des Ombres.`,
+            en: `Unlocks the digital holographic version of Shadows Banner.`,
           },
           categories: index === 2 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -416,8 +416,8 @@ export class ShopItemsLibrary {
             en: `Ether holo`,
           },
           description: {
-            fr: `Débloque la version holographique numérique de Ether. Cet article est également une récompense à la participation au tournois pendant le Cycle des Souvenirs 2020.`,
-            en: `Unlocks the digital holographic version of Ether. This article is also a reward for participating in the tournaments during the Cycle of the Souvenirs 2020.`,
+            fr: `Débloque la version holographique numérique de Ether.`,
+            en: `Unlocks the digital holographic version of Ether.`,
           },
           categories: index === 3 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -486,6 +486,71 @@ export class ShopItemsLibrary {
           },
           loots: [
             {name: 'cover-sorcerer', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+      );
+    }
+
+    if (index >= 4) {
+      shopItems.push(
+        {
+          id: 'holo-barbers',
+          name: {
+            fr: `Barbelés holo`,
+            en: `Barbed Wires holo`,
+          },
+          description: {
+            fr: `Débloque la version holographique numérique de Barbelés.`,
+            en: `Unlocks the digital holographic version of Barbed Wires.`,
+          },
+          categories: index === 4 ? ['holos', 'featured'] : ['holos'],
+          price: {
+            num: 100,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'holo-barbers', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'style-sunlight',
+          name: {
+            fr: `Style Ensoleillé`,
+            en: `Sunlight style`,
+          },
+          description: {
+            fr: `Débloque le style "Ensoleillé" sur toutes vos cartes.`,
+            en: `Unlock the "Sunlight" style on all your cards.`,
+          },
+          categories: index === 4 ? ['styles', 'featured'] : ['styles'],
+          price: {
+            num: 250,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'style-sunlight', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'cover-barbers',
+          name: {
+            fr: `Protège-cartes Barbelés`,
+            en: `Barbed Wires sleeve`,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie des Barbelés.`,
+            en: `Unlocks the Barbed Wires sleeve`,
+          },
+          categories: index === 4 ? ['covers', 'featured'] : ['covers'],
+          price: {
+            num: 150,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'cover-barbers', num: 1},
           ],
           oneTimePurchase: true,
         },

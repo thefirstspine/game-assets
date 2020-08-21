@@ -53,8 +53,21 @@ export class CyclesLibrary {
         fr: `Pendant ce cycle pourfendez vos opposants et volez leurs armes. Dans tous les types de jeu, vous aurez des cartes "souvenirs" en fonction de la destinée de votre ennemi.`,
         en: `During this cycle slay your opponents and steal their weapons. In all types of game, you will have "souvenir" cards depending on the destiny of your enemy.`,
       },
-      timestampFrom: (new Date('2020-07-24 15:00:00')).getTime() / 1000,
-      timestampTo: (new Date('2020-09-04 14:59:59')).getTime() / 1000,
+      timestampFrom: 0,
+      timestampTo: 0,
+    },
+    {
+      id: `harvest-2020`,
+      name: {
+        fr: `Cycle de la Moisson 2020`,
+        en: `Cycle of the Harvest 2020`,
+      },
+      description: {
+        fr: `Célébrez la Moisson en Exodia en participant au versus thématique de ce cycle : chaque créature tuée vous soignera !`,
+        en: `Celebrate the Harvest in Exodia by participating in this cycle's thematic versus: each creature killed will heal you!`,
+      },
+      timestampFrom: 0,
+      timestampTo: (new Date('2020-10-16 14:59:59')).getTime() / 1000,
     },
   ];
 
