@@ -387,12 +387,12 @@ export class ShopItemsLibrary {
         {
           id: 'cover-conjurer',
           name: {
-            fr: `Protège-cartes Invocateur`,
-            en: `Summoner sleeve`,
+            fr: `Protège-cartes Illusionniste`,
+            en: `Conjurer sleeve`,
           },
           description: {
-            fr: `Débloque le protège-cartes à l'effigie de l'Invocateur.`,
-            en: `Unlocks the Summoner sleeve`,
+            fr: `Débloque le protège-cartes à l'effigie de l'Illusionniste.`,
+            en: `Unlocks the Conjurer sleeve`,
           },
           categories: index === 2 ? ['covers', 'featured'] : ['covers'],
           price: {
