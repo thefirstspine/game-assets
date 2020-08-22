@@ -1,10 +1,16 @@
 import { CyclesLibrary } from './cycles.library';
-import { IShopItem, ICycle } from '@thefirstspine/types-rest';
+import { IShopItem } from '@thefirstspine/types-rest';
+import fetch from 'node-fetch';
 
 // tslint:disable: max-line-length
 export class ShopItemsLibrary {
 
-  static all(): IShopItem[] {
+  static async all(): Promise<IShopItem[]> {
+    // Get current events
+    const result = await fetch(`${process.env.WEBSITE_URL}/event?where={"datetimeFrom":{"<":${Date.now()}},"datetimeTo":{">":${Date.now()}}}`);
+    const jsonResult = await result.json();
+    const events: string[] = jsonResult ? jsonResult.map((e: any) => e.type) : [];
+
     const shopItems: IShopItem[] = [
       {
         id: '250-shards',
@@ -85,8 +91,7 @@ export class ShopItemsLibrary {
     ];
 
     const index: number = CyclesLibrary.currentNum();
-    const cycle: ICycle = CyclesLibrary.current();
-    if (cycle.id === 'treasure-2020') {
+    if (events.includes('online:corsairs')) {
       // Add exchanges in featured & seasonial
       shopItems.push(
         {
@@ -101,7 +106,7 @@ export class ShopItemsLibrary {
           },
           categories: ['seasonial', 'shards'],
           price: {
-            num: 5,
+            num: 2,
             currency: 'golden-galleon',
           },
           loots: [
@@ -121,7 +126,7 @@ export class ShopItemsLibrary {
           },
           categories: ['seasonial', 'covers'],
           price: {
-            num: 50,
+            num: 20,
             currency: 'golden-galleon',
           },
           loots: [
@@ -141,7 +146,7 @@ export class ShopItemsLibrary {
           },
           categories: ['seasonial', 'styles'],
           price: {
-            num: 100,
+            num: 40,
             currency: 'golden-galleon',
           },
           loots: [
@@ -560,8 +565,8 @@ export class ShopItemsLibrary {
     return shopItems;
   }
 
-  static find(id: string): IShopItem|undefined {
-    return this.all().find(e => e.id === id);
+  static async find(id: string): Promise<IShopItem|undefined> {
+    return (await this.all()).find(e => e.id === id);
   }
 
 }
