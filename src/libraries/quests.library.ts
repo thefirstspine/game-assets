@@ -76,7 +76,7 @@ export class QuestsLibrary {
         fr: `Complétez 4 quêtes journalières`,
         en: `Complete 4 daily quests`,
       },
-      objectiveType: `quest:daily`,
+      objectiveType: `quest`,
       objectiveTarget: 4,
       loots: [
         {name: 'rune-ghostly', num: 1},
