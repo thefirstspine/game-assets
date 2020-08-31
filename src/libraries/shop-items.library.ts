@@ -5,11 +5,19 @@ import fetch from 'node-fetch';
 // tslint:disable: max-line-length
 export class ShopItemsLibrary {
 
+  static async getEvents(): Promise<string[]> {
+    try {
+      const result = await fetch(`${process.env.WEBSITE_URL}/event?where={"datetimeFrom":{"<":${Date.now()}},"datetimeTo":{">":${Date.now()}}}`);
+      const jsonResult = await result.json();
+      return jsonResult ? jsonResult.map((e: any) => e.type) : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
   static async all(): Promise<IShopItem[]> {
     // Get current events
-    const result = await fetch(`${process.env.WEBSITE_URL}/event?where={"datetimeFrom":{"<":${Date.now()}},"datetimeTo":{">":${Date.now()}}}`);
-    const jsonResult = await result.json();
-    const events: string[] = jsonResult ? jsonResult.map((e: any) => e.type) : [];
+    const events: string[] = await ShopItemsLibrary.getEvents();
 
     const shopItems: IShopItem[] = [
       {
