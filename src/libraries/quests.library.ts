@@ -109,7 +109,7 @@ export class QuestsLibrary {
       objectiveType: `place:creatureOrArtifact`,
       objectiveTarget: 100,
       loots: [
-        {name: 'rune-sold', num: 1},
+        {name: 'rune-solid', num: 1},
       ],
     },
   ];
