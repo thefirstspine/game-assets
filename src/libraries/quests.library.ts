@@ -91,7 +91,7 @@ export class QuestsLibrary {
         fr: `Placez 100 creatures or artéfacts`,
         en: `Summon 100 creatures or artifacts`,
       },
-      objectiveType: `place:creatureOrArtifact`,
+      objectiveType: `play:creaturesOrArtifacts`,
       objectiveTarget: 100,
       loots: [
         {name: 'rune-holo', num: 1},
@@ -106,7 +106,7 @@ export class QuestsLibrary {
         fr: `Jouez 80 sorts`,
         en: `Cast 80 spells`,
       },
-      objectiveType: `place:creatureOrArtifact`,
+      objectiveType: `play:spells`,
       objectiveTarget: 100,
       loots: [
         {name: 'rune-solid', num: 1},
@@ -115,21 +115,21 @@ export class QuestsLibrary {
   ];
 
   static get questForToday(): IQuest {
-    const day: number = Math.floor(((Date.now() / 1000) - 1596207599) / (606024));
+    const day: number = Math.floor(((Date.now() / 1000) - 1596207599) / (60 * 60 * 24));
     return {
       id: `daily-${day}`,
       ...QuestsLibrary.daily[
-        QuestsLibrary.daily.length % day
+        day % QuestsLibrary.daily.length
       ],
     };
   }
 
   static get questForThisWeek(): IQuest {
-    const week: number = Math.floor(((Date.now() / 1000) - 1596207599) / (606024 * 7)) + 1;
+    const week: number = Math.floor(((Date.now() / 1000) - 1596207599) / (60 * 60 * 24 * 7)) + 1;
     return {
       id: `weekly-${week}`,
       ...QuestsLibrary.weekly[
-        QuestsLibrary.weekly.length % week
+        week % QuestsLibrary.weekly.length
       ],
     };
   }
