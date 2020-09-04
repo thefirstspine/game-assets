@@ -43,7 +43,7 @@ export class QuestsLibrary {
         fr: `Jouez 20 sorts`,
         en: `Jouez 20 sorts`,
       },
-      objectiveType: `play:spell`,
+      objectiveType: `play:spells`,
       objectiveTarget: 20,
       loots: [
         {name: 'shard', num: 50},
