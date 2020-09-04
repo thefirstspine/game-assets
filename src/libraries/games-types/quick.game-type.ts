@@ -44,19 +44,5 @@ export default function(): IGameType {
       '4-6': ditchCard,
       '5-6': ditchCard,
     },
-    // Fields below are deprecated
-    space: {
-      minX: 1,
-      minY: 1,
-      maxX: 5,
-      maxY: 5,
-    },
-    loots: {
-      victory: [
-      ],
-      defeat: [
-      ],
-    },
-    matchmakingMode: 'asap',
   };
 }

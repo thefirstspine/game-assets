@@ -1,10 +1,24 @@
 import { CyclesLibrary } from './cycles.library';
-import { IShopItem, ICycle } from '@thefirstspine/types-rest';
+import { IShopItem } from '@thefirstspine/types-rest';
+import fetch from 'node-fetch';
 
 // tslint:disable: max-line-length
 export class ShopItemsLibrary {
 
-  static all(): IShopItem[] {
+  static async getEvents(): Promise<string[]> {
+    try {
+      const result = await fetch(`${process.env.WEBSITE_URL}/event?where={"datetimeFrom":{"<":${Date.now()}},"datetimeTo":{">":${Date.now()}}}`);
+      const jsonResult = await result.json();
+      return jsonResult ? jsonResult.map((e: any) => e.type) : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  static async all(): Promise<IShopItem[]> {
+    // Get current events
+    const events: string[] = await ShopItemsLibrary.getEvents();
+
     const shopItems: IShopItem[] = [
       {
         id: '250-shards',
@@ -85,8 +99,7 @@ export class ShopItemsLibrary {
     ];
 
     const index: number = CyclesLibrary.currentNum();
-    const cycle: ICycle = CyclesLibrary.current();
-    if (cycle.id === 'treasure-2020') {
+    if (events.includes('online:corsairs')) {
       // Add exchanges in featured & seasonial
       shopItems.push(
         {
@@ -101,7 +114,7 @@ export class ShopItemsLibrary {
           },
           categories: ['seasonial', 'shards'],
           price: {
-            num: 5,
+            num: 2,
             currency: 'golden-galleon',
           },
           loots: [
@@ -121,7 +134,7 @@ export class ShopItemsLibrary {
           },
           categories: ['seasonial', 'covers'],
           price: {
-            num: 50,
+            num: 20,
             currency: 'golden-galleon',
           },
           loots: [
@@ -141,7 +154,7 @@ export class ShopItemsLibrary {
           },
           categories: ['seasonial', 'styles'],
           price: {
-            num: 100,
+            num: 40,
             currency: 'golden-galleon',
           },
           loots: [
@@ -161,8 +174,8 @@ export class ShopItemsLibrary {
             en: `Soul of a Sacrified Hunter holo`,
           },
           description: {
-            fr: `Débloque la version holographique numérique de Âme d'un Chasseur Sacrifié. Cet article est également une récompense à la participation au tournois pendant le Cycle du Renouveau 2020.`,
-            en: `Unlock the digital holographic version of Soul of a Sacrificed Hunter. This article is also a reward for participating in tournaments during the Cycle of the Renewal 2020.`,
+            fr: `Débloque la version holographique numérique de Âme d'un Chasseur Sacrifié.`,
+            en: `Unlock the digital holographic version of Soul of a Sacrificed Hunter.`,
           },
           categories: index === 0 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -226,8 +239,8 @@ export class ShopItemsLibrary {
             en: `Deadly Viper holo`,
           },
           description: {
-            fr: `Débloque la version holographique numérique de Vipère Mortelle. Cet article est également une récompense à la participation au tournois pendant le Cycle du Grand Ancien 2020.`,
-            en: `Unlock the digital holographic version of Deadly Viper. This article is also a reward for participating in tournaments during the Cycle of the Great Ancient 2020.`,
+            fr: `Débloque la version holographique numérique de Vipère Mortelle.`,
+            en: `Unlock the digital holographic version of Deadly Viper.`,
           },
           categories: index === 1 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -331,8 +344,8 @@ export class ShopItemsLibrary {
             en: `Shadows Banner holo`,
           },
           description: {
-            fr: `Débloque la version holographique numérique de Bannière des Ombres. Cet article est également une récompense à la participation au tournois pendant le Cycle du Trésor 2020.`,
-            en: `Unlocks the digital holographic version of Shadows Banner. This article is also a reward for participating in the tournaments during the Cycle of the Treasure 2020.`,
+            fr: `Débloque la version holographique numérique de Bannière des Ombres.`,
+            en: `Unlocks the digital holographic version of Shadows Banner.`,
           },
           categories: index === 2 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -387,12 +400,12 @@ export class ShopItemsLibrary {
         {
           id: 'cover-conjurer',
           name: {
-            fr: `Protège-cartes Invocateur`,
-            en: `Summoner sleeve`,
+            fr: `Protège-cartes Illusionniste`,
+            en: `Conjurer sleeve`,
           },
           description: {
-            fr: `Débloque le protège-cartes à l'effigie de l'Invocateur.`,
-            en: `Unlocks the Summoner sleeve`,
+            fr: `Débloque le protège-cartes à l'effigie de l'Illusionniste.`,
+            en: `Unlocks the Conjurer sleeve`,
           },
           categories: index === 2 ? ['covers', 'featured'] : ['covers'],
           price: {
@@ -416,8 +429,8 @@ export class ShopItemsLibrary {
             en: `Ether holo`,
           },
           description: {
-            fr: `Débloque la version holographique numérique de Ether. Cet article est également une récompense à la participation au tournois pendant le Cycle des Souvenirs 2020.`,
-            en: `Unlocks the digital holographic version of Ether. This article is also a reward for participating in the tournaments during the Cycle of the Souvenirs 2020.`,
+            fr: `Débloque la version holographique numérique de Ether.`,
+            en: `Unlocks the digital holographic version of Ether.`,
           },
           categories: index === 3 ? ['holos', 'featured'] : ['holos'],
           price: {
@@ -492,11 +505,76 @@ export class ShopItemsLibrary {
       );
     }
 
+    if (index >= 4) {
+      shopItems.push(
+        {
+          id: 'holo-barbers',
+          name: {
+            fr: `Barbelés holo`,
+            en: `Barbed Wires holo`,
+          },
+          description: {
+            fr: `Débloque la version holographique numérique de Barbelés.`,
+            en: `Unlocks the digital holographic version of Barbed Wires.`,
+          },
+          categories: index === 4 ? ['holos', 'featured'] : ['holos'],
+          price: {
+            num: 100,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'holo-barbers', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'style-sunlight',
+          name: {
+            fr: `Style Ensoleillé`,
+            en: `Sunlight style`,
+          },
+          description: {
+            fr: `Débloque le style "Ensoleillé" sur toutes vos cartes.`,
+            en: `Unlock the "Sunlight" style on all your cards.`,
+          },
+          categories: index === 4 ? ['styles', 'featured'] : ['styles'],
+          price: {
+            num: 250,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'style-sunlight', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'cover-barbers',
+          name: {
+            fr: `Protège-cartes Barbelés`,
+            en: `Barbed Wires sleeve`,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie des Barbelés.`,
+            en: `Unlocks the Barbed Wires sleeve`,
+          },
+          categories: index === 4 ? ['covers', 'featured'] : ['covers'],
+          price: {
+            num: 150,
+            currency: 'shards',
+          },
+          loots: [
+            {name: 'cover-barbers', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+      );
+    }
+
     return shopItems;
   }
 
-  static find(id: string): IShopItem|undefined {
-    return this.all().find(e => e.id === id);
+  static async find(id: string): Promise<IShopItem|undefined> {
+    return (await this.all()).find(e => e.id === id);
   }
 
 }

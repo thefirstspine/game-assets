@@ -14,24 +14,10 @@ export default function(): IGameType {
     destinies: ['conjurer', 'summoner', 'sorcerer', 'hunter'],
     origins: ['healer', 'architect', 'priest', 'blacksmith'],
     players: [
-      { x: 3, y: 1 },
-      { x: 3, y: 5 },
+      { x: 3, y: 0 },
+      { x: 3, y: 6 },
     ],
     setup: {
     },
-    // Fields below are deprecated
-    space: {
-      minX: 1,
-      minY: 1,
-      maxX: 5,
-      maxY: 5,
-    },
-    loots: {
-      victory: [
-      ],
-      defeat: [
-      ],
-    },
-    matchmakingMode: 'asap',
   };
 }
