@@ -31,10 +31,10 @@ export class ShopItemsLibrary {
           en: `250 mana shards to add to your purse. You will also be entitled to a special pledge level during the crowdfunding campaign. Equivalent in playing time: approximately 4 hours.`,
         },
         categories: ['shards'],
-        price: {
+        price: [{
           num: 2.5,
           currency: 'eur',
-        },
+        }],
         loots: [
           {name: 'shard', num: 250},
         ],
@@ -50,10 +50,10 @@ export class ShopItemsLibrary {
           en: `500 mana shards to add to your purse. You will also be entitled to a special pledge level during the crowdfunding campaign. Equivalent in playing time: approximately 8 hours.`,
         },
         categories: ['shards', 'featured'],
-        price: {
+        price: [{
           num: 4.5,
           currency: 'eur',
-        },
+        }],
         loots: [
           {name: 'shard', num: 500},
         ],
@@ -69,10 +69,10 @@ export class ShopItemsLibrary {
           en: `1000 mana shards to add to your purse. You will also be entitled to a special pledge level during the crowdfunding campaign. Equivalent in playing time: approximately 16h.`,
         },
         categories: ['shards'],
-        price: {
+        price: [{
           num: 8.5,
           currency: 'eur',
-        },
+        }],
         loots: [
           {name: 'shard', num: 1000},
         ],
@@ -88,10 +88,10 @@ export class ShopItemsLibrary {
           en: `2000 mana shards to add to your purse. You will also be entitled to a special pledge level during the crowdfunding campaign. Equivalent in playing time: approximately 32 hours.`,
         },
         categories: ['shards'],
-        price: {
+        price: [{
           num: 16.5,
           currency: 'eur',
-        },
+        }],
         loots: [
           {name: 'shard', num: 2000},
         ],
@@ -113,10 +113,10 @@ export class ShopItemsLibrary {
             en: `Exchange 5 golden galleons for 10 shards of mana.`,
           },
           categories: ['seasonial', 'shards'],
-          price: {
+          price: [{
             num: 2,
             currency: 'golden-galleon',
-          },
+          }],
           loots: [
             {name: 'shard', num: 10},
           ],
@@ -133,10 +133,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the Corsair sleeve.`,
           },
           categories: ['seasonial', 'covers'],
-          price: {
+          price: [{
             num: 20,
             currency: 'golden-galleon',
-          },
+          }],
           loots: [
             {name: 'cover-corsair', num: 1},
           ],
@@ -153,10 +153,10 @@ export class ShopItemsLibrary {
             en: `Unlock the "Corsair" style on all your cards to give them a wild look.`,
           },
           categories: ['seasonial', 'styles'],
-          price: {
+          price: [{
             num: 40,
             currency: 'golden-galleon',
-          },
+          }],
           loots: [
             {name: 'style-corsair', num: 1},
           ],
@@ -178,10 +178,10 @@ export class ShopItemsLibrary {
             en: `Unlock the digital holographic version of Soul of a Sacrificed Hunter.`,
           },
           categories: index === 0 ? ['holos', 'featured'] : ['holos'],
-          price: {
+          price: [{
             num: 100,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'holo-soul-of-a-sacrified-hunter', num: 1},
           ],
@@ -198,10 +198,10 @@ export class ShopItemsLibrary {
             en: `Unlock the digital holographic version of Hunter.`,
           },
           categories: index === 0 ? ['holos', 'featured'] : ['holos'],
-          price: {
+          price: [{
             num: 100,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'holo-hunter', num: 1},
           ],
@@ -218,10 +218,10 @@ export class ShopItemsLibrary {
             en: `Unlock the "Nostalgic" style on all your cards and make them look like a prototype. This is the style of the first prototype presented publicly at the Festival des Fous du Jeu 2015.`,
           },
           categories: index === 0 ? ['styles', 'featured'] : ['styles'],
-          price: {
+          price: [{
             num: 250,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'style-nostalgy', num: 1},
           ],
@@ -243,10 +243,10 @@ export class ShopItemsLibrary {
             en: `Unlock the digital holographic version of Deadly Viper.`,
           },
           categories: index === 1 ? ['holos', 'featured'] : ['holos'],
-          price: {
+          price: [{
             num: 100,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'holo-deadly-viper', num: 1},
           ],
@@ -263,10 +263,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the digital holographic version of Summoner`,
           },
           categories: index === 1 ? ['holos', 'featured'] : ['holos'],
-          price: {
+          price: [{
             num: 100,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'holo-summoner', num: 1},
           ],
@@ -283,10 +283,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the "Scales" style on all your cards and gives them a Great Ancient fashioned look`,
           },
           categories: index === 1 ? ['styles', 'featured'] : ['styles'],
-          price: {
+          price: [{
             num: 250,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'style-scales', num: 1},
           ],
@@ -303,10 +303,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the Hunter's sleeve.`,
           },
           categories: index === 0 ? ['covers', 'featured'] : ['covers'],
-          price: {
+          price: [{
             num: 150,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'cover-hunter', num: 1},
           ],
@@ -323,10 +323,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the Summoner's card cover`,
           },
           categories: index === 1 ? ['covers', 'featured'] : ['covers'],
-          price: {
+          price: [{
             num: 150,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'cover-summoner', num: 1},
           ],
@@ -348,10 +348,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the digital holographic version of Shadows Banner.`,
           },
           categories: index === 2 ? ['holos', 'featured'] : ['holos'],
-          price: {
+          price: [{
             num: 100,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'holo-shadows-banner', num: 1},
           ],
@@ -368,10 +368,10 @@ export class ShopItemsLibrary {
             en: `Unlock the digital holographic version of Conjurer`,
           },
           categories: index === 2 ? ['holos', 'featured'] : ['holos'],
-          price: {
+          price: [{
             num: 100,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'holo-conjurer', num: 1},
           ],
@@ -388,10 +388,10 @@ export class ShopItemsLibrary {
             en: `Unlock the "Cartographer" style on all your cards to help you find your way in the sky of Exodia.`,
           },
           categories: index === 2 ? ['styles', 'featured'] : ['styles'],
-          price: {
+          price: [{
             num: 250,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'style-cartographer', num: 1},
           ],
@@ -408,10 +408,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the Conjurer sleeve`,
           },
           categories: index === 2 ? ['covers', 'featured'] : ['covers'],
-          price: {
+          price: [{
             num: 150,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'cover-conjurer', num: 1},
           ],
@@ -433,10 +433,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the digital holographic version of Ether.`,
           },
           categories: index === 3 ? ['holos', 'featured'] : ['holos'],
-          price: {
+          price: [{
             num: 100,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'holo-ether', num: 1},
           ],
@@ -453,10 +453,10 @@ export class ShopItemsLibrary {
             en: `Unlock the digital holographic version of Sorcerer`,
           },
           categories: index === 3 ? ['holos', 'featured'] : ['holos'],
-          price: {
+          price: [{
             num: 100,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'holo-sorcerer', num: 1},
           ],
@@ -473,10 +473,10 @@ export class ShopItemsLibrary {
             en: `Unlock the "Ghostly" style on all your cards.`,
           },
           categories: index === 3 ? ['styles', 'featured'] : ['styles'],
-          price: {
+          price: [{
             num: 250,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'style-ghostly', num: 1},
           ],
@@ -493,10 +493,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the Sorcerer sleeve`,
           },
           categories: index === 3 ? ['covers', 'featured'] : ['covers'],
-          price: {
+          price: [{
             num: 150,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'cover-sorcerer', num: 1},
           ],
@@ -518,10 +518,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the digital holographic version of Barbed Wires.`,
           },
           categories: index === 4 ? ['holos', 'featured'] : ['holos'],
-          price: {
+          price: [{
             num: 100,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'holo-barbers', num: 1},
           ],
@@ -538,10 +538,10 @@ export class ShopItemsLibrary {
             en: `Unlock the "Sunlight" style on all your cards.`,
           },
           categories: index === 4 ? ['styles', 'featured'] : ['styles'],
-          price: {
+          price: [{
             num: 250,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'style-sunlight', num: 1},
           ],
@@ -558,10 +558,10 @@ export class ShopItemsLibrary {
             en: `Unlocks the Barbed Wires sleeve`,
           },
           categories: index === 4 ? ['covers', 'featured'] : ['covers'],
-          price: {
+          price: [{
             num: 150,
             currency: 'shards',
-          },
+          }],
           loots: [
             {name: 'cover-barbers', num: 1},
           ],
