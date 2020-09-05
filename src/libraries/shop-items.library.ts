@@ -96,6 +96,93 @@ export class ShopItemsLibrary {
           {name: 'shard', num: 2000},
         ],
       },
+      {
+        id: 'craft-rune-holo',
+        name: {
+          fr: `Fabrication d'une version holographique`,
+          en: `Holo version crafting`,
+        },
+        description: {
+          fr: ``,
+          en: ``,
+        },
+        categories: ['rune'],
+        price: [
+          {num: 1, currency: 'rune-holo'},
+          {num: 50, currency: 'shard'},
+        ],
+        loots: [],
+        possibleLoots: [
+          [
+            {name: 'holo-smoky-totem', num: 1},
+          ],
+          [
+            {name: 'holo-veneniagora', num: 1},
+          ],
+          [
+            {name: 'holo-heal', num: 1},
+          ],
+          [
+            {name: 'holo-reconstruct', num: 1},
+          ],
+        ],
+      },
+      {
+        id: 'craft-rune-solid',
+        name: {
+          fr: `Fabrication d'un protège-cartes`,
+          en: `Sleeve crafting`,
+        },
+        description: {
+          fr: ``,
+          en: ``,
+        },
+        categories: ['rune'],
+        price: [
+          {num: 1, currency: 'rune-solid'},
+          {num: 80, currency: 'shard'},
+        ],
+        loots: [],
+        possibleLoots: [
+          [
+            {name: 'cover-smoky-totem', num: 1},
+          ],
+          [
+            {name: 'cover-veneniagora', num: 1},
+          ],
+          [
+            {name: 'cover-heal', num: 1},
+          ],
+          [
+            {name: 'cover-reconstruct', num: 1},
+          ],
+        ],
+      },
+      {
+        id: 'craft-rune-ghostly',
+        name: {
+          fr: `Fabrication d'un style`,
+          en: `Style crafting`,
+        },
+        description: {
+          fr: ``,
+          en: ``,
+        },
+        categories: ['rune'],
+        price: [
+          {num: 1, currency: 'rune-ghostly'},
+          {num: 130, currency: 'shard'},
+        ],
+        loots: [],
+        possibleLoots: [
+          [
+            {name: 'style-luminescent', num: 1},
+          ],
+          [
+            {name: 'style-burning', num: 1},
+          ],
+        ],
+      },
     ];
 
     const index: number = CyclesLibrary.currentNum();
