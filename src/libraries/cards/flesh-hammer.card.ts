@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const fleshHammerCard: ICard = {
   id: `flesh-hammer`,
   text: {
-    en: `At the beggining of your turn you can detroye this card along with an Anvil of Xiarm'ha at the beginning of your turn to add {defense}1{/defense} for each hit point the Anvil had to a {creature}creature{/creature} or an {artifact}artifact{artifact}.`,
-    fr: `Au début de votre tour vous pouvez détruire cette carte et une Enclume de Xiarm'ha au début de votre tour pour ajouter {defense}1{/defense} pour chaque point de vie qu'avait l'Enclume à une {creature}créature{/creature} ou à un {artifact}artéfact{artifact}.`,
+    en: `As long as the Flesh Hammer is on the game board, all your {creature}creatures{/creature} win {strength}2{/strength}.`,
+    fr: `Tant que le Marteau de Chair est sur le plateau de jeu, toutes vos {creature}créatures{/creature} gagnent {strength}2{/strength}.`,
   },
   lore: {
     en: ``,
@@ -18,22 +18,22 @@ const fleshHammerCard: ICard = {
     fr: `Marteau de Chair`,
   },
   stats: {
-    life: 5,
+    life: 3,
     bottom: {
       defense: 1,
-      strength: 2,
+      strength: 0,
     },
     left: {
-      defense: 0,
-      strength: 3,
+      defense: 1,
+      strength: 0,
     },
     right: {
-      defense: 0,
-      strength: 3,
+      defense: 1,
+      strength: 0,
     },
     top: {
-      defense: 0,
-      strength: 4,
+      defense: 1,
+      strength: 0,
     },
   },
   type: 'creature',
