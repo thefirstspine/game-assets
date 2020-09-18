@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const anvilOfXiarmhaCard: ICard = {
   id: `anvil-of-xiarmha`,
   text: {
-    en: `As long as the Anvil of Xiarm'ha is on the game board, all your {artifact}artifacts{/artifact} win {defense}2{/defense}.`,
-    fr: `Tant que l'Enclume de Xiarm'ha est sur le plateau de jeu, toutes vos {artifact}artéfacts{/artifact} gagnent {defense}2{/defense}.`,
+    en: `As long as the Anvil of Xiarm'ha is on the game board, all your {artifact}artifacts{/artifact} win {defense}1{/defense}.`,
+    fr: `Tant que l'Enclume de Xiarm'ha est sur le plateau de jeu, toutes vos {artifact}artéfacts{/artifact} gagnent {defense}1{/defense}.`,
   },
   lore: {
     en: ``,
