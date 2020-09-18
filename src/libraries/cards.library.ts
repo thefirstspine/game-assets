@@ -61,6 +61,7 @@ import painCard from './cards/pain';
 import anvilOfXiarmhaCard from './cards/anvil-of-xiarmha';
 import fleshHammerCard from './cards/flesh-hammer.card';
 import reinforcementCard from './cards/reinforcement';
+import bloodStrengthCard from './cards/blood-strenght.card';
 
 export class CardsLibrary {
 
@@ -127,6 +128,7 @@ export class CardsLibrary {
     applicantCard,
     theReturn,
     goldenGalleonCard,
+    bloodStrengthCard,
     // Squares
     burdenEarthCard,
     ditchCard,
