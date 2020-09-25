@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const anvilOfXiarmhaCard: ICard = {
   id: `anvil-of-xiarmha`,
   text: {
-    en: `This card wins {life}1{/life} at the start of your turn while being able to exceed its starting total.`,
-    fr: `Cette carte gagne {life}1{/life} au début de votre tour tout en pouvant dépasser son total de départ.`,
+    en: `As long as the Anvil of Xiarm'ha is on the game board, all your {artifact}artifacts{/artifact} win {defense}1{/defense}.`,
+    fr: `Tant que l'Enclume de Xiarm'ha est sur le plateau de jeu, toutes vos {artifact}artéfacts{/artifact} gagnent {defense}1{/defense}.`,
   },
   lore: {
     en: ``,
@@ -18,21 +18,21 @@ const anvilOfXiarmhaCard: ICard = {
     fr: `Enclume de Xiarm'ha`,
   },
   stats: {
-    life: 2,
+    life: 3,
     bottom: {
-      defense: 2,
+      defense: 1,
       strength: 0,
     },
     left: {
-      defense: 2,
+      defense: 1,
       strength: 0,
     },
     right: {
-      defense: 2,
+      defense: 1,
       strength: 0,
     },
     top: {
-      defense: 2,
+      defense: 1,
       strength: 0,
     },
   },

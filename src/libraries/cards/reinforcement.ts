@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const reinforcementCard: ICard = {
   id: `reinforcement`,
   text: {
-    en: `Add {life}2{/life} to an Anvil of Xiarm’ha. You can exceed its starting total.`,
-    fr: `Ajoutez {life}2{/life} à une Enclume de Xiarm’ha. Vous pouvez dépasser son total de départ.`,
+    en: `Add {defense}2{/defense} to a {creature}creature{/creature} or an {artifact}artifact{/artifact}.`,
+    fr: `Ajoutez {defense}2{/defense} à une {creature}creature{/creature} or an {artifact}artifact{/artifact}.`,
   },
   lore: {
     en: ``,
