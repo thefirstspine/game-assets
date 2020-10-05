@@ -69,6 +69,19 @@ export class CyclesLibrary {
       timestampFrom: (new Date('2020-09-04 14:59:00')).getTime() / 1000,
       timestampTo: (new Date('2020-10-16 14:59:59')).getTime() / 1000,
     },
+    {
+      id: `crowned-souls-2020`,
+      name: {
+        fr: `Cycle des Âmes Couronnées 2020`,
+        en: `Cycle of the Crowned Souls 2020`,
+      },
+      description: {
+        fr: `Comme chaque année, nous célébrons les morts aux alentours de la fin octobre ! Essayez-vous au sacrifice des chasseurs dans le versus thématique, et préparez-vous aux facéties en tout genre du 31 octobre au 1er novembre !`,
+        en: `Like every year, we celebrate the deads at the end of October! Try the sacrifice of hunters in the thematic versus, and get ready for pranks of all kinds from October 31 to November 1!`,
+      },
+      timestampFrom: (new Date('2020-10-16 14:59:00')).getTime() / 1000,
+      timestampTo: (new Date('2020-11-27 14:59:59')).getTime() / 1000,
+    },
   ];
 
   static current(): ICycle|undefined {
