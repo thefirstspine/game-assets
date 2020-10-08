@@ -193,13 +193,13 @@ export class ShopItemsLibrary {
           id: 'exchange-galleons',
           name: {
             fr: `Echange aux Corsaires`,
-            en: `Exchange to Corsairs`,
+            en: `Corsairs Trade`,
           },
           description: {
             fr: `Echange 5 gallions d'or contre 10 éclats de mana.`,
-            en: `Exchange 5 golden galleons for 10 shards of mana.`,
+            en: `Trade 5 golden galleons for 10 mana shards.`,
           },
-          categories: ['seasonial', 'shards'],
+          categories: ['seasonial', 'shards', 'featured'],
           price: [{
             num: 2,
             currency: 'golden-galleon',
@@ -246,6 +246,72 @@ export class ShopItemsLibrary {
           }],
           loots: [
             {name: 'style-corsair', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+      );
+    }
+
+    if (events.includes('online:tricks-celebration')) {
+      // Add exchanges in featured & seasonial
+      shopItems.push(
+        {
+          id: 'exchange-candy',
+          name: {
+            fr: `Echange Gourmand`,
+            en: `Candy Trade`,
+          },
+          description: {
+            fr: `Echange 5 éclats de sucre contre 10 éclats de mana.`,
+            en: `Trade 5 candy shard for 10 mana shards.`,
+          },
+          categories: ['seasonial', 'shards', 'featured'],
+          price: [{
+            num: 2,
+            currency: 'candy-shard',
+          }],
+          loots: [
+            {name: 'shard', num: 10},
+          ],
+          oneTimePurchase: false,
+        },
+        {
+          id: 'cover-purple-candy',
+          name: {
+            fr: `Protège-cartes Sucre Violet`,
+            en: `Purple Candy sleeve`,
+          },
+          description: {
+            fr: `Débloque le protège-cartes aux couleurs du Sucre Violet.`,
+            en: `Unlocks the Purple Candy sleeve.`,
+          },
+          categories: ['seasonial', 'covers'],
+          price: [{
+            num: 10,
+            currency: 'candy-shard',
+          }],
+          loots: [
+            {name: 'cover-purple-candy', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'style-purple-candy',
+          name: {
+            fr: `Style Sucre Violet`,
+            en: `Purple Candy Style`,
+          },
+          description: {
+            fr: `Débloque le style "Sucre Violet" sur toutes vos cartes pour leur donner un aspect sucré.`,
+            en: `Unlock the "Purple Candy" style on all your cards to give them a candy look.`,
+          },
+          categories: ['seasonial', 'styles'],
+          price: [{
+            num: 20,
+            currency: 'candy-shard',
+          }],
+          loots: [
+            {name: 'style-purple-candy', num: 1},
           ],
           oneTimePurchase: true,
         },
