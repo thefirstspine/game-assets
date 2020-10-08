@@ -768,8 +768,8 @@ export class ShopItemsLibrary {
         {
           id: 'cover-banshee',
           name: {
-            fr: `Protège-cartes Barbelés`,
-            en: `Barbed Wires sleeve`,
+            fr: `Protège-cartes Banshee`,
+            en: `Banshee sleeve`,
           },
           description: {
             fr: `Débloque le protège-cartes à l'effigie de la Banshee.`,
