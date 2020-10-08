@@ -657,6 +657,71 @@ export class ShopItemsLibrary {
       );
     }
 
+    if (index >= 5) {
+      shopItems.push(
+        {
+          id: 'holo-banshee',
+          name: {
+            fr: `Banshee holo`,
+            en: `Banshee holo`,
+          },
+          description: {
+            fr: `Débloque la version holographique numérique de Banshee.`,
+            en: `Unlocks the digital holographic version of Banshee.`,
+          },
+          categories: index === 5 ? ['holos', 'featured'] : ['holos'],
+          price: [{
+            num: 100,
+            currency: 'shards',
+          }],
+          loots: [
+            {name: 'holo-banshee', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'style-scary',
+          name: {
+            fr: `Style Effrayant`,
+            en: `Scary style`,
+          },
+          description: {
+            fr: `Débloque le style "Effrayant" sur toutes vos cartes.`,
+            en: `Unlock the "Scary" style on all your cards.`,
+          },
+          categories: index === 5 ? ['styles', 'featured'] : ['styles'],
+          price: [{
+            num: 250,
+            currency: 'shards',
+          }],
+          loots: [
+            {name: 'style-scary', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'cover-banshee',
+          name: {
+            fr: `Protège-cartes Barbelés`,
+            en: `Barbed Wires sleeve`,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie de la Banshee.`,
+            en: `Unlocks the Banshee sleeve`,
+          },
+          categories: index === 5 ? ['covers', 'featured'] : ['covers'],
+          price: [{
+            num: 150,
+            currency: 'shards',
+          }],
+          loots: [
+            {name: 'cover-banshee', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+      );
+    }
+
     return shopItems;
   }
 
