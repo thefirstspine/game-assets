@@ -125,6 +125,12 @@ export class ShopItemsLibrary {
           [
             {name: 'holo-reconstruct', num: 1},
           ],
+          [
+            {name: 'holo-putrefaction', num: 1},
+          ],
+          [
+            {name: 'holo-ruin', num: 1},
+          ],
         ],
       },
       {
@@ -156,6 +162,12 @@ export class ShopItemsLibrary {
           [
             {name: 'cover-reconstruct', num: 1},
           ],
+          [
+            {name: 'cover-putrefaction', num: 1},
+          ],
+          [
+            {name: 'cover-ruin', num: 1},
+          ],
         ],
       },
       {
@@ -180,6 +192,9 @@ export class ShopItemsLibrary {
           ],
           [
             {name: 'style-burning', num: 1},
+          ],
+          [
+            {name: 'style-bloody', num: 1},
           ],
         ],
       },
