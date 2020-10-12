@@ -64,6 +64,51 @@ export class QuestsLibrary {
         {name: 'shard', num: 50},
       ],
     },
+    {
+      name: {
+        fr: `Soif de sang`,
+        en: `Bloodthirsty`,
+      },
+      description: {
+        fr: `Détruisez 20 créatures`,
+        en: `Destroye 20 creatures`,
+      },
+      objectiveType: `destroye:creatures`,
+      objectiveTarget: 20,
+      loots: [
+        {name: 'shard', num: 50},
+      ],
+    },
+    {
+      name: {
+        fr: `Démontage`,
+        en: `Disassembing`,
+      },
+      description: {
+        fr: `Détruisez 20 artéfacts`,
+        en: `Destroye 20 artifacts`,
+      },
+      objectiveType: `destroye:artifacts`,
+      objectiveTarget: 20,
+      loots: [
+        {name: 'shard', num: 50},
+      ],
+    },
+    {
+      name: {
+        fr: `Plan B`,
+        en: `Plan B`,
+      },
+      description: {
+        fr: `Défaussez 20 cartes`,
+        en: `Discard 20 cards`,
+      },
+      objectiveType: `discard`,
+      objectiveTarget: 20,
+      loots: [
+        {name: 'shard', num: 50},
+      ],
+    },
   ];
 
   static readonly weekly: Array<Omit<IQuest, 'id'>> = [
