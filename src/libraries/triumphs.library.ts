@@ -224,6 +224,17 @@ export class TriumphsLibrary {
         en: `You won a match as a Blacksmith.`,
       },
     },
+    {
+      id: 'devoted',
+      name: {
+        en: `Devoted`,
+        fr: `Dévoué`,
+      },
+      description: {
+        fr: `Vous avez connu Arena avant le 16 octobre 2020.`,
+        en: `You knew Arena before October 16, 2020`,
+      },
+    },
   ];
 
   static find(id: string): ITriumph|undefined {
