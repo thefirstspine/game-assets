@@ -26,30 +26,6 @@ export class TriumphsLibrary {
         en: `You knew Arena before October 30, 2019`,
       },
     },
-    /*
-    {
-      id: 'spirit',
-      name: {
-        fr: `Revenant`,
-        en: `Spirit`,
-      },
-      description: {
-        fr: `Vous avez bravé la mort.`,
-        en: `You faced the death.`,
-      },
-    },
-    {
-      id: 'determined',
-      name: {
-        fr: `Acharné`,
-        en: `Determined`,
-      },
-      description: {
-        fr: `Vous avez combattu pendant 7 jours d'affilé.`,
-        en: `You fought for 7 days straight.`,
-      },
-    },
-    */
     {
       id: 'conjurer',
       name: {
@@ -180,6 +156,72 @@ export class TriumphsLibrary {
       description: {
         fr: `Vous avez battu Crevior en combat singulier.`,
         en: `You beat Crevior in combat.`,
+      },
+    },
+    {
+      id: 'adventurer',
+      name: {
+        en: `Adventurer`,
+        fr: `Aventurier`,
+      },
+      description: {
+        en: `Complete a quest.`,
+        fr: `Terminez une quête.`,
+      },
+    },
+    {
+      id: 'crafter',
+      name: {
+        en: `Crafter`,
+        fr: `Fabricant`,
+      },
+      description: {
+        en: `Craft a cosmetic.`,
+        fr: `Fabriquez un cosmétique.`,
+      },
+    },
+    {
+      id: 'healer',
+      name: {
+        fr: `Guérisseur`,
+        en: `Healer`,
+      },
+      description: {
+        fr: `Vous avez gagné un match en tant que Guérisseur.`,
+        en: `You won a match as a Healer.`,
+      },
+    },
+    {
+      id: 'architect',
+      name: {
+        fr: `Architecte`,
+        en: `Architect`,
+      },
+      description: {
+        fr: `Vous avez gagné un match en tant qu'Architecte.`,
+        en: `You won a match as an Architect.`,
+      },
+    },
+    {
+      id: 'priest',
+      name: {
+        fr: `Prêtre`,
+        en: `Priest`,
+      },
+      description: {
+        fr: `Vous avez gagné un match en tant que Prêtre.`,
+        en: `You won a match as a Priest.`,
+      },
+    },
+    {
+      id: 'blacksmith',
+      name: {
+        fr: `Forgeron`,
+        en: `Blacksmith`,
+      },
+      description: {
+        fr: `Vous avez gagné un match en tant que Forgeron.`,
+        en: `You won a match as a Blacksmith.`,
       },
     },
   ];
