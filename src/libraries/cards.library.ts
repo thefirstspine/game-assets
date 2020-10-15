@@ -62,6 +62,8 @@ import anvilOfXiarmhaCard from './cards/anvil-of-xiarmha';
 import fleshHammerCard from './cards/flesh-hammer.card';
 import reinforcementCard from './cards/reinforcement';
 import bloodStrengthCard from './cards/blood-strenght.card';
+import annihilationMattCard from './cards/annihilation-matt';
+import trickOrTreatCard from './cards/trick-or-treat';
 
 export class CardsLibrary {
 
@@ -129,6 +131,8 @@ export class CardsLibrary {
     theReturn,
     goldenGalleonCard,
     bloodStrengthCard,
+    annihilationMattCard,
+    trickOrTreatCard,
     // Squares
     burdenEarthCard,
     ditchCard,

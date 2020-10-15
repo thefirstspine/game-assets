@@ -10,13 +10,13 @@ export class QuestsLibrary {
         en: `Who’s here?`,
       },
       description: {
-        fr: `Placez 20 créatures`,
-        en: `Place 20 creatures`,
+        fr: `Placez 10 créatures`,
+        en: `Place 10 creatures`,
       },
       objectiveType: `play:creatures`,
-      objectiveTarget: 20,
+      objectiveTarget: 10,
       loots: [
-        {name: 'shard', num: 50},
+        {name: 'shard', num: 25},
       ],
     },
     {
@@ -25,13 +25,13 @@ export class QuestsLibrary {
         en: `Concrete arguments`,
       },
       description: {
-        fr: `Placez 20 artéfacts`,
-        en: `Place 20 artifacts`,
+        fr: `Placez 10 artéfacts`,
+        en: `Place 10 artifacts`,
       },
       objectiveType: `play:artifacts`,
-      objectiveTarget: 20,
+      objectiveTarget: 10,
       loots: [
-        {name: 'shard', num: 50},
+        {name: 'shard', num: 25},
       ],
     },
     {
@@ -40,13 +40,13 @@ export class QuestsLibrary {
         en: `Finger burns`,
       },
       description: {
-        fr: `Jouez 20 sorts`,
-        en: `Jouez 20 sorts`,
+        fr: `Jouez 10 sorts`,
+        en: `Jouez 10 sorts`,
       },
       objectiveType: `play:spells`,
-      objectiveTarget: 20,
+      objectiveTarget: 10,
       loots: [
-        {name: 'shard', num: 50},
+        {name: 'shard', num: 25},
       ],
     },
     {
@@ -55,13 +55,58 @@ export class QuestsLibrary {
         en: `Victorious`,
       },
       description: {
-        fr: `Gagnez 2 parties`,
-        en: `Win 2 games`,
+        fr: `Gagnez 1 partie`,
+        en: `Win 1 game`,
       },
       objectiveType: `win`,
-      objectiveTarget: 2,
+      objectiveTarget: 1,
       loots: [
-        {name: 'shard', num: 50},
+        {name: 'shard', num: 25},
+      ],
+    },
+    {
+      name: {
+        fr: `Soif de sang`,
+        en: `Bloodthirsty`,
+      },
+      description: {
+        fr: `Détruisez 10 créatures`,
+        en: `Destroye 10 creatures`,
+      },
+      objectiveType: `destroye:creatures`,
+      objectiveTarget: 10,
+      loots: [
+        {name: 'shard', num: 25},
+      ],
+    },
+    {
+      name: {
+        fr: `Démontage`,
+        en: `Disassembing`,
+      },
+      description: {
+        fr: `Détruisez 10 artéfacts`,
+        en: `Destroye 10 artifacts`,
+      },
+      objectiveType: `destroye:artifacts`,
+      objectiveTarget: 10,
+      loots: [
+        {name: 'shard', num: 25},
+      ],
+    },
+    {
+      name: {
+        fr: `Plan B`,
+        en: `Plan B`,
+      },
+      description: {
+        fr: `Défaussez 10 cartes`,
+        en: `Discard 10 cards`,
+      },
+      objectiveType: `discard`,
+      objectiveTarget: 10,
+      loots: [
+        {name: 'shard', num: 25},
       ],
     },
   ];
@@ -73,11 +118,11 @@ export class QuestsLibrary {
         en: `Applied Arts`,
       },
       description: {
-        fr: `Complétez 4 quêtes journalières`,
-        en: `Complete 4 daily quests`,
+        fr: `Complétez 2 quêtes journalières`,
+        en: `Complete 2 daily quests`,
       },
       objectiveType: `quest`,
-      objectiveTarget: 4,
+      objectiveTarget: 2,
       loots: [
         {name: 'rune-ghostly', num: 1},
       ],
@@ -88,11 +133,11 @@ export class QuestsLibrary {
         en: `It makes a lot of people`,
       },
       description: {
-        fr: `Placez 100 creatures or artéfacts`,
-        en: `Summon 100 creatures or artifacts`,
+        fr: `Placez 50 creatures or artéfacts`,
+        en: `Summon 50 creatures or artifacts`,
       },
       objectiveType: `play:creaturesOrArtifacts`,
-      objectiveTarget: 100,
+      objectiveTarget: 50,
       loots: [
         {name: 'rune-holo', num: 1},
       ],
@@ -103,11 +148,11 @@ export class QuestsLibrary {
         en: `Does it hurt?`,
       },
       description: {
-        fr: `Jouez 80 sorts`,
-        en: `Cast 80 spells`,
+        fr: `Jouez 50 sorts`,
+        en: `Cast 50 spells`,
       },
       objectiveType: `play:spells`,
-      objectiveTarget: 100,
+      objectiveTarget: 50,
       loots: [
         {name: 'rune-solid', num: 1},
       ],
