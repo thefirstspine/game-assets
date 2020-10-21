@@ -21,7 +21,6 @@ import hunterSouvenirCard from './cards/hunter-souvenir.card';
 import conjurerSouvenirCard from './cards/conjurer-souvenir.card';
 import summonerSouvenirCard from './cards/summoner-souvenir.card';
 import sorcererSouvenirCard from './cards/sorcerer-souvenir.card';
-import snowMansPresentCard from './cards/snow-man-s-present';
 import curseOfMaraCard from './cards/curse-of-mara.card';
 import burdenEarthCard from './cards/burden-earth';
 import ditchCard from './cards/ditch';
@@ -47,7 +46,6 @@ import insanesEchoCard from './cards/insanes-echo.card';
 import alterTheFateCard from './cards/alter-the-fate.card';
 import fireCard from './cards/fire.card';
 import achieveCard from './cards/achieve.card';
-import theReturn from './cards/the-return.card';
 import cureCard from './cards/cure';
 import guardianCard from './cards/guardian.card';
 import caduceusCard from './cards/caduceus.card';
@@ -122,13 +120,11 @@ export class CardsLibrary {
     conjurerSouvenirCard,
     summonerSouvenirCard,
     sorcererSouvenirCard,
-    snowMansPresentCard,
     greatAncientEggCard,
     juvenilegreatAncientCard,
     greatAncientCard,
     ovilCard,
     applicantCard,
-    theReturn,
     goldenGalleonCard,
     bloodStrengthCard,
     annihilationMattCard,
