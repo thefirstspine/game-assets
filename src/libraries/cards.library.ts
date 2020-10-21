@@ -62,6 +62,10 @@ import reinforcementCard from './cards/reinforcement';
 import bloodStrengthCard from './cards/blood-strenght.card';
 import annihilationMattCard from './cards/annihilation-matt';
 import trickOrTreatCard from './cards/trick-or-treat';
+import iceStatueCard from './cards/ice-statue.card';
+import frozenFoxCard from './cards/frozen-fox.card';
+import frozenBansheeCard from './cards/frozen-banshee.card';
+import frozenViperCard from './cards/frozen-viper.card';
 
 export class CardsLibrary {
 
@@ -129,6 +133,10 @@ export class CardsLibrary {
     bloodStrengthCard,
     annihilationMattCard,
     trickOrTreatCard,
+    iceStatueCard,
+    frozenFoxCard,
+    frozenBansheeCard,
+    frozenViperCard,
     // Squares
     burdenEarthCard,
     ditchCard,
