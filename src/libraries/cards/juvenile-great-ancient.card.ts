@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const juvenilegreatAncientCard: ICard = {
   id: `juvenile-great-ancient`,
   text: {
-    en: `At the start of your next turn, replace this card with "Great ancient". This card is a collection card can only be played during the Cycle of the Grand Ancient.`,
-    fr: `Au début de votre prochain tour, remplacez cette carte par "Grand Ancien". Cette carte est une carte de collection ne peut être jouée que pendant le Cycle du Grand Ancien.`,
+    en: `At the start of your next turn, replace this card with "Great ancient".`,
+    fr: `Au début de votre prochain tour, remplacez cette carte par "Grand Ancien".`,
   },
   lore: {
     en: ``,

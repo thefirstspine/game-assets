@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const greatAncientCard: ICard = {
   id: `great-ancient`,
   text: {
-    en: `This card is a collection card can only be played during the Cycle of the Grand Ancient.`,
-    fr: `Cette carte est une carte de collection ne peut être jouée que pendant le Cycle du Grand Ancien.`,
+    en: ``,
+    fr: ``,
   },
   lore: {
     en: `« He shouldn't be here. »\n- Merlin, Exodia's latest scholar`,
