@@ -803,6 +803,71 @@ export class ShopItemsLibrary {
       );
     }
 
+    if (index >= 6) {
+      shopItems.push(
+        {
+          id: 'holo-replacement',
+          name: {
+            fr: `Remplacement holo`,
+            en: `Replacement holo`,
+          },
+          description: {
+            fr: `Débloque la version holographique numérique de Remplacement.`,
+            en: `Unlocks the digital holographic version of Replacement.`,
+          },
+          categories: index === 6 ? ['holos', 'featured'] : ['holos'],
+          price: [{
+            num: 100,
+            currency: 'shards',
+          }],
+          loots: [
+            {name: 'holo-replacement', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'style-frozen',
+          name: {
+            fr: `Style Gelé`,
+            en: `Frozen style`,
+          },
+          description: {
+            fr: `Débloque le style "Gelé" sur toutes vos cartes.`,
+            en: `Unlock the "Frozen" style on all your cards.`,
+          },
+          categories: index === 6 ? ['styles', 'featured'] : ['styles'],
+          price: [{
+            num: 250,
+            currency: 'shards',
+          }],
+          loots: [
+            {name: 'style-frozen', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'cover-replacement',
+          name: {
+            fr: `Protège-cartes Remplacement`,
+            en: `Replacement sleeve`,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie de la Remplacement.`,
+            en: `Unlocks the Replacement sleeve`,
+          },
+          categories: index === 6 ? ['covers', 'featured'] : ['covers'],
+          price: [{
+            num: 150,
+            currency: 'shards',
+          }],
+          loots: [
+            {name: 'cover-replacement', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+      );
+    }
+
     return shopItems;
   }
 

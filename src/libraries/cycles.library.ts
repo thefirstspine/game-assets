@@ -82,6 +82,19 @@ export class CyclesLibrary {
       timestampFrom: (new Date('2020-10-16 14:59:00')).getTime() / 1000,
       timestampTo: (new Date('2020-11-27 14:59:59')).getTime() / 1000,
     },
+    {
+      id: `snow-man-2020`,
+      name: {
+        fr: `Cycle de l'Homme en Blanc 2020`,
+        en: `Cycle of the Snow Man 2020`,
+      },
+      description: {
+        fr: `La fin d'année approche à grand pas et l'Homme en Blanc va une fois de plus sortir de sa caverne ! Du 1er au 24 décembre, vous reçevrez un cadeau à chaque première connexion de la journée. Et du 25 au 31 décembre, tous les éclats de mana remportés seront triplés. Joyeux Noël !`,
+        en: `The end of the year is approaching and the Snow Man will once again emerge from his cave! From December 1 to 24, you will receive a gift for each first connection of the day. And from December 25 to 31, all earned Mana Shards will be tripled. Merry Christmas !`,
+      },
+      timestampFrom: (new Date('2020-10-16 14:59:00')).getTime() / 1000,
+      timestampTo: (new Date('2020-11-27 14:59:59')).getTime() / 1000,
+    },
   ];
 
   static current(): ICycle|undefined {

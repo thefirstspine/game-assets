@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const goldenGalleonCard: ICard = {
   id: `golden-galleon`,
   text: {
-    en: `You win 1 Golden Galleon if you have this card in your hand at the end of the game. This card is a collection card and can only be used during the Cycle of the Treasure 2020.`,
-    fr: `Vous remportez 1 Gallion d'Or si vous avez cette carte dans votre main à la fin de la partie. Cette carte est une carte de collection et ne peut être utilisée que pendant le Cycle du Trésor 2020.`,
+    en: `You win 1 Golden Galleon if you have this card in your hand at the end of the game. This card is a collection card and can only be used during the Corsairs Arrival.`,
+    fr: `Vous remportez 1 Gallion d'Or si vous avez cette carte dans votre main à la fin de la partie. Cette carte est une carte de collection et ne peut être utilisée que pendant l'Arrivée des Corsaires.`,
   },
   lore: {
     en: ``,
