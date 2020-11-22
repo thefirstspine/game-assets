@@ -7,7 +7,8 @@ export class ShopItemsLibrary {
 
   static async getEvents(): Promise<string[]> {
     try {
-      const result = await fetch(`${process.env.WEBSITE_URL}/event?where={"datetimeFrom":{"<":${Date.now()}},"datetimeTo":{">":${Date.now()}}}`);
+      const date = (new Date()).toISOString();
+      const result = await fetch(`${process.env.CALENDAR_URL}/events?filter=datetimeFrom||lt||${date}&filter=datetimeTo||gt||${date}`);
       const jsonResult = await result.json();
       return jsonResult ? jsonResult.map((e: any) => e.type) : [];
     } catch (e) {
@@ -201,7 +202,7 @@ export class ShopItemsLibrary {
     ];
 
     const index: number = CyclesLibrary.currentNum();
-    if (events.includes('online:corsairs')) {
+    if (events.includes('corsairs')) {
       // Add exchanges in featured & seasonial
       shopItems.push(
         {
@@ -267,7 +268,7 @@ export class ShopItemsLibrary {
       );
     }
 
-    if (events.includes('online:tricks-celebration')) {
+    if (events.includes('tricks-celebration')) {
       // Add exchanges in featured & seasonial
       shopItems.push(
         {
