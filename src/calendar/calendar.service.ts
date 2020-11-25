@@ -18,13 +18,25 @@ export class CalendarService {
     }
   }
 
+  async getCurrentCycle(): Promise<ICycle|null> {
+    try {
+      const date: string = (new Date()).toISOString();
+      const response: Response = await fetch(`${process.env.CALENDAR_URL}/cycles?filter=datetimeFrom||lt||${date}&filter=datetimeTo||gt||${date}`);
+      const responseJson = response.json();
+      return responseJson[0];
+    } catch (e) {
+      this.logsService.error(`Cannot fetch cycle`, e);
+      return null;
+    }
+  }
+
   async getCurrentEvents(): Promise<IEvent[]> {
     try {
       const date: string = (new Date()).toISOString();
       const response: Response = await fetch(`${process.env.CALENDAR_URL}/events?filter=datetimeFrom||lt||${date}&filter=datetimeTo||gt||${date}`);
       return response.json();
     } catch (e) {
-      this.logsService.error(`Cannot fetch cycles`, e);
+      this.logsService.error(`Cannot fetch events`, e);
       return [];
     }
   }
