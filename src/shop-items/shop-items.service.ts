@@ -1,25 +1,14 @@
-import { CyclesLibrary } from './cycles.library';
+import { Injectable } from '@nestjs/common';
 import { IShopItem } from '@thefirstspine/types-rest';
-import fetch from 'node-fetch';
+import { CalendarService, IEvent, ICycle } from '../calendar/calendar.service';
 
 // tslint:disable: max-line-length
-export class ShopItemsLibrary {
+@Injectable()
+export class ShopItemsService {
 
-  static async getEvents(): Promise<string[]> {
-    try {
-      const date = (new Date()).toISOString();
-      const result = await fetch(`${process.env.CALENDAR_URL}/events?filter=datetimeFrom||lt||${date}&filter=datetimeTo||gt||${date}`);
-      const jsonResult = await result.json();
-      return jsonResult ? jsonResult.map((e: any) => e.type) : [];
-    } catch (e) {
-      return [];
-    }
-  }
+  constructor(private readonly calendarService: CalendarService) {}
 
-  static async all(): Promise<IShopItem[]> {
-    // Get current events
-    const events: string[] = await ShopItemsLibrary.getEvents();
-
+  async all(): Promise<IShopItem[]> {
     const shopItems: IShopItem[] = [
       {
         id: '250-shards',
@@ -201,8 +190,15 @@ export class ShopItemsLibrary {
       },
     ];
 
-    const index: number = CyclesLibrary.currentNum();
-    if (events.includes('corsairs')) {
+    // Get the current index of the cycle
+    const cycles: ICycle[] = await this.calendarService.getPassedCycles();
+    const index = cycles.length - 1;
+
+    // Get current events
+    const events: IEvent[] = await this.calendarService.getCurrentEvents();
+    const eventsString: string[] = events.map((e: IEvent) => e.name);
+
+    if (eventsString.includes('corsairs')) {
       // Add exchanges in featured & seasonial
       shopItems.push(
         {
@@ -268,7 +264,7 @@ export class ShopItemsLibrary {
       );
     }
 
-    if (events.includes('tricks-celebration')) {
+    if (eventsString.includes('tricks-celebration')) {
       // Add exchanges in featured & seasonial
       shopItems.push(
         {
@@ -872,7 +868,7 @@ export class ShopItemsLibrary {
     return shopItems;
   }
 
-  static async find(id: string): Promise<IShopItem|undefined> {
+  async find(id: string): Promise<IShopItem|undefined> {
     return (await this.all()).find(e => e.id === id);
   }
 
