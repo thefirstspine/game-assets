@@ -1,18 +1,21 @@
 import { Controller, Get, Param } from '@nestjs/common';
 import { DecksLibrary } from '../libraries/decks.library';
 import { CardsLibrary } from '../libraries/cards.library';
-import { ShopItemsLibrary } from '../libraries/shop-items.library';
 import { TriumphsLibrary } from '../libraries/triumphs.library';
 import { AvatarsLibrary } from '../libraries/avatars.library';
 import { GamesTypesLibrary } from '../libraries/games-types.library';
-import { CyclesLibrary } from '../libraries/cycles.library';
 import { QuestsLibrary } from 'src/libraries/quests.library';
+import { ShopItemsService } from 'src/shop-items/shop-items.service';
 
 @Controller('rest')
 /**
  * Main service controller.
  */
 export class RestController {
+
+  constructor(
+    private readonly shopItemsService: ShopItemsService,
+  ) {}
 
   @Get('decks')
   /**
@@ -56,7 +59,7 @@ export class RestController {
    * Returns a shop items list
    */
   getShopItems() {
-    return ShopItemsLibrary.all();
+    return this.shopItemsService.all();
   }
 
   @Get('shop-items/:id')
@@ -65,7 +68,7 @@ export class RestController {
    * Returns a shop item
    */
   getShopItem(@Param('id') id) {
-    return ShopItemsLibrary.find(id);
+    return this.shopItemsService.find(id);
   }
 
   @Get('triumphs')
@@ -120,24 +123,6 @@ export class RestController {
    */
   getGameType(@Param('id') id) {
     return GamesTypesLibrary.find(id);
-  }
-
-  @Get('cycles/current')
-  /**
-   * Endpoint /cycles/current
-   * Returns the current cycle
-   */
-  getCycleCurrent() {
-    return CyclesLibrary.current();
-  }
-
-  @Get('cycles/:id')
-  /**
-   * Endpoint /rest/game-types/;id
-   * Returns a game type
-   */
-  getCycle(@Param('id') id) {
-    return CyclesLibrary.find(id);
   }
 
   @Get('quests')
