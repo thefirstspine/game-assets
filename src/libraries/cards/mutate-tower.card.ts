@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const mutateTowerCard: ICard = {
   id: `mutate-tower`,
   text: {
-    en: `Retirez {capacity}threat{/capacity} et ajoutez {capacity}grow{/capacity} à une {artifact}Tour{/artifact}.`,
-    fr: `Remove {capacity}threat{/capacity} and add {capacity}grow{/capacity} to a {artifact}Tower{/artifact}.`,
+    fr: `Retirez {capacity}threat{/capacity} et ajoutez {capacity}grow{/capacity} à une {artifact}Tour{/artifact}.`,
+    en: `Remove {capacity}threat{/capacity} and add {capacity}grow{/capacity} to a {artifact}Tower{/artifact}.`,
   },
   lore: {
     en: ``,

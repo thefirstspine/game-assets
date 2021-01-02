@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const mutateBansheeCard: ICard = {
   id: `mutate-banshee`,
   text: {
-    en: `Retirez {strength}1{/strength} et ajoutez {capacity}grow{/capacity} à une {creature}Banshee{/creature}.`,
-    fr: `Remove {strength}1{/strength} and add {capacity}grow{/capacity} to a {creature}Banshee{/creature}.`,
+    fr: `Retirez {strength}1{/strength} et ajoutez {capacity}grow{/capacity} à une {creature}Banshee{/creature}.`,
+    en: `Remove {strength}1{/strength} and add {capacity}grow{/capacity} to a {creature}Banshee{/creature}.`,
   },
   lore: {
     en: ``,

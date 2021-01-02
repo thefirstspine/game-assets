@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const mutateBarbedWiresCard: ICard = {
   id: `mutate-barbed-wires`,
   text: {
-    en: `Ajoutez {capacity}death{/capacity} à un {artifact}Barbelés{/artifact}.`,
-    fr: `Add {capacity}death{/capacity} to a {artifact}Barbed Wires{/artifact}.`,
+    fr: `Ajoutez {capacity}death{/capacity} à un {artifact}Barbelés{/artifact}.`,
+    en: `Add {capacity}death{/capacity} to a {artifact}Barbed Wires{/artifact}.`,
   },
   lore: {
     en: ``,

@@ -4,8 +4,8 @@ import { ICard } from '@thefirstspine/types-rest';
 const mutateFoxCard: ICard = {
   id: `mutate-fox`,
   text: {
-    en: `Retirez {capacity}run{/capacity} et ajoutez {capacity}grow{/capacity} à un {creature}Renard{/creature}.`,
-    fr: `Remove {capacity}run{/capacity} and add {capacity}grow{/capacity} to a {creature}Fox{/creature}.`,
+    fr: `Retirez {capacity}run{/capacity} et ajoutez {capacity}grow{/capacity} à un {creature}Renard{/creature}.`,
+    en: `Remove {capacity}run{/capacity} and add {capacity}grow{/capacity} to a {creature}Fox{/creature}.`,
   },
   lore: {
     en: ``,
