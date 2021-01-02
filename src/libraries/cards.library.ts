@@ -66,6 +66,10 @@ import iceStatueCard from './cards/ice-statue.card';
 import frozenFoxCard from './cards/frozen-fox.card';
 import frozenBansheeCard from './cards/frozen-banshee.card';
 import frozenViperCard from './cards/frozen-viper.card';
+import mutateFoxCard from './cards/mutate-fox.card';
+import mutateBansheeCard from './cards/mutate-banshee.card';
+import mutateTowerCard from './cards/mutate-tower.card';
+import mutateBarbedWiresCard from './cards/mutate-barbed-wires.card';
 
 export class CardsLibrary {
 
@@ -137,6 +141,10 @@ export class CardsLibrary {
     frozenFoxCard,
     frozenBansheeCard,
     frozenViperCard,
+    mutateFoxCard,
+    mutateBansheeCard,
+    mutateTowerCard,
+    mutateBarbedWiresCard,
     // Squares
     burdenEarthCard,
     ditchCard,
