@@ -849,7 +849,7 @@ export class ShopItemsService {
             en: `Replacement sleeve`,
           },
           description: {
-            fr: `Débloque le protège-cartes à l'effigie de la Remplacement.`,
+            fr: `Débloque le protège-cartes à l'effigie du sort Remplacement.`,
             en: `Unlocks the Replacement sleeve`,
           },
           categories: index === 6 ? ['covers', 'featured'] : ['covers'],
@@ -859,6 +859,71 @@ export class ShopItemsService {
           }],
           loots: [
             {name: 'cover-replacement', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+      );
+    }
+
+    if (index >= 8) {
+      shopItems.push(
+        {
+          id: 'holo-monstrous-portal',
+          name: {
+            fr: `Portail Monstrueux holo`,
+            en: `Monstrous Portal holo`,
+          },
+          description: {
+            fr: `Débloque la version holographique numérique de Portail Monstrueux.`,
+            en: `Unlocks the digital holographic version of Monstrous Portal.`,
+          },
+          categories: index === 8 ? ['holos', 'featured'] : ['holos'],
+          price: [{
+            num: 100,
+            currency: 'shards',
+          }],
+          loots: [
+            {name: 'holo-monstrous-portal', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'style-festive',
+          name: {
+            fr: `Style Festif`,
+            en: `Festive style`,
+          },
+          description: {
+            fr: `Débloque le style "Festif" sur toutes vos cartes.`,
+            en: `Unlock the "Festive" style on all your cards.`,
+          },
+          categories: index === 8 ? ['styles', 'featured'] : ['styles'],
+          price: [{
+            num: 250,
+            currency: 'shards',
+          }],
+          loots: [
+            {name: 'style-festive', num: 1},
+          ],
+          oneTimePurchase: true,
+        },
+        {
+          id: 'cover-monstrous-portal',
+          name: {
+            fr: `Protège-cartes Portail Monstrueux`,
+            en: `Monstrous Portal sleeve`,
+          },
+          description: {
+            fr: `Débloque le protège-cartes à l'effigie du Portail Monstrueux.`,
+            en: `Unlocks the Monstrous Portal sleeve`,
+          },
+          categories: index === 8 ? ['covers', 'featured'] : ['covers'],
+          price: [{
+            num: 150,
+            currency: 'shards',
+          }],
+          loots: [
+            {name: 'cover-monstrous-portal', num: 1},
           ],
           oneTimePurchase: true,
         },
