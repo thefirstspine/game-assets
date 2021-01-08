@@ -342,7 +342,7 @@ export class ShopItemsService {
             fr: `Débloque la version holographique numérique de Âme d'un Chasseur Sacrifié.`,
             en: `Unlock the digital holographic version of Soul of a Sacrificed Hunter.`,
           },
-          categories: index === 0 ? ['holos', 'featured'] : ['holos'],
+          categories: index === 0 || index === 7 ? ['holos', 'featured'] : ['holos'],
           price: [{
             num: 100,
             currency: 'shards',
@@ -362,7 +362,7 @@ export class ShopItemsService {
             fr: `Débloque la version holographique numérique de Chasseur`,
             en: `Unlock the digital holographic version of Hunter.`,
           },
-          categories: index === 0 ? ['holos', 'featured'] : ['holos'],
+          categories: index === 0 || index === 7 ? ['holos', 'featured'] : ['holos'],
           price: [{
             num: 100,
             currency: 'shards',
@@ -382,7 +382,7 @@ export class ShopItemsService {
             fr: `Débloque le style "Nostalgique" sur toutes vos cartes et leur donne un air de prototype. Il s'agit du style du premier prototype présenté publiquement lors du Festival des Fous du Jeu 2015.`,
             en: `Unlock the "Nostalgic" style on all your cards and make them look like a prototype. This is the style of the first prototype presented publicly at the Festival des Fous du Jeu 2015.`,
           },
-          categories: index === 0 ? ['styles', 'featured'] : ['styles'],
+          categories: index === 0 || index === 7 ? ['styles', 'featured'] : ['styles'],
           price: [{
             num: 250,
             currency: 'shards',
