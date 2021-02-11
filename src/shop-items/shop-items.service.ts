@@ -196,7 +196,7 @@ export class ShopItemsService {
 
     // Get current events
     const events: IEvent[] = await this.calendarService.getCurrentEvents();
-    const eventsString: string[] = events.map((e: IEvent) => e.name);
+    const eventsString: string[] = events.map((e: IEvent) => e.type);
 
     if (eventsString.includes('corsairs')) {
       // Add exchanges in featured & seasonial
