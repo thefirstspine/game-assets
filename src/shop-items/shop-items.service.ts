@@ -523,7 +523,7 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Portail Monstrueux.`,
           en: `Unlocks the digital holographic version of Monstrous Portal.`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['absurdal-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
           num: 100,
           currency: 'shards',
@@ -543,7 +543,7 @@ export class ShopItemsService {
           fr: `Débloque le style "Festif" sur toutes vos cartes.`,
           en: `Unlock the "Festive" style on all your cards.`,
         },
-        categories: [].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
+        categories: ['absurdal-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
           num: 250,
           currency: 'shards',
@@ -563,7 +563,7 @@ export class ShopItemsService {
           fr: `Débloque le protège-cartes à l'effigie du Portail Monstrueux.`,
           en: `Unlocks the Monstrous Portal sleeve`,
         },
-        categories: [].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
+        categories: ['absurdal-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
           num: 150,
           currency: 'shards',
