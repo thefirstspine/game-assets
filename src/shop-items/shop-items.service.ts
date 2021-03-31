@@ -25,7 +25,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -45,7 +45,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -65,7 +65,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250,
+          num: 250 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -85,7 +85,7 @@ export class ShopItemsService {
         },
         categories: ['great-ancient-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * (['great-ancient-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -105,7 +105,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -125,7 +125,7 @@ export class ShopItemsService {
         },
         categories: ['great-ancient-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250,
+          num: 250 * (['great-ancient-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -145,7 +145,7 @@ export class ShopItemsService {
         },
         categories: ['great-ancient-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150,
+          num: 150 * (['great-ancient-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -165,7 +165,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150,
+          num: 150 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -185,7 +185,7 @@ export class ShopItemsService {
         },
         categories: ['treasure-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * (['treasure-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -205,7 +205,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -225,7 +225,7 @@ export class ShopItemsService {
         },
         categories: ['treasure-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250,
+          num: 250 * (['treasure-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -245,7 +245,7 @@ export class ShopItemsService {
         },
         categories: ['treasure-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150,
+          num: 150 * (['treasure-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -265,7 +265,7 @@ export class ShopItemsService {
         },
         categories: ['souvenirs-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * (['souvenirs-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -285,7 +285,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -305,7 +305,7 @@ export class ShopItemsService {
         },
         categories: ['souvenirs-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250,
+          num: 250 * (['souvenirs-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -325,7 +325,7 @@ export class ShopItemsService {
         },
         categories: ['souvenirs-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150,
+          num: 150 * (['souvenirs-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -345,7 +345,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -365,7 +365,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250,
+          num: 250 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -385,7 +385,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150,
+          num: 150 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -405,7 +405,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -425,7 +425,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250,
+          num: 250 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -445,7 +445,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150,
+          num: 150 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -465,7 +465,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -485,7 +485,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250,
+          num: 250 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -505,7 +505,7 @@ export class ShopItemsService {
         },
         categories: [].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150,
+          num: 150 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -525,7 +525,7 @@ export class ShopItemsService {
         },
         categories: ['absurdal-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100,
+          num: 100 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -545,7 +545,7 @@ export class ShopItemsService {
         },
         categories: ['absurdal-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250,
+          num: 250 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -565,7 +565,7 @@ export class ShopItemsService {
         },
         categories: ['absurdal-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150,
+          num: 150 * ([].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
