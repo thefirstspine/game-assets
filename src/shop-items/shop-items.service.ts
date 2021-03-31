@@ -263,7 +263,7 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Ether.`,
           en: `Unlocks the digital holographic version of Ether.`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['souvenirs-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
           num: 100,
           currency: 'shards',
@@ -303,7 +303,7 @@ export class ShopItemsService {
           fr: `Débloque le style "Fantomatique" sur toutes vos cartes.`,
           en: `Unlock the "Ghostly" style on all your cards.`,
         },
-        categories: [].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
+        categories: ['souvenirs-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
           num: 250,
           currency: 'shards',
@@ -323,7 +323,7 @@ export class ShopItemsService {
           fr: `Débloque le protège-cartes à l'effigie du Prestidigitateur.`,
           en: `Unlocks the Sorcerer sleeve`,
         },
-        categories: [].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
+        categories: ['souvenirs-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
           num: 150,
           currency: 'shards',
