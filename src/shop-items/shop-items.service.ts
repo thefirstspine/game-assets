@@ -343,9 +343,9 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Barbelés.`,
           en: `Unlocks the digital holographic version of Barbed Wires.`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['harvest-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100 * ([].includes(cycle.name) ? .5 : 1),
+          num: 100 * (['harvest-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -363,9 +363,9 @@ export class ShopItemsService {
           fr: `Débloque le style "Ensoleillé" sur toutes vos cartes.`,
           en: `Unlock the "Sunlight" style on all your cards.`,
         },
-        categories: [].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
+        categories: ['fire-2021', 'harvest-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250 * ([].includes(cycle.name) ? .5 : 1),
+          num: 250 * (['fire-2021', 'harvest-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -383,9 +383,9 @@ export class ShopItemsService {
           fr: `Débloque le protège-cartes à l'effigie des Barbelés.`,
           en: `Unlocks the Barbed Wires sleeve`,
         },
-        categories: [].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
+        categories: ['harvest-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150 * ([].includes(cycle.name) ? .5 : 1),
+          num: 150 * (['harvest-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -403,9 +403,9 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Banshee.`,
           en: `Unlocks the digital holographic version of Banshee.`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['fire-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100 * ([].includes(cycle.name) ? .5 : 1),
+          num: 100 * (['fire-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -443,9 +443,9 @@ export class ShopItemsService {
           fr: `Débloque le protège-cartes à l'effigie de la Banshee.`,
           en: `Unlocks the Banshee sleeve`,
         },
-        categories: [].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
+        categories: ['fire-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150 * ([].includes(cycle.name) ? .5 : 1),
+          num: 150 * (['fire-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
