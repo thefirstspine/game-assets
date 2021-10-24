@@ -23,9 +23,9 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Âme d'un Chasseur Sacrifié.`,
           en: `Unlock the digital holographic version of Soul of a Sacrificed Hunter.`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['crowned-souls-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100 * ([].includes(cycle.name) ? .5 : 1),
+          num: 100 * (['crowned-souls-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -43,9 +43,9 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Chasseur`,
           en: `Unlock the digital holographic version of Hunter.`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['renewal-2022'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100 * ([].includes(cycle.name) ? .5 : 1),
+          num: 100 * (['renewal-2022'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -103,9 +103,9 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Invocateur`,
           en: `Unlocks the digital holographic version of Summoner`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['renewal-2022'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100 * ([].includes(cycle.name) ? .5 : 1),
+          num: 100 * (['renewal-2022'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -203,9 +203,9 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Illusionniste`,
           en: `Unlock the digital holographic version of Conjurer`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['renewal-2022'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100 * ([].includes(cycle.name) ? .5 : 1),
+          num: 100 * (['renewal-2022'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -283,9 +283,9 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Prestidigitateur`,
           en: `Unlock the digital holographic version of Sorcerer`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['renewal-2022'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100 * ([].includes(cycle.name) ? .5 : 1),
+          num: 100 * (['renewal-2022'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -423,9 +423,9 @@ export class ShopItemsService {
           fr: `Débloque le style "Effrayant" sur toutes vos cartes.`,
           en: `Unlock the "Scary" style on all your cards.`,
         },
-        categories: [].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
+        categories: ['crowned-souls-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250 * ([].includes(cycle.name) ? .5 : 1),
+          num: 250 * (['crowned-souls-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -463,9 +463,9 @@ export class ShopItemsService {
           fr: `Débloque la version holographique numérique de Remplacement.`,
           en: `Unlocks the digital holographic version of Replacement.`,
         },
-        categories: [].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
+        categories: ['snow-man-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100 * ([].includes(cycle.name) ? .5 : 1),
+          num: 100 * (['snow-man-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -483,9 +483,9 @@ export class ShopItemsService {
           fr: `Débloque le style "Gelé" sur toutes vos cartes.`,
           en: `Unlock the "Frozen" style on all your cards.`,
         },
-        categories: [].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
+        categories: ['snow-man-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250 * ([].includes(cycle.name) ? .5 : 1),
+          num: 250 * (['snow-man-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -503,9 +503,9 @@ export class ShopItemsService {
           fr: `Débloque le protège-cartes à l'effigie du sort Remplacement.`,
           en: `Unlocks the Replacement sleeve`,
         },
-        categories: [].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
+        categories: ['crowned-souls-2021', 'snow-man-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150 * ([].includes(cycle.name) ? .5 : 1),
+          num: 150 * (['crowned-souls-2021', 'snow-man-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -525,7 +525,7 @@ export class ShopItemsService {
         },
         categories: ['absurdal-2021'].includes(cycle.name) ? ['holos', 'featured'] : ['holos'],
         price: [{
-          num: 100 * ([].includes(cycle.name) ? .5 : 1),
+          num: 100 * (['absurdal-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -545,7 +545,7 @@ export class ShopItemsService {
         },
         categories: ['absurdal-2021'].includes(cycle.name) ? ['styles', 'featured'] : ['styles'],
         price: [{
-          num: 250 * ([].includes(cycle.name) ? .5 : 1),
+          num: 250 * (['absurdal-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
@@ -565,7 +565,7 @@ export class ShopItemsService {
         },
         categories: ['absurdal-2021'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
         price: [{
-          num: 150 * ([].includes(cycle.name) ? .5 : 1),
+          num: 150 * (['absurdal-2021'].includes(cycle.name) ? .5 : 1),
           currency: 'shards',
         }],
         loots: [
