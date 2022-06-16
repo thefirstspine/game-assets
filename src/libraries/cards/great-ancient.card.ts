@@ -16,6 +16,7 @@ const greatAncientCard: ICard = {
     en: `Great Ancient`,
     fr: `Grand Ancien`,
   },
+  art: 'Teddy Gandon',
   stats: {
     capacities: ['burdenEarth'],
     life: 6,

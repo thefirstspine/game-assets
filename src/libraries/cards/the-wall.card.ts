@@ -12,6 +12,7 @@ const theWallCard: ICard = {
     fr: `« Un petit quelque chose pour vous protéger. »\n- Merlin, dernier érudit d'Exodia.`,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
+  art: 'Teddy Gandon',
   name: {
     en: `The Wall`,
     fr: `La Muraille`,
