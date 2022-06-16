@@ -12,6 +12,7 @@ const achieveCard: ICard = {
     fr: ``,
   },
   imageUrl: `https://static.thefirstspine.fr/placeholder.png`,
+  art: 'Maylhine, Teddy Gandon',
   name: {
     en: `Achieve`,
     fr: `Achèvement`,

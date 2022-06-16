@@ -12,6 +12,7 @@ const greatAncientEggCard: ICard = {
     fr: `« Il ne devrait pas être ici. »\n- Merlin, dernier érudit d'Exodia`,
   },
   imageUrl: `https://static.thefirstspine.fr/great-ancient-egg.png`,
+  art: 'Teddy Gandon',
   name: {
     en: `Great Ancient egg`,
     fr: `Œuf de Grand Ancien`,
