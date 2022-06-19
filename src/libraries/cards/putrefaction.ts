@@ -4,7 +4,7 @@ import { ICard } from '@thefirstspine/types-rest';
 const putrefactionCard: ICard = {
   id: `putrefaction`,
   text: {
-    en: `The {creature}creature{/creature} lose {life}2{/life}.`,
+    en: `The {creature}creature{/creature} loses {life}2{/life}.`,
     fr: `La {creature}créature{/creature} perd {life}2{/life}.`,
   },
   lore: {
