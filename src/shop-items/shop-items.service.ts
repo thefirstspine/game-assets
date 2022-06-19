@@ -574,6 +574,26 @@ export class ShopItemsService {
         oneTimePurchase: true,
       },
       {
+        id: 'cover-the-authority',
+        name: {
+          fr: `Protège-cartes L'Autorité`,
+          en: `The Authority sleeve`,
+        },
+        description: {
+          fr: `Débloque le protège-cartes à l'effigie de L'Autorité.`,
+          en: `Unlocks The Authority sleeve`,
+        },
+        categories: ['drifter'].includes(cycle.name) ? ['covers', 'featured'] : ['covers'],
+        price: [{
+          num: 150 * (['drifter'].includes(cycle.name) ? .5 : 1),
+          currency: 'shards',
+        }],
+        loots: [
+          {name: 'cover-drifter', num: 1},
+        ],
+        oneTimePurchase: true,
+      },
+      {
         id: '250-shards',
         name: {
           fr: `250 éclats de mana`,
