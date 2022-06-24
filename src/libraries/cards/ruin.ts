@@ -4,7 +4,7 @@ import { ICard } from '@thefirstspine/types-rest';
 const ruinCard: ICard = {
   id: `ruin`,
   text: {
-    en: `The {artifact}artifact{/artifact} lose {life}2{/life}.`,
+    en: `The {artifact}artifact{/artifact} loses {life}2{/life}.`,
     fr: `L'{artifact}artéfact{/artifact} perd {life}2{/life}.`,
   },
   lore: {

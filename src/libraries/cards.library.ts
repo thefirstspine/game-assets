@@ -70,6 +70,12 @@ import mutateFoxCard from './cards/mutate-fox.card';
 import mutateBansheeCard from './cards/mutate-banshee.card';
 import mutateTowerCard from './cards/mutate-tower.card';
 import mutateBarbedWiresCard from './cards/mutate-barbed-wires.card';
+import maraBansheeCard from './cards/mara-banshee.card';
+import maraFoxCard from './cards/mara-fox.card';
+import argentoBarbedWiresCard from './cards/argento-barbed-wires.card';
+import argentoTowerCard from './cards/argento-tower.card';
+import insaneRuinCard from './cards/insane-ruin';
+import insanePutrefactionCard from './cards/insane-putrefaction';
 
 export class CardsLibrary {
 
@@ -145,6 +151,12 @@ export class CardsLibrary {
     mutateBansheeCard,
     mutateTowerCard,
     mutateBarbedWiresCard,
+    maraBansheeCard,
+    maraFoxCard,
+    argentoBarbedWiresCard,
+    argentoTowerCard,
+    insaneRuinCard,
+    insanePutrefactionCard,
     // Squares
     burdenEarthCard,
     ditchCard,
