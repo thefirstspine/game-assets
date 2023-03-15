@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^6.11.11",
-    "@nestjs/core": "^6.11.11",
+    "@nestjs/core": "^9.0.5",
     "@nestjs/platform-express": "^9.2.1",
     "@thefirstspine/logs-nest": "^1.0.0",
     "@thefirstspine/types-rest": "^3.0.0",
