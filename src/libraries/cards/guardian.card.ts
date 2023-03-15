@@ -17,6 +17,7 @@ const guardianCard: ICard = {
     fr: `Gardien`,
   },
   stats: {
+    effects: ['guardian'],
     life: 1,
     capacities: ['grow'],
     bottom: {

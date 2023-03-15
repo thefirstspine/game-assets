@@ -17,6 +17,7 @@ const caduceusCard: ICard = {
     fr: `Caducée`,
   },
   stats: {
+    effects: ['caduceus'],
     life: 5,
     bottom: {
       capacity: 'aura',

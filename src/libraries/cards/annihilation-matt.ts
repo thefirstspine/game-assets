@@ -18,6 +18,7 @@ const annihilationMattCard: ICard = {
     fr: `Mât de l'Annihilation`,
   },
   stats: {
+    effects: ['annihilation-matt'],
     life: 2,
     bottom: {
       defense: 0,

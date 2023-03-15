@@ -18,6 +18,7 @@ const insanesEchoCard: ICard = {
     fr: `Echo de Démence`,
   },
   stats: {
+    effects: ['insanes-echo'],
     life: 5,
     bottom: {
       defense: 0,
