@@ -4,18 +4,12 @@ import { CardsLibrary } from '../libraries/cards.library';
 import { TriumphsLibrary } from '../libraries/triumphs.library';
 import { AvatarsLibrary } from '../libraries/avatars.library';
 import { GamesTypesLibrary } from '../libraries/games-types.library';
-import { QuestsLibrary } from 'src/libraries/quests.library';
-import { ShopItemsService } from 'src/shop-items/shop-items.service';
 
 @Controller('rest')
 /**
  * Main service controller.
  */
 export class RestController {
-
-  constructor(
-    private readonly shopItemsService: ShopItemsService,
-  ) {}
 
   @Get('decks')
   /**
@@ -51,24 +45,6 @@ export class RestController {
    */
   getCard(@Param('id') id) {
     return CardsLibrary.find(id);
-  }
-
-  @Get('shop-items')
-  /**
-   * Endpoint /rest/shop-items
-   * Returns a shop items list
-   */
-  getShopItems() {
-    return this.shopItemsService.all();
-  }
-
-  @Get('shop-items/:id')
-  /**
-   * Endpoint /rest/shop-items/:id
-   * Returns a shop item
-   */
-  getShopItem(@Param('id') id) {
-    return this.shopItemsService.find(id);
   }
 
   @Get('triumphs')
@@ -123,18 +99,6 @@ export class RestController {
    */
   getGameType(@Param('id') id) {
     return GamesTypesLibrary.find(id);
-  }
-
-  @Get('quests')
-  /**
-   * Endpoint /rest/quests
-   * Returns the quests
-   */
-  getQuests(@Param('id') id) {
-    return {
-      daily: QuestsLibrary.questForToday,
-      weekly: QuestsLibrary.questForThisWeek,
-    };
   }
 
 }
