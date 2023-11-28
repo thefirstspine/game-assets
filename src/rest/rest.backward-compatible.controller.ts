@@ -5,11 +5,11 @@ import { TriumphsLibrary } from '../libraries/triumphs.library';
 import { AvatarsLibrary } from '../libraries/avatars.library';
 import { GamesTypesLibrary } from '../libraries/games-types.library';
 
-@Controller()
+@Controller('rest')
 /**
  * Main service controller.
  */
-export class RestController {
+export class RestBackwardCompatibleController {
 
   @Get('decks')
   /**
