@@ -30,3 +30,4 @@ To help you configure your local environment to generate a dotenv file you can u
 ```
 node configurator.js create game-assets --conf-path [local copy of ansible volume]/conf --force-http true
 ```
+ 
