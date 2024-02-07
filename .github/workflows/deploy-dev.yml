@@ -31,7 +31,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          repository: thefirstspine/ansible-secrets
+          repository: thefirstspine/ansible-secrets-dev
           path: tmp
           token: ${{ secrets.ACCESS_TOKEN }}
       - name: Get inventory
