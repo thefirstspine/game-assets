@@ -4,7 +4,7 @@ WORKDIR /rest
 
 COPY . .
 
-RUN npm i
+RUN npm ci
 RUN npm run build
 
 CMD ["node", "dist/main.js"]
