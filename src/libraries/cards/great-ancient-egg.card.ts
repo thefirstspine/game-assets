@@ -18,6 +18,7 @@ const greatAncientEggCard: ICard = {
     fr: `Œuf de Grand Ancien`,
   },
   stats: {
+    effects: ['great-ancient-egg'],
     life: 3,
     bottom: {
       defense: 1,

@@ -18,6 +18,7 @@ const monstrousPortalCard: ICard = {
     fr: `Portail Monstrueux`,
   },
   stats: {
+    effects: ['monstrous-portal'],
     life: 5,
     bottom: {
       defense: 1,

@@ -17,6 +17,7 @@ const jellyfishCard: ICard = {
     fr: `Méduse`,
   },
   stats: {
+    effects: ['jellyfish'],
     life: 3,
     bottom: {
       defense: 0,

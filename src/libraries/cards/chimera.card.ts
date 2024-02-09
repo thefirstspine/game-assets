@@ -18,6 +18,7 @@ const chimeraCard: ICard = {
     fr: `Chimère`,
   },
   stats: {
+    effects: ['chimera'],
     life: 4,
     bottom: {
       defense: 2,

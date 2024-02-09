@@ -17,6 +17,7 @@ const volkhaCard: ICard = {
     fr: `Volk'ha`,
   },
   stats: {
+    effects: ['volkha'],
     life: 3,
     capacities: ['burdenEarth'],
     bottom: {

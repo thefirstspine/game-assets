@@ -51,7 +51,7 @@ import guardianCard from './cards/guardian.card';
 import caduceusCard from './cards/caduceus.card';
 import theVoidCard from './cards/the-void.card';
 import jellyfishCard from './cards/jellyfish.card';
-import pocketVolcanoCard from './cards/pocketVolcano.card';
+import pocketVolcanoCard from './cards/pocket-volcano.card';
 import goldenGalleonCard from './cards/golden-galleon.card';
 import torturerCard from './cards/torturer.card';
 import chimeraCard from './cards/chimera.card';

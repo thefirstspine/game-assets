@@ -18,6 +18,7 @@ const fleshHammerCard: ICard = {
     fr: `Marteau de Chair`,
   },
   stats: {
+    effects: ['flesh-hammer'],
     life: 3,
     bottom: {
       defense: 1,
