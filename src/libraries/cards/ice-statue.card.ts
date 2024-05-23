@@ -17,6 +17,7 @@ const iceStatueCard: ICard = {
     fr: `Statue de Glace`,
   },
   stats: {
+    effects: ['ice-statue'],
     life: 10,
     capacities: [],
     bottom: {

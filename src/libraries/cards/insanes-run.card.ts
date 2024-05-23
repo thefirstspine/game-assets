@@ -17,6 +17,7 @@ const insanesRunCard: ICard = {
     fr: `Rune de Démence`,
   },
   stats: {
+    effects: ['insanes-run'],
     life: 1,
     capacities: ['death'],
     bottom: {

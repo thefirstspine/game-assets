@@ -18,6 +18,7 @@ const soulOfASacrifiedHunterCard: ICard = {
     fr: `Âme d'un Chasseur Sacrifié`,
   },
   stats: {
+    effects: ['soul-of-a-sacrified-hunter'],
     life: 0,
     bottom: {
       defense: 1,

@@ -17,6 +17,7 @@ const jesterCard: ICard = {
     fr: `Bouffon`,
   },
   stats: {
+    effects: ['jester'],
     life: 4,
     bottom: {
       defense: 1,

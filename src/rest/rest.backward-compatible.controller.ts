@@ -3,11 +3,11 @@ import { DecksLibrary } from '../libraries/decks.library';
 import { CardsLibrary } from '../libraries/cards.library';
 import { GamesTypesLibrary } from '../libraries/games-types.library';
 
-@Controller()
+@Controller('rest')
 /**
  * Main service controller.
  */
-export class RestController {
+export class RestBackwardCompatibleController {
 
   @Get('decks')
   /**

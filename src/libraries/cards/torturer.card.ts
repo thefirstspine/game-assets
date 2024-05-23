@@ -18,6 +18,7 @@ const torturerCard: ICard = {
     fr: `Tortureur`,
   },
   stats: {
+    effects: ['torturer'],
     life: 3,
     capacities: ['grow'],
     bottom: {

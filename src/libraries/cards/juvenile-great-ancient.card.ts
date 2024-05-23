@@ -17,6 +17,7 @@ const juvenilegreatAncientCard: ICard = {
     fr: `Grand Ancien juvénile`,
   },
   stats: {
+    effects: ['juvenile-great-ancient'],
     capacities: ['burdenEarth'],
     life: 3,
     bottom: {
