@@ -1,4 +1,4 @@
-import { IGameType } from '@thefirstspine/types-rest';
+import { IGameType } from '@thefirstspine/types-game';
 import standardGameType from './standard.game-type';
 
 // tslint:disable: max-line-length

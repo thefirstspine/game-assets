@@ -1,6 +1,6 @@
 import quickGameType from './games-types/quick.game-type';
 import fpeGameType from './games-types/fpe.game-type';
-import { IGameType } from '@thefirstspine/types-rest';
+import { IGameType } from '@thefirstspine/types-game';
 import standardGameType from './games-types/standard.game-type';
 
 export class GamesTypesLibrary {

@@ -1,4 +1,4 @@
-import { IGameType } from '@thefirstspine/types-rest';
+import { IGameType } from '@thefirstspine/types-game';
 import ditchCard from '../cards/ditch';
 
 export default function(): IGameType {
