@@ -1,5 +1,5 @@
 import { CardsLibrary } from './cards.library';
-import { IDeck } from '@thefirstspine/types-rest';
+import { IDeck } from '@thefirstspine/types-game';
 
 export class DecksLibrary {
 
